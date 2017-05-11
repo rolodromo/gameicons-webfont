@@ -1,4 +1,5 @@
-var osmosis = require('osmosis');
+const {basename} = require('path')
+const osmosis = require('osmosis')
 
 const data = {
   categories: new Set([]),
@@ -14,11 +15,11 @@ osmosis
   .set('category')
   .find('ul.icons li')
   .set({
-    icon: 'a img@alt'
+    icon: 'a img@src'
   })
   .data(line => {
     const category = line.category.replace(/^[0-9]+ /, '').replace(/ icons/, '').toLowerCase()
-    const icon = line.icon.replace(' icon', '').toLowerCase().replace(/ +/g, '-')
+    const icon = basename(line.icon, '.svg')
     data.categories.add(category)
     data.names.add(icon)
     data.icons[category] = data.icons[category] || []
