@@ -1,0 +1,8601 @@
+@font-face {
+  font-family: 'rpgen-gameicons';
+  src:  url('../fonts/rpgen-gameicons.eot?m6dhz');
+  src:  url('../fonts/rpgen-gameicons.eot?m6dhz#iefix') format('embedded-opentype'),
+    url('../fonts/rpgen-gameicons.ttf?m6dhz') format('truetype'),
+    url('../fonts/rpgen-gameicons.woff?m6dhz') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gi {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rpgen-gameicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* makes the font 33% larger relative to the icon container */
+.gi-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.gi-inverse {
+  color: #fff;
+}
+
+.gi-2x {
+  font-size: 2em;
+}
+
+.gi-3x {
+  font-size: 3em;
+}
+
+.gi-4x {
+  font-size: 4em;
+}
+.gi-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.gi-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.gi-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.gi-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.gi-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+:root .gi-rotate-90,
+:root .gi-rotate-180,
+:root .gi-rotate-270,
+:root .gi-flip-horizontal,
+:root .gi-flip-vertical {
+    filter: none;
+}
+
+
+/*********** ICONS **********/
+
+.gi-chain-mail:before {
+  content: "\e900";
+}
+.gi-orb-wand:before {
+  content: "\e901";
+}
+.gi-round-shield:before {
+  content: "\e902";
+}
+.gi-white-book:before {
+  content: "\e903";
+}
+.gi-nuclear:before {
+  content: "\e904";
+}
+.gi-health-increase:before {
+  content: "\e905";
+}
+.gi-battery-pack-alt:before {
+  content: "\e906";
+}
+.gi-level-four-advanced:before {
+  content: "\e907";
+}
+.gi-suicide:before {
+  content: "\e908";
+}
+.gi-medical-pack-alt:before {
+  content: "\e909";
+}
+.gi-health-normal:before {
+  content: "\e90a";
+}
+.gi-circular-saw:before {
+  content: "\e90b";
+}
+.gi-spikes:before {
+  content: "\e90c";
+}
+.gi-acid:before {
+  content: "\e90d";
+}
+.gi-hive:before {
+  content: "\e90e";
+}
+.gi-spikes-full:before {
+  content: "\e90f";
+}
+.gi-health-decrease:before {
+  content: "\e910";
+}
+.gi-turret:before {
+  content: "\e911";
+}
+.gi-electric:before {
+  content: "\e912";
+}
+.gi-level-two:before {
+  content: "\e913";
+}
+.gi-regeneration:before {
+  content: "\e914";
+}
+.gi-lava:before {
+  content: "\e915";
+}
+.gi-death-skull:before {
+  content: "\e916";
+}
+.gi-level-two-advanced:before {
+  content: "\e917";
+}
+.gi-nodular:before {
+  content: "\e918";
+}
+.gi-spikes-init:before {
+  content: "\e919";
+}
+.gi-lucifer-cannon:before {
+  content: "\e91a";
+}
+.gi-overmind:before {
+  content: "\e91b";
+}
+.gi-poison-cloud:before {
+  content: "\e91c";
+}
+.gi-egg-pod:before {
+  content: "\e91d";
+}
+.gi-laser-gun:before {
+  content: "\e91e";
+}
+.gi-cancel:before {
+  content: "\e91f";
+}
+.gi-chameleon-glyph:before {
+  content: "\e920";
+}
+.gi-hooded-figure:before {
+  content: "\e921";
+}
+.gi-dread:before {
+  content: "\e922";
+}
+.gi-cruiser:before {
+  content: "\e923";
+}
+.gi-medusa-head:before {
+  content: "\e924";
+}
+.gi-swordwoman:before {
+  content: "\e925";
+}
+.gi-carnyx:before {
+  content: "\e926";
+}
+.gi-tree-face:before {
+  content: "\e927";
+}
+.gi-old-king:before {
+  content: "\e928";
+}
+.gi-battleship:before {
+  content: "\e929";
+}
+.gi-carrier:before {
+  content: "\e92a";
+}
+.gi-transparent-slime:before {
+  content: "\e92b";
+}
+.gi-shirt:before {
+  content: "\e92c";
+}
+.gi-cloak:before {
+  content: "\e92d";
+}
+.gi-belt:before {
+  content: "\e92e";
+}
+.gi-duality:before {
+  content: "\e92f";
+}
+.gi-angler-fish:before {
+  content: "\e930";
+}
+.gi-black-hand-shield:before {
+  content: "\e931";
+}
+.gi-tribal-mask:before {
+  content: "\e932";
+}
+.gi-sword-spade:before {
+  content: "\e933";
+}
+.gi-windy-stripes:before {
+  content: "\e934";
+}
+.gi-suspicious:before {
+  content: "\e935";
+}
+.gi-beard:before {
+  content: "\e936";
+}
+.gi-striped-sword:before {
+  content: "\e937";
+}
+.gi-rolling-energy:before {
+  content: "\e938";
+}
+.gi-chicken-leg:before {
+  content: "\e939";
+}
+.gi-leaky-skull:before {
+  content: "\e93a";
+}
+.gi-snowflake-2:before {
+  content: "\e93b";
+}
+.gi-heavy-helm:before {
+  content: "\e93c";
+}
+.gi-alligator-clip:before {
+  content: "\e93d";
+}
+.gi-implosion:before {
+  content: "\e93e";
+}
+.gi-maze-saw:before {
+  content: "\e93f";
+}
+.gi-bleeding-wound:before {
+  content: "\e940";
+}
+.gi-capitol:before {
+  content: "\e941";
+}
+.gi-sparrow:before {
+  content: "\e942";
+}
+.gi-sharp-smile:before {
+  content: "\e943";
+}
+.gi-round-bottom-flask:before {
+  content: "\e944";
+}
+.gi-battle-axe:before {
+  content: "\e945";
+}
+.gi-square-bottle:before {
+  content: "\e946";
+}
+.gi-split-cross:before {
+  content: "\e947";
+}
+.gi-shadow-follower:before {
+  content: "\e948";
+}
+.gi-bone-gnawer:before {
+  content: "\e949";
+}
+.gi-radioactive:before {
+  content: "\e94a";
+}
+.gi-quick-slash:before {
+  content: "\e94b";
+}
+.gi-frankenstein-creature:before {
+  content: "\e94c";
+}
+.gi-puppet:before {
+  content: "\e94d";
+}
+.gi-dorsal-scales:before {
+  content: "\e94e";
+}
+.gi-star-pupil:before {
+  content: "\e94f";
+}
+.gi-bolter-gun:before {
+  content: "\e950";
+}
+.gi-burning-tree:before {
+  content: "\e951";
+}
+.gi-sing:before {
+  content: "\e952";
+}
+.gi-thorn-helix:before {
+  content: "\e953";
+}
+.gi-dervish-swords:before {
+  content: "\e954";
+}
+.gi-grapple:before {
+  content: "\e955";
+}
+.gi-acorn:before {
+  content: "\e956";
+}
+.gi-deathcab:before {
+  content: "\e957";
+}
+.gi-salt-shaker:before {
+  content: "\e958";
+}
+.gi-on-target:before {
+  content: "\e959";
+}
+.gi-mechanical-arm:before {
+  content: "\e95a";
+}
+.gi-curly-mask:before {
+  content: "\e95b";
+}
+.gi-burning-passion:before {
+  content: "\e95c";
+}
+.gi-heart-tower:before {
+  content: "\e95d";
+}
+.gi-flame-claws:before {
+  content: "\e95e";
+}
+.gi-tyre:before {
+  content: "\e95f";
+}
+.gi-animal-skull:before {
+  content: "\e960";
+}
+.gi-crags:before {
+  content: "\e961";
+}
+.gi-mineral-heart:before {
+  content: "\e962";
+}
+.gi-dragon-balls:before {
+  content: "\e963";
+}
+.gi-saphir:before {
+  content: "\e964";
+}
+.gi-chained-heart:before {
+  content: "\e965";
+}
+.gi-delighted:before {
+  content: "\e966";
+}
+.gi-egg-defense:before {
+  content: "\e967";
+}
+.gi-plain-dagger:before {
+  content: "\e968";
+}
+.gi-gothic-cross:before {
+  content: "\e969";
+}
+.gi-octopus:before {
+  content: "\e96a";
+}
+.gi-snatch:before {
+  content: "\e96b";
+}
+.gi-energy-shield:before {
+  content: "\e96c";
+}
+.gi-bookmarklet:before {
+  content: "\e96d";
+}
+.gi-black-flag:before {
+  content: "\e96e";
+}
+.gi-drink-me:before {
+  content: "\e96f";
+}
+.gi-circuitry:before {
+  content: "\e970";
+}
+.gi-chemical-bolt:before {
+  content: "\e971";
+}
+.gi-double-quaver:before {
+  content: "\e972";
+}
+.gi-over-infinity:before {
+  content: "\e973";
+}
+.gi-gold-scarab:before {
+  content: "\e974";
+}
+.gi-locked-chest:before {
+  content: "\e975";
+}
+.gi-falling-boulder:before {
+  content: "\e976";
+}
+.gi-awareness:before {
+  content: "\e977";
+}
+.gi-stalagtite:before {
+  content: "\e978";
+}
+.gi-beams-aura:before {
+  content: "\e979";
+}
+.gi-beanstalk:before {
+  content: "\e97a";
+}
+.gi-pouring-chalice:before {
+  content: "\e97b";
+}
+.gi-recycle:before {
+  content: "\e97c";
+}
+.gi-croissants-pupil:before {
+  content: "\e97d";
+}
+.gi-steeltoe-boots:before {
+  content: "\e97e";
+}
+.gi-cursed-star:before {
+  content: "\e97f";
+}
+.gi-arrowed:before {
+  content: "\e980";
+}
+.gi-heavy-thorny-triskelion:before {
+  content: "\e981";
+}
+.gi-heavy-lightning:before {
+  content: "\e982";
+}
+.gi-hammer-drop:before {
+  content: "\e983";
+}
+.gi-lift:before {
+  content: "\e984";
+}
+.gi-bolt-eye:before {
+  content: "\e985";
+}
+.gi-triple-plier:before {
+  content: "\e986";
+}
+.gi-sunbeams:before {
+  content: "\e987";
+}
+.gi-magnet-blast:before {
+  content: "\e988";
+}
+.gi-mountains:before {
+  content: "\e989";
+}
+.gi-star-prominences:before {
+  content: "\e98a";
+}
+.gi-tentacle-strike:before {
+  content: "\e98b";
+}
+.gi-enlightenment:before {
+  content: "\e98c";
+}
+.gi-knapsack:before {
+  content: "\e98d";
+}
+.gi-pummeled:before {
+  content: "\e98e";
+}
+.gi-sacrificial-dagger:before {
+  content: "\e98f";
+}
+.gi-falling-eye:before {
+  content: "\e990";
+}
+.gi-clover:before {
+  content: "\e991";
+}
+.gi-kitchen-knives:before {
+  content: "\e992";
+}
+.gi-broad-dagger:before {
+  content: "\e993";
+}
+.gi-magic-lamp:before {
+  content: "\e994";
+}
+.gi-voodoo-doll:before {
+  content: "\e995";
+}
+.gi-slap:before {
+  content: "\e996";
+}
+.gi-dripping-tube:before {
+  content: "\e997";
+}
+.gi-mite:before {
+  content: "\e998";
+}
+.gi-radial-balance:before {
+  content: "\e999";
+}
+.gi-metal-disc:before {
+  content: "\e99a";
+}
+.gi-splurt:before {
+  content: "\e99b";
+}
+.gi-dna1:before {
+  content: "\e99c";
+}
+.gi-boomerang-sun:before {
+  content: "\e99d";
+}
+.gi-skeleton-key:before {
+  content: "\e99e";
+}
+.gi-bell-shield:before {
+  content: "\e99f";
+}
+.gi-dripping-stone:before {
+  content: "\e9a0";
+}
+.gi-ice-cube:before {
+  content: "\e9a1";
+}
+.gi-fish-corpse:before {
+  content: "\e9a2";
+}
+.gi-concentration-orb:before {
+  content: "\e9a3";
+}
+.gi-fluffy-cloud:before {
+  content: "\e9a4";
+}
+.gi-magnifying-glass:before {
+  content: "\e9a5";
+}
+.gi-stoned-skull:before {
+  content: "\e9a6";
+}
+.gi-holy-grail:before {
+  content: "\e9a7";
+}
+.gi-blackball:before {
+  content: "\e9a8";
+}
+.gi-sticking-plaster:before {
+  content: "\e9a9";
+}
+.gi-acid-blob:before {
+  content: "\e9aa";
+}
+.gi-stone-sphere:before {
+  content: "\e9ab";
+}
+.gi-anatomy:before {
+  content: "\e9ac";
+}
+.gi-ace:before {
+  content: "\e9ad";
+}
+.gi-harpoon-trident:before {
+  content: "\e9ae";
+}
+.gi-earth-crack:before {
+  content: "\e9af";
+}
+.gi-umbrella:before {
+  content: "\e9b0";
+}
+.gi-sword-clash:before {
+  content: "\e9b1";
+}
+.gi-oily-spiral:before {
+  content: "\e9b2";
+}
+.gi-fangs-circle:before {
+  content: "\e9b3";
+}
+.gi-prayer:before {
+  content: "\e9b4";
+}
+.gi-juggler:before {
+  content: "\e9b5";
+}
+.gi-evil-bat:before {
+  content: "\e9b6";
+}
+.gi-morbid-humour:before {
+  content: "\e9b7";
+}
+.gi-lightning-shout:before {
+  content: "\e9b8";
+}
+.gi-ringed-beam:before {
+  content: "\e9b9";
+}
+.gi-muscle-up:before {
+  content: "\e9ba";
+}
+.gi-nothing-to-say:before {
+  content: "\e9bb";
+}
+.gi-hazard-sign:before {
+  content: "\e9bc";
+}
+.gi-falling-ovoid:before {
+  content: "\e9bd";
+}
+.gi-gibbet:before {
+  content: "\e9be";
+}
+.gi-wheat:before {
+  content: "\e9bf";
+}
+.gi-processor:before {
+  content: "\e9c0";
+}
+.gi-gem-pendant:before {
+  content: "\e9c1";
+}
+.gi-arrows-shield:before {
+  content: "\e9c2";
+}
+.gi-spill:before {
+  content: "\e9c3";
+}
+.gi-chemical-tank:before {
+  content: "\e9c4";
+}
+.gi-medal-skull:before {
+  content: "\e9c5";
+}
+.gi-fire-zone:before {
+  content: "\e9c6";
+}
+.gi-tune-pitch:before {
+  content: "\e9c7";
+}
+.gi-fishhook-fork:before {
+  content: "\e9c8";
+}
+.gi-gift-of-knowledge:before {
+  content: "\e9c9";
+}
+.gi-falling-blob:before {
+  content: "\e9ca";
+}
+.gi-grease-trap:before {
+  content: "\e9cb";
+}
+.gi-centipede:before {
+  content: "\e9cc";
+}
+.gi-fluffy-trefoil:before {
+  content: "\e9cd";
+}
+.gi-dinosaur-egg:before {
+  content: "\e9ce";
+}
+.gi-silence:before {
+  content: "\e9cf";
+}
+.gi-apple-maggot:before {
+  content: "\e9d0";
+}
+.gi-gem-necklace:before {
+  content: "\e9d1";
+}
+.gi-nested-eclipses:before {
+  content: "\e9d2";
+}
+.gi-battered-axe:before {
+  content: "\e9d3";
+}
+.gi-halberd:before {
+  content: "\e9d4";
+}
+.gi-double-face-mask:before {
+  content: "\e9d5";
+}
+.gi-skull-in-jar:before {
+  content: "\e9d6";
+}
+.gi-wide-arrow-dunk:before {
+  content: "\e9d7";
+}
+.gi-cheerful:before {
+  content: "\e9d8";
+}
+.gi-vibrating-ball:before {
+  content: "\e9d9";
+}
+.gi-sleepy:before {
+  content: "\e9da";
+}
+.gi-boxing-glove-surprise:before {
+  content: "\e9db";
+}
+.gi-eyedropper:before {
+  content: "\e9dc";
+}
+.gi-sun:before {
+  content: "\e9dd";
+}
+.gi-boiling-bubbles:before {
+  content: "\e9de";
+}
+.gi-ringing-bell:before {
+  content: "\e9df";
+}
+.gi-tesla-turret:before {
+  content: "\e9e0";
+}
+.gi-salamander:before {
+  content: "\e9e1";
+}
+.gi-fanged-skull:before {
+  content: "\e9e2";
+}
+.gi-ninja-mask:before {
+  content: "\e9e3";
+}
+.gi-barbed-spear:before {
+  content: "\e9e4";
+}
+.gi-caldera:before {
+  content: "\e9e5";
+}
+.gi-crossed-bones:before {
+  content: "\e9e6";
+}
+.gi-stag-head:before {
+  content: "\e9e7";
+}
+.gi-ball-glow:before {
+  content: "\e9e8";
+}
+.gi-claw-string:before {
+  content: "\e9e9";
+}
+.gi-energy-arrow:before {
+  content: "\e9ea";
+}
+.gi-love-song:before {
+  content: "\e9eb";
+}
+.gi-mouth-watering:before {
+  content: "\e9ec";
+}
+.gi-burning-dot:before {
+  content: "\e9ed";
+}
+.gi-evil-comet:before {
+  content: "\e9ee";
+}
+.gi-pincers:before {
+  content: "\e9ef";
+}
+.gi-incoming-rocket:before {
+  content: "\e9f0";
+}
+.gi-dozen:before {
+  content: "\e9f1";
+}
+.gi-swap-bag:before {
+  content: "\e9f2";
+}
+.gi-laser-blast:before {
+  content: "\e9f3";
+}
+.gi-dripping-star:before {
+  content: "\e9f4";
+}
+.gi-bubble-field:before {
+  content: "\e9f5";
+}
+.gi-triple-scratches:before {
+  content: "\e9f6";
+}
+.gi-breastplate:before {
+  content: "\e9f7";
+}
+.gi-orb-direction:before {
+  content: "\e9f8";
+}
+.gi-ice-spear:before {
+  content: "\e9f9";
+}
+.gi-whirlwind:before {
+  content: "\e9fa";
+}
+.gi-death-zone:before {
+  content: "\e9fb";
+}
+.gi-thorny-vine:before {
+  content: "\e9fc";
+}
+.gi-aubergine:before {
+  content: "\e9fd";
+}
+.gi-droplet-splash:before {
+  content: "\e9fe";
+}
+.gi-ember-shot:before {
+  content: "\e9ff";
+}
+.gi-shining-sword:before {
+  content: "\ea00";
+}
+.gi-molotov:before {
+  content: "\ea01";
+}
+.gi-flaming-sheet:before {
+  content: "\ea02";
+}
+.gi-cash:before {
+  content: "\ea03";
+}
+.gi-unlit-candelabra:before {
+  content: "\ea04";
+}
+.gi-crystal-ball:before {
+  content: "\ea05";
+}
+.gi-targeting:before {
+  content: "\ea06";
+}
+.gi-grouped-drops:before {
+  content: "\ea07";
+}
+.gi-virus:before {
+  content: "\ea08";
+}
+.gi-paw-print:before {
+  content: "\ea09";
+}
+.gi-spiky-eclipse:before {
+  content: "\ea0a";
+}
+.gi-spiral-thrust:before {
+  content: "\ea0b";
+}
+.gi-ground-sprout:before {
+  content: "\ea0c";
+}
+.gi-mace-head:before {
+  content: "\ea0d";
+}
+.gi-fountain-pen:before {
+  content: "\ea0e";
+}
+.gi-flying-dagger:before {
+  content: "\ea0f";
+}
+.gi-brain-freeze:before {
+  content: "\ea10";
+}
+.gi-imp:before {
+  content: "\ea11";
+}
+.gi-heavy-timer:before {
+  content: "\ea12";
+}
+.gi-wingfoot:before {
+  content: "\ea13";
+}
+.gi-leaf-skeleton:before {
+  content: "\ea14";
+}
+.gi-harpy:before {
+  content: "\ea15";
+}
+.gi-lightning-branches:before {
+  content: "\ea16";
+}
+.gi-mine-explosion:before {
+  content: "\ea17";
+}
+.gi-fire-shield:before {
+  content: "\ea18";
+}
+.gi-cogsplosion:before {
+  content: "\ea19";
+}
+.gi-bombing-run:before {
+  content: "\ea1a";
+}
+.gi-grenade:before {
+  content: "\ea1b";
+}
+.gi-law-star:before {
+  content: "\ea1c";
+}
+.gi-bone-knife:before {
+  content: "\ea1d";
+}
+.gi-lightning-electron:before {
+  content: "\ea1e";
+}
+.gi-sword-slice:before {
+  content: "\ea1f";
+}
+.gi-gecko:before {
+  content: "\ea20";
+}
+.gi-tentacles-skull:before {
+  content: "\ea21";
+}
+.gi-pointy-sword:before {
+  content: "\ea22";
+}
+.gi-dust-cloud:before {
+  content: "\ea23";
+}
+.gi-stone-spear:before {
+  content: "\ea24";
+}
+.gi-life-tap:before {
+  content: "\ea25";
+}
+.gi-bowman:before {
+  content: "\ea26";
+}
+.gi-leather-boot:before {
+  content: "\ea27";
+}
+.gi-scallop:before {
+  content: "\ea28";
+}
+.gi-comb:before {
+  content: "\ea29";
+}
+.gi-frozen-orb:before {
+  content: "\ea2a";
+}
+.gi-domino-mask:before {
+  content: "\ea2b";
+}
+.gi-sundial:before {
+  content: "\ea2c";
+}
+.gi-bouncing-sword:before {
+  content: "\ea2d";
+}
+.gi-anchor:before {
+  content: "\ea2e";
+}
+.gi-bubbling-bowl:before {
+  content: "\ea2f";
+}
+.gi-thor-fist:before {
+  content: "\ea30";
+}
+.gi-ice-bolt:before {
+  content: "\ea31";
+}
+.gi-rapidshare-arrow:before {
+  content: "\ea32";
+}
+.gi-quicksand:before {
+  content: "\ea33";
+}
+.gi-alien-skull:before {
+  content: "\ea34";
+}
+.gi-maple-leaf:before {
+  content: "\ea35";
+}
+.gi-striking-balls:before {
+  content: "\ea36";
+}
+.gi-striking-arrows:before {
+  content: "\ea37";
+}
+.gi-gluttonous-smile:before {
+  content: "\ea38";
+}
+.gi-all-for-one:before {
+  content: "\ea39";
+}
+.gi-condor-emblem:before {
+  content: "\ea3a";
+}
+.gi-ultrasound:before {
+  content: "\ea3b";
+}
+.gi-dread-skull:before {
+  content: "\ea3c";
+}
+.gi-resonance:before {
+  content: "\ea3d";
+}
+.gi-brain:before {
+  content: "\ea3e";
+}
+.gi-wrecking-ball:before {
+  content: "\ea3f";
+}
+.gi-arrow-scope:before {
+  content: "\ea40";
+}
+.gi-tick:before {
+  content: "\ea41";
+}
+.gi-crown-coin:before {
+  content: "\ea42";
+}
+.gi-pierced-body:before {
+  content: "\ea43";
+}
+.gi-flamed-leaf:before {
+  content: "\ea44";
+}
+.gi-interlaced-tentacles:before {
+  content: "\ea45";
+}
+.gi-valley:before {
+  content: "\ea46";
+}
+.gi-sonic-shout:before {
+  content: "\ea47";
+}
+.gi-carillon:before {
+  content: "\ea48";
+}
+.gi-coffin:before {
+  content: "\ea49";
+}
+.gi-spectacle-lenses:before {
+  content: "\ea4a";
+}
+.gi-flexible-star:before {
+  content: "\ea4b";
+}
+.gi-lion:before {
+  content: "\ea4c";
+}
+.gi-bolt-shield:before {
+  content: "\ea4d";
+}
+.gi-teapot:before {
+  content: "\ea4e";
+}
+.gi-maze-cornea:before {
+  content: "\ea4f";
+}
+.gi-tree-branch:before {
+  content: "\ea50";
+}
+.gi-hound:before {
+  content: "\ea51";
+}
+.gi-mirror-mirror:before {
+  content: "\ea52";
+}
+.gi-reticule:before {
+  content: "\ea53";
+}
+.gi-spanner:before {
+  content: "\ea54";
+}
+.gi-batwing-emblem:before {
+  content: "\ea55";
+}
+.gi-scalpel-strike:before {
+  content: "\ea56";
+}
+.gi-swallow:before {
+  content: "\ea57";
+}
+.gi-rosa-shield:before {
+  content: "\ea58";
+}
+.gi-sprout-disc:before {
+  content: "\ea59";
+}
+.gi-pretty-fangs:before {
+  content: "\ea5a";
+}
+.gi-midnight-claw:before {
+  content: "\ea5b";
+}
+.gi-sad-crab:before {
+  content: "\ea5c";
+}
+.gi-bandaged:before {
+  content: "\ea5d";
+}
+.gi-journey:before {
+  content: "\ea5e";
+}
+.gi-machete:before {
+  content: "\ea5f";
+}
+.gi-bat-blade:before {
+  content: "\ea60";
+}
+.gi-embrassed-energy:before {
+  content: "\ea61";
+}
+.gi-fire-bottle:before {
+  content: "\ea62";
+}
+.gi-holy-symbol:before {
+  content: "\ea63";
+}
+.gi-back-pain:before {
+  content: "\ea64";
+}
+.gi-wildfires:before {
+  content: "\ea65";
+}
+.gi-top-hat:before {
+  content: "\ea66";
+}
+.gi-flat-hammer:before {
+  content: "\ea67";
+}
+.gi-manacles:before {
+  content: "\ea68";
+}
+.gi-curling-vines:before {
+  content: "\ea69";
+}
+.gi-night-sky:before {
+  content: "\ea6a";
+}
+.gi-guarded-tower:before {
+  content: "\ea6b";
+}
+.gi-whiplash:before {
+  content: "\ea6c";
+}
+.gi-mantrap:before {
+  content: "\ea6d";
+}
+.gi-crystal-eye:before {
+  content: "\ea6e";
+}
+.gi-turtle:before {
+  content: "\ea6f";
+}
+.gi-spyglass:before {
+  content: "\ea70";
+}
+.gi-top-paw:before {
+  content: "\ea71";
+}
+.gi-coffee-mug:before {
+  content: "\ea72";
+}
+.gi-fire-punch:before {
+  content: "\ea73";
+}
+.gi-overdrive:before {
+  content: "\ea74";
+}
+.gi-gooey-eyed-sun:before {
+  content: "\ea75";
+}
+.gi-surrounded-shield:before {
+  content: "\ea76";
+}
+.gi-flaming-claw:before {
+  content: "\ea77";
+}
+.gi-spiral-arrow:before {
+  content: "\ea78";
+}
+.gi-movement-sensor:before {
+  content: "\ea79";
+}
+.gi-snail:before {
+  content: "\ea7a";
+}
+.gi-sharp-lips:before {
+  content: "\ea7b";
+}
+.gi-interstellar-path:before {
+  content: "\ea7c";
+}
+.gi-spiked-fence:before {
+  content: "\ea7d";
+}
+.gi-eyeball:before {
+  content: "\ea7e";
+}
+.gi-crowned-heart:before {
+  content: "\ea7f";
+}
+.gi-shiny-iris:before {
+  content: "\ea80";
+}
+.gi-campfire:before {
+  content: "\ea81";
+}
+.gi-guitar:before {
+  content: "\ea82";
+}
+.gi-werewolf:before {
+  content: "\ea83";
+}
+.gi-lips:before {
+  content: "\ea84";
+}
+.gi-ammonite-fossil:before {
+  content: "\ea85";
+}
+.gi-power-lightning:before {
+  content: "\ea86";
+}
+.gi-smoking-finger:before {
+  content: "\ea87";
+}
+.gi-kaleidoscope-pearls:before {
+  content: "\ea88";
+}
+.gi-ubisoft-sun:before {
+  content: "\ea89";
+}
+.gi-burning-book:before {
+  content: "\ea8a";
+}
+.gi-crystal-growth:before {
+  content: "\ea8b";
+}
+.gi-hot-spices:before {
+  content: "\ea8c";
+}
+.gi-bird-mask:before {
+  content: "\ea8d";
+}
+.gi-blade-fall:before {
+  content: "\ea8e";
+}
+.gi-high-shot:before {
+  content: "\ea8f";
+}
+.gi-meteor-impact:before {
+  content: "\ea90";
+}
+.gi-droplets:before {
+  content: "\ea91";
+}
+.gi-distraction:before {
+  content: "\ea92";
+}
+.gi-world:before {
+  content: "\ea93";
+}
+.gi-ghost:before {
+  content: "\ea94";
+}
+.gi-gamepad-cross:before {
+  content: "\ea95";
+}
+.gi-leather-vest:before {
+  content: "\ea96";
+}
+.gi-wolf-howl:before {
+  content: "\ea97";
+}
+.gi-seated-mouse:before {
+  content: "\ea98";
+}
+.gi-portculis:before {
+  content: "\ea99";
+}
+.gi-white-cat:before {
+  content: "\ea9a";
+}
+.gi-android-mask:before {
+  content: "\ea9b";
+}
+.gi-batteries:before {
+  content: "\ea9c";
+}
+.gi-interdiction:before {
+  content: "\ea9d";
+}
+.gi-gloop:before {
+  content: "\ea9e";
+}
+.gi-archery-target:before {
+  content: "\ea9f";
+}
+.gi-energy-sword:before {
+  content: "\eaa0";
+}
+.gi-cog-lock:before {
+  content: "\eaa1";
+}
+.gi-microchip:before {
+  content: "\eaa2";
+}
+.gi-shiny-purse:before {
+  content: "\eaa3";
+}
+.gi-hawk-emblem:before {
+  content: "\eaa4";
+}
+.gi-octogonal-eye:before {
+  content: "\eaa5";
+}
+.gi-beech:before {
+  content: "\eaa6";
+}
+.gi-fishing-hook:before {
+  content: "\eaa7";
+}
+.gi-fragmented-meteor:before {
+  content: "\eaa8";
+}
+.gi-brass-eye:before {
+  content: "\eaa9";
+}
+.gi-spotted-mushroom:before {
+  content: "\eaaa";
+}
+.gi-lamellar:before {
+  content: "\eaab";
+}
+.gi-headshot:before {
+  content: "\eaac";
+}
+.gi-cultist:before {
+  content: "\eaad";
+}
+.gi-bowie-knife:before {
+  content: "\eaae";
+}
+.gi-rock:before {
+  content: "\eaaf";
+}
+.gi-mouse:before {
+  content: "\eab0";
+}
+.gi-chain-lightning:before {
+  content: "\eab1";
+}
+.gi-gold-bar:before {
+  content: "\eab2";
+}
+.gi-black-book:before {
+  content: "\eab3";
+}
+.gi-armored-pants:before {
+  content: "\eab4";
+}
+.gi-helmet:before {
+  content: "\eab5";
+}
+.gi-revolt:before {
+  content: "\eab6";
+}
+.gi-pounce:before {
+  content: "\eab7";
+}
+.gi-tesla:before {
+  content: "\eab8";
+}
+.gi-poison:before {
+  content: "\eab9";
+}
+.gi-trample:before {
+  content: "\eaba";
+}
+.gi-ammo-box:before {
+  content: "\eabb";
+}
+.gi-overkill:before {
+  content: "\eabc";
+}
+.gi-head-shot:before {
+  content: "\eabd";
+}
+.gi-flake:before {
+  content: "\eabe";
+}
+.gi-hot-surface:before {
+  content: "\eabf";
+}
+.gi-slow-blob:before {
+  content: "\eac0";
+}
+.gi-crush:before {
+  content: "\eac1";
+}
+.gi-shield:before {
+  content: "\eac2";
+}
+.gi-spawn-node:before {
+  content: "\eac3";
+}
+.gi-spikeball:before {
+  content: "\eac4";
+}
+.gi-level-three-advanced:before {
+  content: "\eac5";
+}
+.gi-reactor:before {
+  content: "\eac6";
+}
+.gi-targeted:before {
+  content: "\eac7";
+}
+.gi-pulse:before {
+  content: "\eac8";
+}
+.gi-chaingun:before {
+  content: "\eac9";
+}
+.gi-fireflake:before {
+  content: "\eaca";
+}
+.gi-unplugged:before {
+  content: "\eacb";
+}
+.gi-acid-tube:before {
+  content: "\eacc";
+}
+.gi-medical-pack:before {
+  content: "\eacd";
+}
+.gi-evil-wings:before {
+  content: "\eace";
+}
+.gi-fire:before {
+  content: "\eacf";
+}
+.gi-polar-bear:before {
+  content: "\ead0";
+}
+.gi-chariot:before {
+  content: "\ead1";
+}
+.gi-tumulus:before {
+  content: "\ead2";
+}
+.gi-bad-gnome:before {
+  content: "\ead3";
+}
+.gi-holy-oak:before {
+  content: "\ead4";
+}
+.gi-annexation:before {
+  content: "\ead5";
+}
+.gi-iron-hulled-warship:before {
+  content: "\ead6";
+}
+.gi-great-war-tank:before {
+  content: "\ead7";
+}
+.gi-flying-trout:before {
+  content: "\ead8";
+}
+.gi-dreadnought:before {
+  content: "\ead9";
+}
+.gi-oppidum:before {
+  content: "\eada";
+}
+.gi-earth-worm:before {
+  content: "\eadb";
+}
+.gi-witch-face:before {
+  content: "\eadc";
+}
+.gi-occupy:before {
+  content: "\eadd";
+}
+.gi-backbone-shell:before {
+  content: "\eade";
+}
+.gi-boot-prints:before {
+  content: "\eadf";
+}
+.gi-portal:before {
+  content: "\eae0";
+}
+.gi-open-wound:before {
+  content: "\eae1";
+}
+.gi-daggers:before {
+  content: "\eae2";
+}
+.gi-lightning-mask:before {
+  content: "\eae3";
+}
+.gi-dinosaur-bones:before {
+  content: "\eae4";
+}
+.gi-spiked-tentacle:before {
+  content: "\eae5";
+}
+.gi-checkbox-tree:before {
+  content: "\eae6";
+}
+.gi-crab:before {
+  content: "\eae7";
+}
+.gi-sonic-boom:before {
+  content: "\eae8";
+}
+.gi-ribcage:before {
+  content: "\eae9";
+}
+.gi-fairy:before {
+  content: "\eaea";
+}
+.gi-william-tell-skull:before {
+  content: "\eaeb";
+}
+.gi-bookmark:before {
+  content: "\eaec";
+}
+.gi-vintage-robot:before {
+  content: "\eaed";
+}
+.gi-eye-shield:before {
+  content: "\eaee";
+}
+.gi-deadly-strike:before {
+  content: "\eaef";
+}
+.gi-transparent-tubes:before {
+  content: "\eaf0";
+}
+.gi-wave-crest:before {
+  content: "\eaf1";
+}
+.gi-hammer-nails:before {
+  content: "\eaf2";
+}
+.gi-wooden-sign:before {
+  content: "\eaf3";
+}
+.gi-metal-scales:before {
+  content: "\eaf4";
+}
+.gi-surprised:before {
+  content: "\eaf5";
+}
+.gi-perpendicular-rings:before {
+  content: "\eaf6";
+}
+.gi-lantern-flame:before {
+  content: "\eaf7";
+}
+.gi-smitten:before {
+  content: "\eaf8";
+}
+.gi-strong:before {
+  content: "\eaf9";
+}
+.gi-electrical-crescent:before {
+  content: "\eafa";
+}
+.gi-light-thorny-triskelion:before {
+  content: "\eafb";
+}
+.gi-beetle-shell:before {
+  content: "\eafc";
+}
+.gi-zig-arrow:before {
+  content: "\eafd";
+}
+.gi-half-heart:before {
+  content: "\eafe";
+}
+.gi-lightning-tree:before {
+  content: "\eaff";
+}
+.gi-tinker:before {
+  content: "\eb00";
+}
+.gi-crossed-swords:before {
+  content: "\eb01";
+}
+.gi-sentry-gun:before {
+  content: "\eb02";
+}
+.gi-sword-array:before {
+  content: "\eb03";
+}
+.gi-lightning-shadow:before {
+  content: "\eb04";
+}
+.gi-magic-shield:before {
+  content: "\eb05";
+}
+.gi-laser-sparks:before {
+  content: "\eb06";
+}
+.gi-music-spell:before {
+  content: "\eb07";
+}
+.gi-tattered-banner:before {
+  content: "\eb08";
+}
+.gi-fire-silhouette:before {
+  content: "\eb09";
+}
+.gi-spiral-bloom:before {
+  content: "\eb0a";
+}
+.gi-edge-crack:before {
+  content: "\eb0b";
+}
+.gi-poison-gas:before {
+  content: "\eb0c";
+}
+.gi-inner-self:before {
+  content: "\eb0d";
+}
+.gi-spears:before {
+  content: "\eb0e";
+}
+.gi-sonic-lightning:before {
+  content: "\eb0f";
+}
+.gi-three-leaves:before {
+  content: "\eb10";
+}
+.gi-transfuse:before {
+  content: "\eb11";
+}
+.gi-knife-thrust:before {
+  content: "\eb12";
+}
+.gi-corked-tube:before {
+  content: "\eb13";
+}
+.gi-supersonic-arrow:before {
+  content: "\eb14";
+}
+.gi-snowflake-1:before {
+  content: "\eb15";
+}
+.gi-lightning-helix:before {
+  content: "\eb16";
+}
+.gi-bubbling-beam:before {
+  content: "\eb17";
+}
+.gi-papers:before {
+  content: "\eb18";
+}
+.gi-defibrilate:before {
+  content: "\eb19";
+}
+.gi-rear-aura:before {
+  content: "\eb1a";
+}
+.gi-zigzag-leaf:before {
+  content: "\eb1b";
+}
+.gi-radar-dish:before {
+  content: "\eb1c";
+}
+.gi-disintegrate:before {
+  content: "\eb1d";
+}
+.gi-cloud-ring:before {
+  content: "\eb1e";
+}
+.gi-thorned-arrow:before {
+  content: "\eb1f";
+}
+.gi-ammonite:before {
+  content: "\eb20";
+}
+.gi-wax-seal:before {
+  content: "\eb21";
+}
+.gi-crystal-bars:before {
+  content: "\eb22";
+}
+.gi-shuriken:before {
+  content: "\eb23";
+}
+.gi-return-arrow:before {
+  content: "\eb24";
+}
+.gi-spectre:before {
+  content: "\eb25";
+}
+.gi-diamond-hard:before {
+  content: "\eb26";
+}
+.gi-target-dummy:before {
+  content: "\eb27";
+}
+.gi-cracked-saber:before {
+  content: "\eb28";
+}
+.gi-sprint:before {
+  content: "\eb29";
+}
+.gi-mailed-fist:before {
+  content: "\eb2a";
+}
+.gi-armor-vest:before {
+  content: "\eb2b";
+}
+.gi-burning-meteor:before {
+  content: "\eb2c";
+}
+.gi-stitched-wound:before {
+  content: "\eb2d";
+}
+.gi-fire-tail:before {
+  content: "\eb2e";
+}
+.gi-skull-crossed-bones:before {
+  content: "\eb2f";
+}
+.gi-plasma-bolt:before {
+  content: "\eb30";
+}
+.gi-alien-stare:before {
+  content: "\eb31";
+}
+.gi-gems:before {
+  content: "\eb32";
+}
+.gi-burning-embers:before {
+  content: "\eb33";
+}
+.gi-lightning-trio:before {
+  content: "\eb34";
+}
+.gi-star-swirl:before {
+  content: "\eb35";
+}
+.gi-crossed-chains:before {
+  content: "\eb36";
+}
+.gi-broken-heart:before {
+  content: "\eb37";
+}
+.gi-mushroom-cloud:before {
+  content: "\eb38";
+}
+.gi-frog:before {
+  content: "\eb39";
+}
+.gi-wind-slap:before {
+  content: "\eb3a";
+}
+.gi-suits:before {
+  content: "\eb3b";
+}
+.gi-triple-skulls:before {
+  content: "\eb3c";
+}
+.gi-walking-boot:before {
+  content: "\eb3d";
+}
+.gi-standing-potion:before {
+  content: "\eb3e";
+}
+.gi-despair:before {
+  content: "\eb3f";
+}
+.gi-parrot-head:before {
+  content: "\eb40";
+}
+.gi-striking-clamps:before {
+  content: "\eb41";
+}
+.gi-locked-fortress:before {
+  content: "\eb42";
+}
+.gi-grapes:before {
+  content: "\eb43";
+}
+.gi-spinning-blades:before {
+  content: "\eb44";
+}
+.gi-quill-ink:before {
+  content: "\eb45";
+}
+.gi-crenulated-shield:before {
+  content: "\eb46";
+}
+.gi-flat-star:before {
+  content: "\eb47";
+}
+.gi-sewing-needle:before {
+  content: "\eb48";
+}
+.gi-half-tornado:before {
+  content: "\eb49";
+}
+.gi-bird-twitter:before {
+  content: "\eb4a";
+}
+.gi-ent-mouth:before {
+  content: "\eb4b";
+}
+.gi-pie-slice:before {
+  content: "\eb4c";
+}
+.gi-chemical-drop:before {
+  content: "\eb4d";
+}
+.gi-orbital-rays:before {
+  content: "\eb4e";
+}
+.gi-linden-leaf:before {
+  content: "\eb4f";
+}
+.gi-drowning:before {
+  content: "\eb50";
+}
+.gi-triple-corn:before {
+  content: "\eb51";
+}
+.gi-pyromaniac:before {
+  content: "\eb52";
+}
+.gi-surrounded-eye:before {
+  content: "\eb53";
+}
+.gi-shield-bounces:before {
+  content: "\eb54";
+}
+.gi-bottle-vapors:before {
+  content: "\eb55";
+}
+.gi-arson:before {
+  content: "\eb56";
+}
+.gi-snake-totem:before {
+  content: "\eb57";
+}
+.gi-bottom-right-3d-arrow:before {
+  content: "\eb58";
+}
+.gi-arrow-dunk:before {
+  content: "\eb59";
+}
+.gi-monkey:before {
+  content: "\eb5a";
+}
+.gi-empty-hourglass:before {
+  content: "\eb5b";
+}
+.gi-fountain:before {
+  content: "\eb5c";
+}
+.gi-chained-arrow-heads:before {
+  content: "\eb5d";
+}
+.gi-angel-wings:before {
+  content: "\eb5e";
+}
+.gi-grasping-claws:before {
+  content: "\eb5f";
+}
+.gi-arcing-bolt:before {
+  content: "\eb60";
+}
+.gi-demolish:before {
+  content: "\eb61";
+}
+.gi-claw-hammer:before {
+  content: "\eb62";
+}
+.gi-cluster-bomb:before {
+  content: "\eb63";
+}
+.gi-eclipse:before {
+  content: "\eb64";
+}
+.gi-biohazard:before {
+  content: "\eb65";
+}
+.gi-imbricated-arrows:before {
+  content: "\eb66";
+}
+.gi-ouroboros:before {
+  content: "\eb67";
+}
+.gi-lightning-arc:before {
+  content: "\eb68";
+}
+.gi-spinning-sword:before {
+  content: "\eb69";
+}
+.gi-earwig:before {
+  content: "\eb6a";
+}
+.gi-trilobite:before {
+  content: "\eb6b";
+}
+.gi-mail-shirt:before {
+  content: "\eb6c";
+}
+.gi-volcano:before {
+  content: "\eb6d";
+}
+.gi-marrow-drain:before {
+  content: "\eb6e";
+}
+.gi-nailed-foot:before {
+  content: "\eb6f";
+}
+.gi-riot-shield:before {
+  content: "\eb70";
+}
+.gi-broadsword:before {
+  content: "\eb71";
+}
+.gi-uncertainty:before {
+  content: "\eb72";
+}
+.gi-heavy-arrow:before {
+  content: "\eb73";
+}
+.gi-crystalize:before {
+  content: "\eb74";
+}
+.gi-mucous-pillar:before {
+  content: "\eb75";
+}
+.gi-sword-in-stone:before {
+  content: "\eb76";
+}
+.gi-rune-sword:before {
+  content: "\eb77";
+}
+.gi-incense:before {
+  content: "\eb78";
+}
+.gi-trophy:before {
+  content: "\eb79";
+}
+.gi-soap-experiment:before {
+  content: "\eb7a";
+}
+.gi-magic-gate:before {
+  content: "\eb7b";
+}
+.gi-flower-twirl:before {
+  content: "\eb7c";
+}
+.gi-ribbon:before {
+  content: "\eb7d";
+}
+.gi-blackcurrant:before {
+  content: "\eb7e";
+}
+.gi-unfriendly-fire:before {
+  content: "\eb7f";
+}
+.gi-maze:before {
+  content: "\eb80";
+}
+.gi-bowl-spiral:before {
+  content: "\eb81";
+}
+.gi-split-body:before {
+  content: "\eb82";
+}
+.gi-shouting:before {
+  content: "\eb83";
+}
+.gi-crowned-skull:before {
+  content: "\eb84";
+}
+.gi-wolf-trap:before {
+  content: "\eb85";
+}
+.gi-curly-wing:before {
+  content: "\eb86";
+}
+.gi-lightning-slashes:before {
+  content: "\eb87";
+}
+.gi-wood-axe:before {
+  content: "\eb88";
+}
+.gi-gears:before {
+  content: "\eb89";
+}
+.gi-curvy-knife:before {
+  content: "\eb8a";
+}
+.gi-sliced-bread:before {
+  content: "\eb8b";
+}
+.gi-shut-rose:before {
+  content: "\eb8c";
+}
+.gi-lob-arrow:before {
+  content: "\eb8d";
+}
+.gi-cloak-dagger:before {
+  content: "\eb8e";
+}
+.gi-shiny-entrance:before {
+  content: "\eb8f";
+}
+.gi-dragonfly:before {
+  content: "\eb90";
+}
+.gi-horned-skull:before {
+  content: "\eb91";
+}
+.gi-diamonds-smile:before {
+  content: "\eb92";
+}
+.gi-octoman:before {
+  content: "\eb93";
+}
+.gi-slashed-shield:before {
+  content: "\eb94";
+}
+.gi-star-cycle:before {
+  content: "\eb95";
+}
+.gi-cake-slice:before {
+  content: "\eb96";
+}
+.gi-wrapped-sweet:before {
+  content: "\eb97";
+}
+.gi-crossed-slashes:before {
+  content: "\eb98";
+}
+.gi-pierced-heart:before {
+  content: "\eb99";
+}
+.gi-cracked-shield:before {
+  content: "\eb9a";
+}
+.gi-fairy-wand:before {
+  content: "\eb9b";
+}
+.gi-worried-eyes:before {
+  content: "\eb9c";
+}
+.gi-feather-wound:before {
+  content: "\eb9d";
+}
+.gi-tower-fall:before {
+  content: "\eb9e";
+}
+.gi-tripwire:before {
+  content: "\eb9f";
+}
+.gi-magic-swirl:before {
+  content: "\eba0";
+}
+.gi-book-storm:before {
+  content: "\eba1";
+}
+.gi-shield-echoes:before {
+  content: "\eba2";
+}
+.gi-boar-tusks:before {
+  content: "\eba3";
+}
+.gi-shining-heart:before {
+  content: "\eba4";
+}
+.gi-pizza-cutter:before {
+  content: "\eba5";
+}
+.gi-cauldron:before {
+  content: "\eba6";
+}
+.gi-bleeding-heart:before {
+  content: "\eba7";
+}
+.gi-armoured-shell:before {
+  content: "\eba8";
+}
+.gi-spatter:before {
+  content: "\eba9";
+}
+.gi-battle-gear:before {
+  content: "\ebaa";
+}
+.gi-wyvern:before {
+  content: "\ebab";
+}
+.gi-decapitation:before {
+  content: "\ebac";
+}
+.gi-metal-bar:before {
+  content: "\ebad";
+}
+.gi-harry-potter-skull:before {
+  content: "\ebae";
+}
+.gi-spartan:before {
+  content: "\ebaf";
+}
+.gi-sea-serpent:before {
+  content: "\ebb0";
+}
+.gi-vile-fluid:before {
+  content: "\ebb1";
+}
+.gi-dripping-goo:before {
+  content: "\ebb2";
+}
+.gi-layered-armor:before {
+  content: "\ebb3";
+}
+.gi-meat-hook:before {
+  content: "\ebb4";
+}
+.gi-meat:before {
+  content: "\ebb5";
+}
+.gi-mushroom:before {
+  content: "\ebb6";
+}
+.gi-globe:before {
+  content: "\ebb7";
+}
+.gi-flower-pot:before {
+  content: "\ebb8";
+}
+.gi-bloody-sword:before {
+  content: "\ebb9";
+}
+.gi-broken-bottle:before {
+  content: "\ebba";
+}
+.gi-skull-bolt:before {
+  content: "\ebbb";
+}
+.gi-barbed-star:before {
+  content: "\ebbc";
+}
+.gi-lotus-flower:before {
+  content: "\ebbd";
+}
+.gi-open-book:before {
+  content: "\ebbe";
+}
+.gi-robot-golem:before {
+  content: "\ebbf";
+}
+.gi-hypersonic-melon:before {
+  content: "\ebc0";
+}
+.gi-arrowhead:before {
+  content: "\ebc1";
+}
+.gi-gooey-molecule:before {
+  content: "\ebc2";
+}
+.gi-handcuffs:before {
+  content: "\ebc3";
+}
+.gi-evil-fork:before {
+  content: "\ebc4";
+}
+.gi-edged-shield:before {
+  content: "\ebc5";
+}
+.gi-shattered-sword:before {
+  content: "\ebc6";
+}
+.gi-heavy-fall:before {
+  content: "\ebc7";
+}
+.gi-stigmata:before {
+  content: "\ebc8";
+}
+.gi-treasure-map:before {
+  content: "\ebc9";
+}
+.gi-crosshair-arrow:before {
+  content: "\ebca";
+}
+.gi-ice-bomb:before {
+  content: "\ebcb";
+}
+.gi-third-eye:before {
+  content: "\ebcc";
+}
+.gi-feathered-wing:before {
+  content: "\ebcd";
+}
+.gi-missile-swarm:before {
+  content: "\ebce";
+}
+.gi-zigzag-tune:before {
+  content: "\ebcf";
+}
+.gi-suckered-tentacle:before {
+  content: "\ebd0";
+}
+.gi-stopwatch:before {
+  content: "\ebd1";
+}
+.gi-crescent-blade:before {
+  content: "\ebd2";
+}
+.gi-fist:before {
+  content: "\ebd3";
+}
+.gi-scissors:before {
+  content: "\ebd4";
+}
+.gi-dragon-head:before {
+  content: "\ebd5";
+}
+.gi-help:before {
+  content: "\ebd6";
+}
+.gi-flamer:before {
+  content: "\ebd7";
+}
+.gi-arena:before {
+  content: "\ebd8";
+}
+.gi-mass-driver:before {
+  content: "\ebd9";
+}
+.gi-doubled:before {
+  content: "\ebda";
+}
+.gi-jet-pack:before {
+  content: "\ebdb";
+}
+.gi-fall-down:before {
+  content: "\ebdc";
+}
+.gi-blast:before {
+  content: "\ebdd";
+}
+.gi-target-laser:before {
+  content: "\ebde";
+}
+.gi-blaster:before {
+  content: "\ebdf";
+}
+.gi-clover-spiked:before {
+  content: "\ebe0";
+}
+.gi-kevlar:before {
+  content: "\ebe1";
+}
+.gi-level-four:before {
+  content: "\ebe2";
+}
+.gi-spikes-half:before {
+  content: "\ebe3";
+}
+.gi-falling:before {
+  content: "\ebe4";
+}
+.gi-wrench:before {
+  content: "\ebe5";
+}
+.gi-snorkel:before {
+  content: "\ebe6";
+}
+.gi-duel:before {
+  content: "\ebe7";
+}
+.gi-battery-pack:before {
+  content: "\ebe8";
+}
+.gi-level-three:before {
+  content: "\ebe9";
+}
+.gi-usable:before {
+  content: "\ebea";
+}
+.gi-big-egg:before {
+  content: "\ebeb";
+}
+.gi-rifle:before {
+  content: "\ebec";
+}
+.gi-telefrag:before {
+  content: "\ebed";
+}
+.gi-select:before {
+  content: "\ebee";
+}
+.gi-expander:before {
+  content: "\ebef";
+}
+.gi-claw:before {
+  content: "\ebf0";
+}
+.gi-shotgun:before {
+  content: "\ebf1";
+}
+.gi-trigger-hurt:before {
+  content: "\ebf2";
+}
+.gi-weight-crush:before {
+  content: "\ebf3";
+}
+.gi-water-drop:before {
+  content: "\ebf4";
+}
+.gi-burn:before {
+  content: "\ebf5";
+}
+.gi-vial:before {
+  content: "\ebf6";
+}
+.gi-fomorian:before {
+  content: "\ebf7";
+}
+.gi-swordman:before {
+  content: "\ebf8";
+}
+.gi-necklace:before {
+  content: "\ebf9";
+}
+.gi-trousers:before {
+  content: "\ebfa";
+}
+.gi-tombstone:before {
+  content: "\ebfb";
+}
+.gi-splash:before {
+  content: "\ebfc";
+}
+.gi-hand:before {
+  content: "\ebfd";
+}
+.gi-syringe:before {
+  content: "\ebfe";
+}
+.gi-key:before {
+  content: "\ebff";
+}
+.gi-artificial-intelligence:before {
+  content: "\ec00";
+}
+.gi-power-button:before {
+  content: "\ec01";
+}
+.gi-holosphere:before {
+  content: "\ec02";
+}
+.gi-light-fighter:before {
+  content: "\ec03";
+}
+.gi-elf-helmet:before {
+  content: "\ec04";
+}
+.gi-card-pickup:before {
+  content: "\ec05";
+}
+.gi-bunker:before {
+  content: "\ec06";
+}
+.gi-bunker-assault:before {
+  content: "\ec07";
+}
+.gi-battery-50:before {
+  content: "\ec08";
+}
+.gi-rank-3:before {
+  content: "\ec09";
+}
+.gi-read:before {
+  content: "\ec0a";
+}
+.gi-pestle-mortar:before {
+  content: "\ec0b";
+}
+.gi-d12:before {
+  content: "\ec0c";
+}
+.gi-open-chest:before {
+  content: "\ec0d";
+}
+.gi-skeleton:before {
+  content: "\ec0e";
+}
+.gi-carpet-bombing:before {
+  content: "\ec0f";
+}
+.gi-kevlar-vest:before {
+  content: "\ec10";
+}
+.gi-hasty-grave:before {
+  content: "\ec11";
+}
+.gi-laser-burst:before {
+  content: "\ec12";
+}
+.gi-m3-grease-gun:before {
+  content: "\ec13";
+}
+.gi-baton:before {
+  content: "\ec14";
+}
+.gi-evil-eyes:before {
+  content: "\ec15";
+}
+.gi-rank-1:before {
+  content: "\ec16";
+}
+.gi-ballista:before {
+  content: "\ec17";
+}
+.gi-ak47u:before {
+  content: "\ec18";
+}
+.gi-open-palm:before {
+  content: "\ec19";
+}
+.gi-walther-ppk:before {
+  content: "\ec1a";
+}
+.gi-orbit:before {
+  content: "\ec1b";
+}
+.gi-trench-spade:before {
+  content: "\ec1c";
+}
+.gi-gladius:before {
+  content: "\ec1d";
+}
+.gi-spiked-bat:before {
+  content: "\ec1e";
+}
+.gi-spiked-ball:before {
+  content: "\ec1f";
+}
+.gi-spectre-m4:before {
+  content: "\ec20";
+}
+.gi-stahlhelm:before {
+  content: "\ec21";
+}
+.gi-fetus:before {
+  content: "\ec22";
+}
+.gi-winchester-rifle:before {
+  content: "\ec23";
+}
+.gi-balkenkreuz:before {
+  content: "\ec24";
+}
+.gi-mp-40:before {
+  content: "\ec25";
+}
+.gi-fn-fal:before {
+  content: "\ec26";
+}
+.gi-chess-queen:before {
+  content: "\ec27";
+}
+.gi-cobra:before {
+  content: "\ec28";
+}
+.gi-goat:before {
+  content: "\ec29";
+}
+.gi-mounted-knight:before {
+  content: "\ec2a";
+}
+.gi-tank-tread:before {
+  content: "\ec2b";
+}
+.gi-shield-disabled:before {
+  content: "\ec2c";
+}
+.gi-wooden-helmet:before {
+  content: "\ec2d";
+}
+.gi-fangs:before {
+  content: "\ec2e";
+}
+.gi-mp5k:before {
+  content: "\ec2f";
+}
+.gi-divided-square:before {
+  content: "\ec30";
+}
+.gi-siren:before {
+  content: "\ec31";
+}
+.gi-combination-lock:before {
+  content: "\ec32";
+}
+.gi-inverted-dice-3:before {
+  content: "\ec33";
+}
+.gi-steel-door:before {
+  content: "\ec34";
+}
+.gi-platform:before {
+  content: "\ec35";
+}
+.gi-tablet:before {
+  content: "\ec36";
+}
+.gi-joint:before {
+  content: "\ec37";
+}
+.gi-glock:before {
+  content: "\ec38";
+}
+.gi-cz-skorpion:before {
+  content: "\ec39";
+}
+.gi-chess-king:before {
+  content: "\ec3a";
+}
+.gi-butterfly-knife:before {
+  content: "\ec3b";
+}
+.gi-mp5:before {
+  content: "\ec3c";
+}
+.gi-moon:before {
+  content: "\ec3d";
+}
+.gi-heat-haze:before {
+  content: "\ec3e";
+}
+.gi-plate-claw:before {
+  content: "\ec3f";
+}
+.gi-bulb:before {
+  content: "\ec40";
+}
+.gi-freedom-dove:before {
+  content: "\ec41";
+}
+.gi-squid-head:before {
+  content: "\ec42";
+}
+.gi-sun-radiations:before {
+  content: "\ec43";
+}
+.gi-tornado-discs:before {
+  content: "\ec44";
+}
+.gi-fizzing-flask:before {
+  content: "\ec45";
+}
+.gi-erlenmeyer:before {
+  content: "\ec46";
+}
+.gi-squid:before {
+  content: "\ec47";
+}
+.gi-vine-whip:before {
+  content: "\ec48";
+}
+.gi-zeus-sword:before {
+  content: "\ec49";
+}
+.gi-life-in-the-balance:before {
+  content: "\ec4a";
+}
+.gi-snowman:before {
+  content: "\ec4b";
+}
+.gi-bull:before {
+  content: "\ec4c";
+}
+.gi-lizard-tongue:before {
+  content: "\ec4d";
+}
+.gi-tron-arrow:before {
+  content: "\ec4e";
+}
+.gi-infested-mass:before {
+  content: "\ec4f";
+}
+.gi-spider-web:before {
+  content: "\ec50";
+}
+.gi-paper-arrow:before {
+  content: "\ec51";
+}
+.gi-electric-whip:before {
+  content: "\ec52";
+}
+.gi-wave-strike:before {
+  content: "\ec53";
+}
+.gi-mesh-ball:before {
+  content: "\ec54";
+}
+.gi-clout:before {
+  content: "\ec55";
+}
+.gi-sword-spin:before {
+  content: "\ec56";
+}
+.gi-double-dragon:before {
+  content: "\ec57";
+}
+.gi-coiling-curl:before {
+  content: "\ec58";
+}
+.gi-time-bomb:before {
+  content: "\ec59";
+}
+.gi-steelwing-emblem:before {
+  content: "\ec5a";
+}
+.gi-gaze:before {
+  content: "\ec5b";
+}
+.gi-winged-leg:before {
+  content: "\ec5c";
+}
+.gi-cyclops:before {
+  content: "\ec5d";
+}
+.gi-thunder-skull:before {
+  content: "\ec5e";
+}
+.gi-iron-mask:before {
+  content: "\ec5f";
+}
+.gi-behold:before {
+  content: "\ec60";
+}
+.gi-slicing-arrow:before {
+  content: "\ec61";
+}
+.gi-frontal-lobe:before {
+  content: "\ec62";
+}
+.gi-barbed-coil:before {
+  content: "\ec63";
+}
+.gi-vulture:before {
+  content: "\ec64";
+}
+.gi-fluffy-swirl:before {
+  content: "\ec65";
+}
+.gi-atomic-slashes:before {
+  content: "\ec66";
+}
+.gi-cracked-ball-dunk:before {
+  content: "\ec67";
+}
+.gi-tear-tracks:before {
+  content: "\ec68";
+}
+.gi-test-tubes:before {
+  content: "\ec69";
+}
+.gi-lyre:before {
+  content: "\ec6a";
+}
+.gi-shieldcomb:before {
+  content: "\ec6b";
+}
+.gi-claw-slashes:before {
+  content: "\ec6c";
+}
+.gi-tesla-coil:before {
+  content: "\ec6d";
+}
+.gi-pollen-dust:before {
+  content: "\ec6e";
+}
+.gi-jeweled-chalice:before {
+  content: "\ec6f";
+}
+.gi-justice-star:before {
+  content: "\ec70";
+}
+.gi-divergence:before {
+  content: "\ec71";
+}
+.gi-shoulder-scales:before {
+  content: "\ec72";
+}
+.gi-triple-yin:before {
+  content: "\ec73";
+}
+.gi-crumbling-ball:before {
+  content: "\ec74";
+}
+.gi-lightning-tear:before {
+  content: "\ec75";
+}
+.gi-telepathy:before {
+  content: "\ec76";
+}
+.gi-roast-chicken:before {
+  content: "\ec77";
+}
+.gi-magnet:before {
+  content: "\ec78";
+}
+.gi-stick-splitting:before {
+  content: "\ec79";
+}
+.gi-dripping-knife:before {
+  content: "\ec7a";
+}
+.gi-cannon-shot:before {
+  content: "\ec7b";
+}
+.gi-pawn:before {
+  content: "\ec7c";
+}
+.gi-rocket-flight:before {
+  content: "\ec7d";
+}
+.gi-bolt-saw:before {
+  content: "\ec7e";
+}
+.gi-automatic-sas:before {
+  content: "\ec7f";
+}
+.gi-fire-bowl:before {
+  content: "\ec80";
+}
+.gi-blunderbuss:before {
+  content: "\ec81";
+}
+.gi-crab-claw:before {
+  content: "\ec82";
+}
+.gi-daisy:before {
+  content: "\ec83";
+}
+.gi-james-bond-aperture:before {
+  content: "\ec84";
+}
+.gi-wavy-chains:before {
+  content: "\ec85";
+}
+.gi-blade-drag:before {
+  content: "\ec86";
+}
+.gi-cloudy-fork:before {
+  content: "\ec87";
+}
+.gi-hidden:before {
+  content: "\ec88";
+}
+.gi-triple-shells:before {
+  content: "\ec89";
+}
+.gi-fedora:before {
+  content: "\ec8a";
+}
+.gi-super-mushroom:before {
+  content: "\ec8b";
+}
+.gi-scorpion:before {
+  content: "\ec8c";
+}
+.gi-barbed-nails:before {
+  content: "\ec8d";
+}
+.gi-stone-axe:before {
+  content: "\ec8e";
+}
+.gi-fire-ray:before {
+  content: "\ec8f";
+}
+.gi-time-trap:before {
+  content: "\ec90";
+}
+.gi-skull-ring:before {
+  content: "\ec91";
+}
+.gi-spiked-mace:before {
+  content: "\ec92";
+}
+.gi-bottled-bolt:before {
+  content: "\ec93";
+}
+.gi-glass-shot:before {
+  content: "\ec94";
+}
+.gi-shatter:before {
+  content: "\ec95";
+}
+.gi-cracked-glass:before {
+  content: "\ec96";
+}
+.gi-cubes:before {
+  content: "\ec97";
+}
+.gi-fox-head:before {
+  content: "\ec98";
+}
+.gi-flash-grenade:before {
+  content: "\ec99";
+}
+.gi-jigsaw-piece:before {
+  content: "\ec9a";
+}
+.gi-alien-fire:before {
+  content: "\ec9b";
+}
+.gi-divert:before {
+  content: "\ec9c";
+}
+.gi-potion-ball:before {
+  content: "\ec9d";
+}
+.gi-dead-wood:before {
+  content: "\ec9e";
+}
+.gi-rolling-bomb:before {
+  content: "\ec9f";
+}
+.gi-unstable-orb:before {
+  content: "\eca0";
+}
+.gi-punch-blast:before {
+  content: "\eca1";
+}
+.gi-paw-heart:before {
+  content: "\eca2";
+}
+.gi-burst-blob:before {
+  content: "\eca3";
+}
+.gi-beast-eye:before {
+  content: "\eca4";
+}
+.gi-six-eyes:before {
+  content: "\eca5";
+}
+.gi-fire-axe:before {
+  content: "\eca6";
+}
+.gi-sea-dragon:before {
+  content: "\eca7";
+}
+.gi-heartburn:before {
+  content: "\eca8";
+}
+.gi-wine-glass:before {
+  content: "\eca9";
+}
+.gi-eskimo:before {
+  content: "\ecaa";
+}
+.gi-wolf-head:before {
+  content: "\ecab";
+}
+.gi-wind-hole:before {
+  content: "\ecac";
+}
+.gi-triple-beak:before {
+  content: "\ecad";
+}
+.gi-knife-fork:before {
+  content: "\ecae";
+}
+.gi-nailed-head:before {
+  content: "\ecaf";
+}
+.gi-profit:before {
+  content: "\ecb0";
+}
+.gi-linked-rings:before {
+  content: "\ecb1";
+}
+.gi-guillotine:before {
+  content: "\ecb2";
+}
+.gi-skid-mark:before {
+  content: "\ecb3";
+}
+.gi-hypodermic-test:before {
+  content: "\ecb4";
+}
+.gi-fishbone:before {
+  content: "\ecb5";
+}
+.gi-jetpack:before {
+  content: "\ecb6";
+}
+.gi-rogue:before {
+  content: "\ecb7";
+}
+.gi-floating-crystal:before {
+  content: "\ecb8";
+}
+.gi-large-wound:before {
+  content: "\ecb9";
+}
+.gi-wrapped-heart:before {
+  content: "\ecba";
+}
+.gi-lightning-shield:before {
+  content: "\ecbb";
+}
+.gi-conversation:before {
+  content: "\ecbc";
+}
+.gi-coma:before {
+  content: "\ecbd";
+}
+.gi-scarab-beetle:before {
+  content: "\ecbe";
+}
+.gi-crossed-air-flows:before {
+  content: "\ecbf";
+}
+.gi-crossed-axes:before {
+  content: "\ecc0";
+}
+.gi-leeching-worm:before {
+  content: "\ecc1";
+}
+.gi-lightning-dissipation:before {
+  content: "\ecc2";
+}
+.gi-emerald:before {
+  content: "\ecc3";
+}
+.gi-backstab:before {
+  content: "\ecc4";
+}
+.gi-mad-scientist:before {
+  content: "\ecc5";
+}
+.gi-helmet-head-shot:before {
+  content: "\ecc6";
+}
+.gi-sonic-screech:before {
+  content: "\ecc7";
+}
+.gi-pirate-grave:before {
+  content: "\ecc8";
+}
+.gi-bloody-stash:before {
+  content: "\ecc9";
+}
+.gi-punch:before {
+  content: "\ecca";
+}
+.gi-explosive-materials:before {
+  content: "\eccb";
+}
+.gi-hospital-cross:before {
+  content: "\eccc";
+}
+.gi-carnivore-mouth:before {
+  content: "\eccd";
+}
+.gi-anthem:before {
+  content: "\ecce";
+}
+.gi-quake-stomp:before {
+  content: "\eccf";
+}
+.gi-two-shadows:before {
+  content: "\ecd0";
+}
+.gi-rune-stone:before {
+  content: "\ecd1";
+}
+.gi-templar-heart:before {
+  content: "\ecd2";
+}
+.gi-ragged-wound:before {
+  content: "\ecd3";
+}
+.gi-vanilla-flower:before {
+  content: "\ecd4";
+}
+.gi-crown:before {
+  content: "\ecd5";
+}
+.gi-bowling-propulsion:before {
+  content: "\ecd6";
+}
+.gi-gooey-sword:before {
+  content: "\ecd7";
+}
+.gi-self-love:before {
+  content: "\ecd8";
+}
+.gi-broken-skull:before {
+  content: "\ecd9";
+}
+.gi-icicles-fence:before {
+  content: "\ecda";
+}
+.gi-lightning-spanner:before {
+  content: "\ecdb";
+}
+.gi-pill:before {
+  content: "\ecdc";
+}
+.gi-angel-outfit:before {
+  content: "\ecdd";
+}
+.gi-grim-reaper:before {
+  content: "\ecde";
+}
+.gi-hoof:before {
+  content: "\ecdf";
+}
+.gi-megabot:before {
+  content: "\ece0";
+}
+.gi-laser-precision:before {
+  content: "\ece1";
+}
+.gi-frozen-arrow:before {
+  content: "\ece2";
+}
+.gi-cargo-crane:before {
+  content: "\ece3";
+}
+.gi-black-bar:before {
+  content: "\ece4";
+}
+.gi-turd:before {
+  content: "\ece5";
+}
+.gi-fire-ace:before {
+  content: "\ece6";
+}
+.gi-white-tower:before {
+  content: "\ece7";
+}
+.gi-ifrit:before {
+  content: "\ece8";
+}
+.gi-lightning-storm:before {
+  content: "\ece9";
+}
+.gi-horned-helm:before {
+  content: "\ecea";
+}
+.gi-stone-throne:before {
+  content: "\eceb";
+}
+.gi-pointing:before {
+  content: "\ecec";
+}
+.gi-william-tell:before {
+  content: "\eced";
+}
+.gi-broken-shield:before {
+  content: "\ecee";
+}
+.gi-tooth:before {
+  content: "\ecef";
+}
+.gi-flaming-trident:before {
+  content: "\ecf0";
+}
+.gi-scales:before {
+  content: "\ecf1";
+}
+.gi-leaf-swirl:before {
+  content: "\ecf2";
+}
+.gi-twister:before {
+  content: "\ecf3";
+}
+.gi-radar-sweep:before {
+  content: "\ecf4";
+}
+.gi-fission:before {
+  content: "\ecf5";
+}
+.gi-anvil-impact:before {
+  content: "\ecf6";
+}
+.gi-ball-heart:before {
+  content: "\ecf7";
+}
+.gi-quill:before {
+  content: "\ecf8";
+}
+.gi-grab:before {
+  content: "\ecf9";
+}
+.gi-fire-dash:before {
+  content: "\ecfa";
+}
+.gi-mining:before {
+  content: "\ecfb";
+}
+.gi-bullets:before {
+  content: "\ecfc";
+}
+.gi-fruiting:before {
+  content: "\ecfd";
+}
+.gi-evil-bud:before {
+  content: "\ecfe";
+}
+.gi-cycle:before {
+  content: "\ecff";
+}
+.gi-dodging:before {
+  content: "\ed00";
+}
+.gi-crowned-explosion:before {
+  content: "\ed01";
+}
+.gi-carrion:before {
+  content: "\ed02";
+}
+.gi-angular-spider:before {
+  content: "\ed03";
+}
+.gi-boot-stomp:before {
+  content: "\ed04";
+}
+.gi-flying-flag:before {
+  content: "\ed05";
+}
+.gi-parmecia:before {
+  content: "\ed06";
+}
+.gi-scroll-unfurled:before {
+  content: "\ed07";
+}
+.gi-ghost-ally:before {
+  content: "\ed08";
+}
+.gi-cowled:before {
+  content: "\ed09";
+}
+.gi-letter-bomb:before {
+  content: "\ed0a";
+}
+.gi-goo-explosion:before {
+  content: "\ed0b";
+}
+.gi-templar-eye:before {
+  content: "\ed0c";
+}
+.gi-evil-book:before {
+  content: "\ed0d";
+}
+.gi-bird-limb:before {
+  content: "\ed0e";
+}
+.gi-pocket-bow:before {
+  content: "\ed0f";
+}
+.gi-missile-pod:before {
+  content: "\ed10";
+}
+.gi-root-tip:before {
+  content: "\ed11";
+}
+.gi-laurel-crown:before {
+  content: "\ed12";
+}
+.gi-target-shot:before {
+  content: "\ed13";
+}
+.gi-shield-reflect:before {
+  content: "\ed14";
+}
+.gi-palm:before {
+  content: "\ed15";
+}
+.gi-icebergs:before {
+  content: "\ed16";
+}
+.gi-spiral-bottle:before {
+  content: "\ed17";
+}
+.gi-fire-ring:before {
+  content: "\ed18";
+}
+.gi-bandage-roll:before {
+  content: "\ed19";
+}
+.gi-thorny-tentacle:before {
+  content: "\ed1a";
+}
+.gi-eruption:before {
+  content: "\ed1b";
+}
+.gi-burning-round-shot:before {
+  content: "\ed1c";
+}
+.gi-swan-breeze:before {
+  content: "\ed1d";
+}
+.gi-focused-lightning:before {
+  content: "\ed1e";
+}
+.gi-king:before {
+  content: "\ed1f";
+}
+.gi-nails:before {
+  content: "\ed20";
+}
+.gi-wavy-itinerary:before {
+  content: "\ed21";
+}
+.gi-shining-claw:before {
+  content: "\ed22";
+}
+.gi-overdose:before {
+  content: "\ed23";
+}
+.gi-evil-moon:before {
+  content: "\ed24";
+}
+.gi-hourglass:before {
+  content: "\ed25";
+}
+.gi-toad-teeth:before {
+  content: "\ed26";
+}
+.gi-zigzag-cage:before {
+  content: "\ed27";
+}
+.gi-star-sattelites:before {
+  content: "\ed28";
+}
+.gi-static:before {
+  content: "\ed29";
+}
+.gi-energise:before {
+  content: "\ed2a";
+}
+.gi-apple-seeds:before {
+  content: "\ed2b";
+}
+.gi-stomp:before {
+  content: "\ed2c";
+}
+.gi-razor-blade:before {
+  content: "\ed2d";
+}
+.gi-scythe:before {
+  content: "\ed2e";
+}
+.gi-hypersonic-bolt:before {
+  content: "\ed2f";
+}
+.gi-triple-claws:before {
+  content: "\ed30";
+}
+.gi-spiky-explosion:before {
+  content: "\ed31";
+}
+.gi-cracked-helm:before {
+  content: "\ed32";
+}
+.gi-dark-squad:before {
+  content: "\ed33";
+}
+.gi-screaming:before {
+  content: "\ed34";
+}
+.gi-trident:before {
+  content: "\ed35";
+}
+.gi-swords-emblem:before {
+  content: "\ed36";
+}
+.gi-black-cat:before {
+  content: "\ed37";
+}
+.gi-heavy-fighter:before {
+  content: "\ed38";
+}
+.gi-bomber:before {
+  content: "\ed39";
+}
+.gi-microscope:before {
+  content: "\ed3a";
+}
+.gi-computing:before {
+  content: "\ed3b";
+}
+.gi-amplitude:before {
+  content: "\ed3c";
+}
+.gi-military-ambulance:before {
+  content: "\ed3d";
+}
+.gi-biplane:before {
+  content: "\ed3e";
+}
+.gi-card-play:before {
+  content: "\ed3f";
+}
+.gi-trench-assault:before {
+  content: "\ed40";
+}
+.gi-bear-face:before {
+  content: "\ed41";
+}
+.gi-battery-75:before {
+  content: "\ed42";
+}
+.gi-battery-25:before {
+  content: "\ed43";
+}
+.gi-sound-waves:before {
+  content: "\ed44";
+}
+.gi-sight-disabled:before {
+  content: "\ed45";
+}
+.gi-pocket-watch:before {
+  content: "\ed46";
+}
+.gi-steyr-aug:before {
+  content: "\ed47";
+}
+.gi-retro-controller:before {
+  content: "\ed48";
+}
+.gi-tec-9:before {
+  content: "\ed49";
+}
+.gi-open-treasure-chest:before {
+  content: "\ed4a";
+}
+.gi-flatbed-covered:before {
+  content: "\ed4b";
+}
+.gi-trench-knife:before {
+  content: "\ed4c";
+}
+.gi-raise-skeleton:before {
+  content: "\ed4d";
+}
+.gi-atom:before {
+  content: "\ed4e";
+}
+.gi-donkey:before {
+  content: "\ed4f";
+}
+.gi-amputation:before {
+  content: "\ed50";
+}
+.gi-raise-zombie:before {
+  content: "\ed51";
+}
+.gi-p90:before {
+  content: "\ed52";
+}
+.gi-allied-star:before {
+  content: "\ed53";
+}
+.gi-c96:before {
+  content: "\ed54";
+}
+.gi-sunrise:before {
+  content: "\ed55";
+}
+.gi-castle:before {
+  content: "\ed56";
+}
+.gi-book-cover:before {
+  content: "\ed57";
+}
+.gi-horn-internal:before {
+  content: "\ed58";
+}
+.gi-lotus:before {
+  content: "\ed59";
+}
+.gi-minions:before {
+  content: "\ed5a";
+}
+.gi-transportation-rings:before {
+  content: "\ed5b";
+}
+.gi-love-injection:before {
+  content: "\ed5c";
+}
+.gi-feather:before {
+  content: "\ed5d";
+}
+.gi-bud:before {
+  content: "\ed5e";
+}
+.gi-desert-skull:before {
+  content: "\ed5f";
+}
+.gi-at-sea:before {
+  content: "\ed60";
+}
+.gi-crow-dive:before {
+  content: "\ed61";
+}
+.gi-fossil:before {
+  content: "\ed62";
+}
+.gi-saw-claw:before {
+  content: "\ed63";
+}
+.gi-thermometer-scale:before {
+  content: "\ed64";
+}
+.gi-curled-leaf:before {
+  content: "\ed65";
+}
+.gi-cool-spices:before {
+  content: "\ed66";
+}
+.gi-triple-lock:before {
+  content: "\ed67";
+}
+.gi-miracle-medecine:before {
+  content: "\ed68";
+}
+.gi-fire-wave:before {
+  content: "\ed69";
+}
+.gi-owl:before {
+  content: "\ed6a";
+}
+.gi-sabers-choc:before {
+  content: "\ed6b";
+}
+.gi-sewed-shell:before {
+  content: "\ed6c";
+}
+.gi-doctor-face:before {
+  content: "\ed6d";
+}
+.gi-visored-helm:before {
+  content: "\ed6e";
+}
+.gi-energy-breath:before {
+  content: "\ed6f";
+}
+.gi-drama-masks:before {
+  content: "\ed70";
+}
+.gi-belt-buckles:before {
+  content: "\ed71";
+}
+.gi-burning-blobs:before {
+  content: "\ed72";
+}
+.gi-circle-claws:before {
+  content: "\ed73";
+}
+.gi-sword-break:before {
+  content: "\ed74";
+}
+.gi-falling-leaf:before {
+  content: "\ed75";
+}
+.gi-trefoil-shuriken:before {
+  content: "\ed76";
+}
+.gi-spine-arrow:before {
+  content: "\ed77";
+}
+.gi-pine-tree:before {
+  content: "\ed78";
+}
+.gi-evil-hand:before {
+  content: "\ed79";
+}
+.gi-thrown-daggers:before {
+  content: "\ed7a";
+}
+.gi-goo-skull:before {
+  content: "\ed7b";
+}
+.gi-dove:before {
+  content: "\ed7c";
+}
+.gi-life-support:before {
+  content: "\ed7d";
+}
+.gi-squib:before {
+  content: "\ed7e";
+}
+.gi-needle-drill:before {
+  content: "\ed7f";
+}
+.gi-ram:before {
+  content: "\ed80";
+}
+.gi-anvil:before {
+  content: "\ed81";
+}
+.gi-cannister:before {
+  content: "\ed82";
+}
+.gi-bestial-fangs:before {
+  content: "\ed83";
+}
+.gi-dripping-blade:before {
+  content: "\ed84";
+}
+.gi-witch-flight:before {
+  content: "\ed85";
+}
+.gi-aerosol:before {
+  content: "\ed86";
+}
+.gi-relic-blade:before {
+  content: "\ed87";
+}
+.gi-rainbow-star:before {
+  content: "\ed88";
+}
+.gi-spotted-wound:before {
+  content: "\ed89";
+}
+.gi-beer-stein:before {
+  content: "\ed8a";
+}
+.gi-fluffy-flame:before {
+  content: "\ed8b";
+}
+.gi-eclipse-flare:before {
+  content: "\ed8c";
+}
+.gi-broadhead-arrow:before {
+  content: "\ed8d";
+}
+.gi-spiked-armor:before {
+  content: "\ed8e";
+}
+.gi-smash-arrows:before {
+  content: "\ed8f";
+}
+.gi-arrow-cluster:before {
+  content: "\ed90";
+}
+.gi-smoking-orb:before {
+  content: "\ed91";
+}
+.gi-dragon-spiral:before {
+  content: "\ed92";
+}
+.gi-spotted-arrowhead:before {
+  content: "\ed93";
+}
+.gi-sinusoidal-beam:before {
+  content: "\ed94";
+}
+.gi-imp-laugh:before {
+  content: "\ed95";
+}
+.gi-food-chain:before {
+  content: "\ed96";
+}
+.gi-bugle-call:before {
+  content: "\ed97";
+}
+.gi-winged-arrow:before {
+  content: "\ed98";
+}
+.gi-barbed-arrow:before {
+  content: "\ed99";
+}
+.gi-sattelite:before {
+  content: "\ed9a";
+}
+.gi-crossed-sabres:before {
+  content: "\ed9b";
+}
+.gi-vortex:before {
+  content: "\ed9c";
+}
+.gi-dna2:before {
+  content: "\ed9d";
+}
+.gi-double-shot:before {
+  content: "\ed9e";
+}
+.gi-broken-bone:before {
+  content: "\ed9f";
+}
+.gi-crystal-cluster:before {
+  content: "\eda0";
+}
+.gi-pawprint:before {
+  content: "\eda1";
+}
+.gi-scarecrow:before {
+  content: "\eda2";
+}
+.gi-swirl-ring:before {
+  content: "\eda3";
+}
+.gi-mushroom-gills:before {
+  content: "\eda4";
+}
+.gi-omega:before {
+  content: "\eda5";
+}
+.gi-tentacle-heart:before {
+  content: "\eda6";
+}
+.gi-sword-smithing:before {
+  content: "\eda7";
+}
+.gi-bird-claw:before {
+  content: "\eda8";
+}
+.gi-gift-trap:before {
+  content: "\eda9";
+}
+.gi-cut-diamond:before {
+  content: "\edaa";
+}
+.gi-poison-bottle:before {
+  content: "\edab";
+}
+.gi-reaper-scythe:before {
+  content: "\edac";
+}
+.gi-bubbling-flask:before {
+  content: "\edad";
+}
+.gi-evil-tree:before {
+  content: "\edae";
+}
+.gi-candle-flame:before {
+  content: "\edaf";
+}
+.gi-laser-warning:before {
+  content: "\edb0";
+}
+.gi-honeypot:before {
+  content: "\edb1";
+}
+.gi-diving-dagger:before {
+  content: "\edb2";
+}
+.gi-ringed-planet:before {
+  content: "\edb3";
+}
+.gi-twirly-flower:before {
+  content: "\edb4";
+}
+.gi-tread:before {
+  content: "\edb5";
+}
+.gi-staryu:before {
+  content: "\edb6";
+}
+.gi-peaks:before {
+  content: "\edb7";
+}
+.gi-aura:before {
+  content: "\edb8";
+}
+.gi-wrapping-star:before {
+  content: "\edb9";
+}
+.gi-gooey-impact:before {
+  content: "\edba";
+}
+.gi-fishing-net:before {
+  content: "\edbb";
+}
+.gi-terror:before {
+  content: "\edbc";
+}
+.gi-boots:before {
+  content: "\edbd";
+}
+.gi-stone-tower:before {
+  content: "\edbe";
+}
+.gi-curled-tentacle:before {
+  content: "\edbf";
+}
+.gi-screen-impact:before {
+  content: "\edc0";
+}
+.gi-wing-cloak:before {
+  content: "\edc1";
+}
+.gi-unlit-bomb:before {
+  content: "\edc2";
+}
+.gi-techno-heart:before {
+  content: "\edc3";
+}
+.gi-envelope:before {
+  content: "\edc4";
+}
+.gi-powder:before {
+  content: "\edc5";
+}
+.gi-magic-palm:before {
+  content: "\edc6";
+}
+.gi-haunting:before {
+  content: "\edc7";
+}
+.gi-branch-arrow:before {
+  content: "\edc8";
+}
+.gi-serrated-slash:before {
+  content: "\edc9";
+}
+.gi-dinosaur-rex:before {
+  content: "\edca";
+}
+.gi-dripping-honey:before {
+  content: "\edcb";
+}
+.gi-sparky-bomb:before {
+  content: "\edcc";
+}
+.gi-hanging-spider:before {
+  content: "\edcd";
+}
+.gi-tearing:before {
+  content: "\edce";
+}
+.gi-microscope-lens:before {
+  content: "\edcf";
+}
+.gi-halberd-shuriken:before {
+  content: "\edd0";
+}
+.gi-skull-crack:before {
+  content: "\edd1";
+}
+.gi-lizardman:before {
+  content: "\edd2";
+}
+.gi-teleport:before {
+  content: "\edd3";
+}
+.gi-sensuousness:before {
+  content: "\edd4";
+}
+.gi-rose:before {
+  content: "\edd5";
+}
+.gi-aerial-signal:before {
+  content: "\edd6";
+}
+.gi-engagement-ring:before {
+  content: "\edd7";
+}
+.gi-skeleton-inside:before {
+  content: "\edd8";
+}
+.gi-butterfly-warning:before {
+  content: "\edd9";
+}
+.gi-sword-hilt:before {
+  content: "\edda";
+}
+.gi-moebius-triangle:before {
+  content: "\eddb";
+}
+.gi-pirate-skull:before {
+  content: "\eddc";
+}
+.gi-barbute:before {
+  content: "\eddd";
+}
+.gi-moebius-star:before {
+  content: "\edde";
+}
+.gi-front-teeth:before {
+  content: "\eddf";
+}
+.gi-cog:before {
+  content: "\ede0";
+}
+.gi-auto-repair:before {
+  content: "\ede1";
+}
+.gi-robe:before {
+  content: "\ede2";
+}
+.gi-earth-spit:before {
+  content: "\ede3";
+}
+.gi-chalice-drops:before {
+  content: "\ede4";
+}
+.gi-lever:before {
+  content: "\ede5";
+}
+.gi-pig-face:before {
+  content: "\ede6";
+}
+.gi-monster-grasp:before {
+  content: "\ede7";
+}
+.gi-space-suit:before {
+  content: "\ede8";
+}
+.gi-triorb:before {
+  content: "\ede9";
+}
+.gi-bull-horns:before {
+  content: "\edea";
+}
+.gi-fast-arrow:before {
+  content: "\edeb";
+}
+.gi-cross-flare:before {
+  content: "\edec";
+}
+.gi-snow-bottle:before {
+  content: "\eded";
+}
+.gi-fire-bomb:before {
+  content: "\edee";
+}
+.gi-trade:before {
+  content: "\edef";
+}
+.gi-shiny-apple:before {
+  content: "\edf0";
+}
+.gi-metal-hand:before {
+  content: "\edf1";
+}
+.gi-balloons:before {
+  content: "\edf2";
+}
+.gi-shard-sword:before {
+  content: "\edf3";
+}
+.gi-winged-emblem:before {
+  content: "\edf4";
+}
+.gi-axe-swing:before {
+  content: "\edf5";
+}
+.gi-semi-closed-eye:before {
+  content: "\edf6";
+}
+.gi-book-aura:before {
+  content: "\edf7";
+}
+.gi-poker-hand:before {
+  content: "\edf8";
+}
+.gi-sharped-teeth-skull:before {
+  content: "\edf9";
+}
+.gi-viola:before {
+  content: "\edfa";
+}
+.gi-goo-spurt:before {
+  content: "\edfb";
+}
+.gi-eyestalk:before {
+  content: "\edfc";
+}
+.gi-chewed-heart:before {
+  content: "\edfd";
+}
+.gi-crystal-shine:before {
+  content: "\edfe";
+}
+.gi-black-hole-bolas:before {
+  content: "\edff";
+}
+.gi-concentric-crescents:before {
+  content: "\ee00";
+}
+.gi-charm:before {
+  content: "\ee01";
+}
+.gi-snake-bite:before {
+  content: "\ee02";
+}
+.gi-round-struck:before {
+  content: "\ee03";
+}
+.gi-vomiting:before {
+  content: "\ee04";
+}
+.gi-magic-portal:before {
+  content: "\ee05";
+}
+.gi-web-spit:before {
+  content: "\ee06";
+}
+.gi-thrown-spear:before {
+  content: "\ee07";
+}
+.gi-spinal-coil:before {
+  content: "\ee08";
+}
+.gi-back-forth:before {
+  content: "\ee09";
+}
+.gi-shattered-glass:before {
+  content: "\ee0a";
+}
+.gi-explosion-rays:before {
+  content: "\ee0b";
+}
+.gi-stone-tablet:before {
+  content: "\ee0c";
+}
+.gi-burning-eye:before {
+  content: "\ee0d";
+}
+.gi-body-swapping:before {
+  content: "\ee0e";
+}
+.gi-broken-heart-zone:before {
+  content: "\ee0f";
+}
+.gi-triple-needle:before {
+  content: "\ee10";
+}
+.gi-tumor:before {
+  content: "\ee11";
+}
+.gi-love-howl:before {
+  content: "\ee12";
+}
+.gi-mountaintop:before {
+  content: "\ee13";
+}
+.gi-sly:before {
+  content: "\ee14";
+}
+.gi-worm-mouth:before {
+  content: "\ee15";
+}
+.gi-stone-crafting:before {
+  content: "\ee16";
+}
+.gi-harpoon-chain:before {
+  content: "\ee17";
+}
+.gi-ink-swirl:before {
+  content: "\ee18";
+}
+.gi-kindle:before {
+  content: "\ee19";
+}
+.gi-fulguro-punch:before {
+  content: "\ee1a";
+}
+.gi-architect-mask:before {
+  content: "\ee1b";
+}
+.gi-skull-shield:before {
+  content: "\ee1c";
+}
+.gi-daemon-skull:before {
+  content: "\ee1d";
+}
+.gi-insect-jaws:before {
+  content: "\ee1e";
+}
+.gi-sparkling-sabre:before {
+  content: "\ee1f";
+}
+.gi-oak:before {
+  content: "\ee20";
+}
+.gi-sinking-trap:before {
+  content: "\ee21";
+}
+.gi-minigun:before {
+  content: "\ee22";
+}
+.gi-paw-front:before {
+  content: "\ee23";
+}
+.gi-winged-shield:before {
+  content: "\ee24";
+}
+.gi-frayed-arrow:before {
+  content: "\ee25";
+}
+.gi-rough-wound:before {
+  content: "\ee26";
+}
+.gi-match-head:before {
+  content: "\ee27";
+}
+.gi-entangled-typhoon:before {
+  content: "\ee28";
+}
+.gi-croc-sword:before {
+  content: "\ee29";
+}
+.gi-muscle-fat:before {
+  content: "\ee2a";
+}
+.gi-spear-hook:before {
+  content: "\ee2b";
+}
+.gi-fragmented-sword:before {
+  content: "\ee2c";
+}
+.gi-jellyfish:before {
+  content: "\ee2d";
+}
+.gi-plastron:before {
+  content: "\ee2e";
+}
+.gi-tied-scroll:before {
+  content: "\ee2f";
+}
+.gi-tentacurl:before {
+  content: "\ee30";
+}
+.gi-striking-diamonds:before {
+  content: "\ee31";
+}
+.gi-unlocking:before {
+  content: "\ee32";
+}
+.gi-cut-palm:before {
+  content: "\ee33";
+}
+.gi-corner-explosion:before {
+  content: "\ee34";
+}
+.gi-wolverine-claws:before {
+  content: "\ee35";
+}
+.gi-pointy-hat:before {
+  content: "\ee36";
+}
+.gi-sunken-eye:before {
+  content: "\ee37";
+}
+.gi-totem-mask:before {
+  content: "\ee38";
+}
+.gi-galleon:before {
+  content: "\ee39";
+}
+.gi-raven:before {
+  content: "\ee3a";
+}
+.gi-beveled-star:before {
+  content: "\ee3b";
+}
+.gi-rally-the-troops:before {
+  content: "\ee3c";
+}
+.gi-condyl.gi-skull:before {
+  content: "\ee3d";
+}
+.gi-masked-spider:before {
+  content: "\ee3e";
+}
+.gi-checked-shield:before {
+  content: "\ee3f";
+}
+.gi-winged-sword:before {
+  content: "\ee40";
+}
+.gi-cheese-wedge:before {
+  content: "\ee41";
+}
+.gi-flaming-arrow:before {
+  content: "\ee42";
+}
+.gi-target-arrows:before {
+  content: "\ee43";
+}
+.gi-ion-cannon-blast:before {
+  content: "\ee44";
+}
+.gi-jawbone:before {
+  content: "\ee45";
+}
+.gi-air-zigzag:before {
+  content: "\ee46";
+}
+.gi-echo-ripples:before {
+  content: "\ee47";
+}
+.gi-assassin-pocket:before {
+  content: "\ee48";
+}
+.gi-brain-stem:before {
+  content: "\ee49";
+}
+.gi-skull-signet:before {
+  content: "\ee4a";
+}
+.gi-diablo-skull:before {
+  content: "\ee4b";
+}
+.gi-moon-claws:before {
+  content: "\ee4c";
+}
+.gi-boxing-glove:before {
+  content: "\ee4d";
+}
+.gi-sharp-crown:before {
+  content: "\ee4e";
+}
+.gi-pill-drop:before {
+  content: "\ee4f";
+}
+.gi-elderberry:before {
+  content: "\ee50";
+}
+.gi-medal:before {
+  content: "\ee51";
+}
+.gi-internal-injury:before {
+  content: "\ee52";
+}
+.gi-frozen-block:before {
+  content: "\ee53";
+}
+.gi-missile-mech:before {
+  content: "\ee54";
+}
+.gi-tank:before {
+  content: "\ee55";
+}
+.gi-paper-lantern:before {
+  content: "\ee56";
+}
+.gi-pumpkin-lantern:before {
+  content: "\ee57";
+}
+.gi-glowing-hands:before {
+  content: "\ee58";
+}
+.gi-piece-skull:before {
+  content: "\ee59";
+}
+.gi-ice-shield:before {
+  content: "\ee5a";
+}
+.gi-spiked-shell:before {
+  content: "\ee5b";
+}
+.gi-explosive-meeting:before {
+  content: "\ee5c";
+}
+.gi-ankh:before {
+  content: "\ee5d";
+}
+.gi-shark-jaws:before {
+  content: "\ee5e";
+}
+.gi-orbital:before {
+  content: "\ee5f";
+}
+.gi-supersonic-bullet:before {
+  content: "\ee60";
+}
+.gi-scorpion-tail:before {
+  content: "\ee61";
+}
+.gi-meat-cleaver:before {
+  content: "\ee62";
+}
+.gi-land-mine:before {
+  content: "\ee63";
+}
+.gi-cupidon-arrow:before {
+  content: "\ee64";
+}
+.gi-whip:before {
+  content: "\ee65";
+}
+.gi-afterburn:before {
+  content: "\ee66";
+}
+.gi-pokecog:before {
+  content: "\ee67";
+}
+.gi-crested-helmet:before {
+  content: "\ee68";
+}
+.gi-striking-splinter:before {
+  content: "\ee69";
+}
+.gi-skull-mask:before {
+  content: "\ee6a";
+}
+.gi-lightning-frequency:before {
+  content: "\ee6b";
+}
+.gi-armadillo-tail:before {
+  content: "\ee6c";
+}
+.gi-swan:before {
+  content: "\ee6d";
+}
+.gi-high-five:before {
+  content: "\ee6e";
+}
+.gi-paper-bomb:before {
+  content: "\ee6f";
+}
+.gi-andromeda-chain:before {
+  content: "\ee70";
+}
+.gi-heart-inside:before {
+  content: "\ee71";
+}
+.gi-butterfly:before {
+  content: "\ee72";
+}
+.gi-foot-trip:before {
+  content: "\ee73";
+}
+.gi-spiked-snail:before {
+  content: "\ee74";
+}
+.gi-hunting-horn:before {
+  content: "\ee75";
+}
+.gi-autogun:before {
+  content: "\ee76";
+}
+.gi-drop:before {
+  content: "\ee77";
+}
+.gi-heart-drop:before {
+  content: "\ee78";
+}
+.gi-imprisoned:before {
+  content: "\ee79";
+}
+.gi-bubbles:before {
+  content: "\ee7a";
+}
+.gi-footprint:before {
+  content: "\ee7b";
+}
+.gi-hood:before {
+  content: "\ee7c";
+}
+.gi-bolas:before {
+  content: "\ee7d";
+}
+.gi-divided-spiral:before {
+  content: "\ee7e";
+}
+.gi-cartwheel:before {
+  content: "\ee7f";
+}
+.gi-cross-mark:before {
+  content: "\ee80";
+}
+.gi-forward-field:before {
+  content: "\ee81";
+}
+.gi-parachute:before {
+  content: "\ee82";
+}
+.gi-spiked-collar:before {
+  content: "\ee83";
+}
+.gi-water-bolt:before {
+  content: "\ee84";
+}
+.gi-spoon:before {
+  content: "\ee85";
+}
+.gi-one-eyed:before {
+  content: "\ee86";
+}
+.gi-trefoil-lily:before {
+  content: "\ee87";
+}
+.gi-drill:before {
+  content: "\ee88";
+}
+.gi-wasp-sting:before {
+  content: "\ee89";
+}
+.gi-static-waves:before {
+  content: "\ee8a";
+}
+.gi-thunder-blade:before {
+  content: "\ee8b";
+}
+.gi-three-keys:before {
+  content: "\ee8c";
+}
+.gi-cannon:before {
+  content: "\ee8d";
+}
+.gi-gooey-daemon:before {
+  content: "\ee8e";
+}
+.gi-snowing:before {
+  content: "\ee8f";
+}
+.gi-shadow-grasp:before {
+  content: "\ee90";
+}
+.gi-barbed-sun:before {
+  content: "\ee91";
+}
+.gi-scar-wound:before {
+  content: "\ee92";
+}
+.gi-fragrance:before {
+  content: "\ee93";
+}
+.gi-relationship-bounds:before {
+  content: "\ee94";
+}
+.gi-death-note:before {
+  content: "\ee95";
+}
+.gi-gluttony:before {
+  content: "\ee96";
+}
+.gi-egg-clutch:before {
+  content: "\ee97";
+}
+.gi-eagle-emblem:before {
+  content: "\ee98";
+}
+.gi-brandy-bottle:before {
+  content: "\ee99";
+}
+.gi-artificial-hive:before {
+  content: "\ee9a";
+}
+.gi-cracked-mask:before {
+  content: "\ee9b";
+}
+.gi-spectacles:before {
+  content: "\ee9c";
+}
+.gi-laserburn:before {
+  content: "\ee9d";
+}
+.gi-vine-leaf:before {
+  content: "\ee9e";
+}
+.gi-lantern:before {
+  content: "\ee9f";
+}
+.gi-hydra:before {
+  content: "\eea0";
+}
+.gi-bat-wing:before {
+  content: "\eea1";
+}
+.gi-pentagram-rose:before {
+  content: "\eea2";
+}
+.gi-spoted-flower:before {
+  content: "\eea3";
+}
+.gi-wizard-staff:before {
+  content: "\eea4";
+}
+.gi-backup:before {
+  content: "\eea5";
+}
+.gi-lamprey-mouth:before {
+  content: "\eea6";
+}
+.gi-heavy-rain:before {
+  content: "\eea7";
+}
+.gi-circle-sparks:before {
+  content: "\eea8";
+}
+.gi-scale-mail:before {
+  content: "\eea9";
+}
+.gi-barefoot:before {
+  content: "\eeaa";
+}
+.gi-broken-tablet:before {
+  content: "\eeab";
+}
+.gi-saber-slash:before {
+  content: "\eeac";
+}
+.gi-oppression:before {
+  content: "\eead";
+}
+.gi-fleshy-mass:before {
+  content: "\eeae";
+}
+.gi-spray:before {
+  content: "\eeaf";
+}
+.gi-frostfire:before {
+  content: "\eeb0";
+}
+.gi-stone-block:before {
+  content: "\eeb1";
+}
+.gi-bright-explosion:before {
+  content: "\eeb2";
+}
+.gi-embryo:before {
+  content: "\eeb3";
+}
+.gi-slavery-whip:before {
+  content: "\eeb4";
+}
+.gi-queen-crown:before {
+  content: "\eeb5";
+}
+.gi-field:before {
+  content: "\eeb6";
+}
+.gi-royal-love:before {
+  content: "\eeb7";
+}
+.gi-chemical-arrow:before {
+  content: "\eeb8";
+}
+.gi-psychic-waves:before {
+  content: "\eeb9";
+}
+.gi-rocket:before {
+  content: "\eeba";
+}
+.gi-cannon-ball:before {
+  content: "\eebb";
+}
+.gi-flame-tunnel:before {
+  content: "\eebc";
+}
+.gi-perfume-bottle:before {
+  content: "\eebd";
+}
+.gi-padlock:before {
+  content: "\eebe";
+}
+.gi-spiked-halo:before {
+  content: "\eebf";
+}
+.gi-ray-gun:before {
+  content: "\eec0";
+}
+.gi-cubeforce:before {
+  content: "\eec1";
+}
+.gi-spiky-field:before {
+  content: "\eec2";
+}
+.gi-bridge:before {
+  content: "\eec3";
+}
+.gi-circular-sawblade:before {
+  content: "\eec4";
+}
+.gi-materials-science:before {
+  content: "\eec5";
+}
+.gi-saber-tooth:before {
+  content: "\eec6";
+}
+.gi-oat:before {
+  content: "\eec7";
+}
+.gi-desk-lamp:before {
+  content: "\eec8";
+}
+.gi-swirl-string:before {
+  content: "\eec9";
+}
+.gi-long-antennae-bug:before {
+  content: "\eeca";
+}
+.gi-dead-eye:before {
+  content: "\eecb";
+}
+.gi-chopped-skull:before {
+  content: "\eecc";
+}
+.gi-crystal-wand:before {
+  content: "\eecd";
+}
+.gi-spoutnik:before {
+  content: "\eece";
+}
+.gi-surprised-skull:before {
+  content: "\eecf";
+}
+.gi-candle-holder:before {
+  content: "\eed0";
+}
+.gi-folded-paper:before {
+  content: "\eed1";
+}
+.gi-heart-organ:before {
+  content: "\eed2";
+}
+.gi-duality-mask:before {
+  content: "\eed3";
+}
+.gi-run:before {
+  content: "\eed4";
+}
+.gi-cobweb:before {
+  content: "\eed5";
+}
+.gi-screwdriver:before {
+  content: "\eed6";
+}
+.gi-candlebright:before {
+  content: "\eed7";
+}
+.gi-meditation:before {
+  content: "\eed8";
+}
+.gi-two-feathers:before {
+  content: "\eed9";
+}
+.gi-light-bulb:before {
+  content: "\eeda";
+}
+.gi-vine-flower:before {
+  content: "\eedb";
+}
+.gi-small-fire:before {
+  content: "\eedc";
+}
+.gi-pumpkin-mask:before {
+  content: "\eedd";
+}
+.gi-bordered-shield:before {
+  content: "\eede";
+}
+.gi-arrow-flights:before {
+  content: "\eedf";
+}
+.gi-celebration-fire:before {
+  content: "\eee0";
+}
+.gi-paranoia:before {
+  content: "\eee1";
+}
+.gi-paw:before {
+  content: "\eee2";
+}
+.gi-heart-bottle:before {
+  content: "\eee3";
+}
+.gi-raining:before {
+  content: "\eee4";
+}
+.gi-gunshot:before {
+  content: "\eee5";
+}
+.gi-candle-skull:before {
+  content: "\eee6";
+}
+.gi-wooden-door:before {
+  content: "\eee7";
+}
+.gi-gem-chain:before {
+  content: "\eee8";
+}
+.gi-fluffy-wing:before {
+  content: "\eee9";
+}
+.gi-bee:before {
+  content: "\eeea";
+}
+.gi-internal-organ:before {
+  content: "\eeeb";
+}
+.gi-dig-dug:before {
+  content: "\eeec";
+}
+.gi-crossed-claws:before {
+  content: "\eeed";
+}
+.gi-snake:before {
+  content: "\eeee";
+}
+.gi-lightning-saber:before {
+  content: "\eeef";
+}
+.gi-candle-light:before {
+  content: "\eef0";
+}
+.gi-clockwork:before {
+  content: "\eef1";
+}
+.gi-fireball:before {
+  content: "\eef2";
+}
+.gi-laurels:before {
+  content: "\eef3";
+}
+.gi-thrown-knife:before {
+  content: "\eef4";
+}
+.gi-ze.gi-shield:before {
+  content: "\eef5";
+}
+.gi-lightning-bow:before {
+  content: "\eef6";
+}
+.gi-dripping-sword:before {
+  content: "\eef7";
+}
+.gi-ex.gi-lucid:before {
+  content: "\eef8";
+}
+.gi-unstable-projectile:before {
+  content: "\eef9";
+}
+.gi-compass:before {
+  content: "\eefa";
+}
+.gi-honeycomb:before {
+  content: "\eefb";
+}
+.gi-cracked-disc:before {
+  content: "\eefc";
+}
+.gi-croc-jaws:before {
+  content: "\eefd";
+}
+.gi-aerodynamic-harpoon:before {
+  content: "\eefe";
+}
+.gi-scalpel:before {
+  content: "\eeff";
+}
+.gi-turtle-shell:before {
+  content: "\ef00";
+}
+.gi-gear-hammer:before {
+  content: "\ef01";
+}
+.gi-sands-of-time:before {
+  content: "\ef02";
+}
+.gi-barbed-wire:before {
+  content: "\ef03";
+}
+.gi-thrown-charcoal:before {
+  content: "\ef04";
+}
+.gi-splashy-stream:before {
+  content: "\ef05";
+}
+.gi-incisors:before {
+  content: "\ef06";
+}
+.gi-brainstorm:before {
+  content: "\ef07";
+}
+.gi-axe-in-stump:before {
+  content: "\ef08";
+}
+.gi-lit-candelabra:before {
+  content: "\ef09";
+}
+.gi-spade:before {
+  content: "\ef0a";
+}
+.gi-firework-rocket:before {
+  content: "\ef0b";
+}
+.gi-beam-wake:before {
+  content: "\ef0c";
+}
+.gi-needle-jaws:before {
+  content: "\ef0d";
+}
+.gi-crossed-pistols:before {
+  content: "\ef0e";
+}
+.gi-caged-ball:before {
+  content: "\ef0f";
+}
+.gi-interleaved-arrows:before {
+  content: "\ef10";
+}
+.gi-foam:before {
+  content: "\ef11";
+}
+.gi-comet-spark:before {
+  content: "\ef12";
+}
+.gi-spade-skull:before {
+  content: "\ef13";
+}
+.gi-gavel:before {
+  content: "\ef14";
+}
+.gi-flowers:before {
+  content: "\ef15";
+}
+.gi-water-splash:before {
+  content: "\ef16";
+}
+.gi-totem-head:before {
+  content: "\ef17";
+}
+.gi-cold-heart:before {
+  content: "\ef18";
+}
+.gi-sheikah-eye:before {
+  content: "\ef19";
+}
+.gi-flame-spin:before {
+  content: "\ef1a";
+}
+.gi-spiral-shell:before {
+  content: "\ef1b";
+}
+.gi-groundbreaker:before {
+  content: "\ef1c";
+}
+.gi-impact-point:before {
+  content: "\ef1d";
+}
+.gi-dragon-breath:before {
+  content: "\ef1e";
+}
+.gi-maggot:before {
+  content: "\ef1f";
+}
+.gi-double-ringed-orb:before {
+  content: "\ef20";
+}
+.gi-hy.gi-shot:before {
+  content: "\ef21";
+}
+.gi-hatchets:before {
+  content: "\ef22";
+}
+.gi-tornado:before {
+  content: "\ef23";
+}
+.gi-crown-of-thorns:before {
+  content: "\ef24";
+}
+.gi-temptation:before {
+  content: "\ef25";
+}
+.gi-jigsaw-box:before {
+  content: "\ef26";
+}
+.gi-middle-arrow:before {
+  content: "\ef27";
+}
+.gi-bleeding-eye:before {
+  content: "\ef28";
+}
+.gi-big-wave:before {
+  content: "\ef29";
+}
+.gi-martini:before {
+  content: "\ef2a";
+}
+.gi-thunder-struck:before {
+  content: "\ef2b";
+}
+.gi-sprout:before {
+  content: "\ef2c";
+}
+.gi-strafe:before {
+  content: "\ef2d";
+}
+.gi-blade-bite:before {
+  content: "\ef2e";
+}
+.gi-thunderball:before {
+  content: "\ef2f";
+}
+.gi-cracked-alien-skull:before {
+  content: "\ef30";
+}
+.gi-glass-heart:before {
+  content: "\ef31";
+}
+.gi-minotaur:before {
+  content: "\ef32";
+}
+.gi-fire-breath:before {
+  content: "\ef33";
+}
+.gi-diagram:before {
+  content: "\ef34";
+}
+.gi-dwarf-helmet:before {
+  content: "\ef35";
+}
+.gi-dwarf-king:before {
+  content: "\ef36";
+}
+.gi-damaged-house:before {
+  content: "\ef37";
+}
+.gi-artillery-shell:before {
+  content: "\ef38";
+}
+.gi-poppy:before {
+  content: "\ef39";
+}
+.gi-lost-limb:before {
+  content: "\ef3a";
+}
+.gi-field-gun:before {
+  content: "\ef3b";
+}
+.gi-battery-minus:before {
+  content: "\ef3c";
+}
+.gi-battery-plus:before {
+  content: "\ef3d";
+}
+.gi-battery-100:before {
+  content: "\ef3e";
+}
+.gi-battery-0:before {
+  content: "\ef3f";
+}
+.gi-stiletto:before {
+  content: "\ef40";
+}
+.gi-gas-mask:before {
+  content: "\ef41";
+}
+.gi-steel-claws:before {
+  content: "\ef42";
+}
+.gi-molecule:before {
+  content: "\ef43";
+}
+.gi-horse-head:before {
+  content: "\ef44";
+}
+.gi-rss:before {
+  content: "\ef45";
+}
+.gi-brutal-helm:before {
+  content: "\ef46";
+}
+.gi-mite-alt:before {
+  content: "\ef47";
+}
+.gi-spider-face:before {
+  content: "\ef48";
+}
+.gi-card-7-diamonds:before {
+  content: "\ef49";
+}
+.gi-card-5-hearts:before {
+  content: "\ef4a";
+}
+.gi-card-4-hearts:before {
+  content: "\ef4b";
+}
+.gi-card-5-clubs:before {
+  content: "\ef4c";
+}
+.gi-card-queen-diamonds:before {
+  content: "\ef4d";
+}
+.gi-card-4-spades:before {
+  content: "\ef4e";
+}
+.gi-card-2-hearts:before {
+  content: "\ef4f";
+}
+.gi-card-6-diamonds:before {
+  content: "\ef50";
+}
+.gi-card-10-hearts:before {
+  content: "\ef51";
+}
+.gi-card-8-diamonds:before {
+  content: "\ef52";
+}
+.gi-card-ace-clubs:before {
+  content: "\ef53";
+}
+.gi-card-queen-hearts:before {
+  content: "\ef54";
+}
+.gi-abstract-051:before {
+  content: "\ef55";
+}
+.gi-abstract-093:before {
+  content: "\ef56";
+}
+.gi-abstract-059:before {
+  content: "\ef57";
+}
+.gi-abstract-035:before {
+  content: "\ef58";
+}
+.gi-abstract-006:before {
+  content: "\ef59";
+}
+.gi-abstract-070:before {
+  content: "\ef5a";
+}
+.gi-abstract-120:before {
+  content: "\ef5b";
+}
+.gi-abstract-117:before {
+  content: "\ef5c";
+}
+.gi-abstract-112:before {
+  content: "\ef5d";
+}
+.gi-abstract-089:before {
+  content: "\ef5e";
+}
+.gi-abstract-037:before {
+  content: "\ef5f";
+}
+.gi-abstract-048:before {
+  content: "\ef60";
+}
+.gi-abstract-002:before {
+  content: "\ef61";
+}
+.gi-abstract-036:before {
+  content: "\ef62";
+}
+.gi-abstract-060:before {
+  content: "\ef63";
+}
+.gi-abstract-050:before {
+  content: "\ef64";
+}
+.gi-abstract-008:before {
+  content: "\ef65";
+}
+.gi-abstract-040:before {
+  content: "\ef66";
+}
+.gi-abstract-115:before {
+  content: "\ef67";
+}
+.gi-abstract-069:before {
+  content: "\ef68";
+}
+.gi-abstract-018:before {
+  content: "\ef69";
+}
+.gi-abstract-010:before {
+  content: "\ef6a";
+}
+.gi-abstract-074:before {
+  content: "\ef6b";
+}
+.gi-abstract-084:before {
+  content: "\ef6c";
+}
+.gi-abstract-121:before {
+  content: "\ef6d";
+}
+.gi-abstract-029:before {
+  content: "\ef6e";
+}
+.gi-abstract-113:before {
+  content: "\ef6f";
+}
+.gi-abstract-083:before {
+  content: "\ef70";
+}
+.gi-abstract-025:before {
+  content: "\ef71";
+}
+.gi-heart-minus:before {
+  content: "\ef72";
+}
+.gi-milk-carton:before {
+  content: "\ef73";
+}
+.gi-police-badge:before {
+  content: "\ef74";
+}
+.gi-play-button:before {
+  content: "\ef75";
+}
+.gi-pause-button:before {
+  content: "\ef76";
+}
+.gi-card-random:before {
+  content: "\ef77";
+}
+.gi-ore:before {
+  content: "\ef78";
+}
+.gi-minerals:before {
+  content: "\ef79";
+}
+.gi-forward-sun:before {
+  content: "\ef7a";
+}
+.gi-ninja-star:before {
+  content: "\ef7b";
+}
+.gi-pistol-gun:before {
+  content: "\ef7c";
+}
+.gi-strawberry:before {
+  content: "\ef7d";
+}
+.gi-elf-ear:before {
+  content: "\ef7e";
+}
+.gi-cryo-chamber:before {
+  content: "\ef7f";
+}
+.gi-drinking:before {
+  content: "\ef80";
+}
+.gi-oak-leaf:before {
+  content: "\ef81";
+}
+.gi-matryoshka-dolls:before {
+  content: "\ef82";
+}
+.gi-babyfoot-players:before {
+  content: "\ef83";
+}
+.gi-up-card:before {
+  content: "\ef84";
+}
+.gi-shinto-shrine:before {
+  content: "\ef85";
+}
+.gi-hole-ladder:before {
+  content: "\ef86";
+}
+.gi-ufo:before {
+  content: "\ef87";
+}
+.gi-boulder-dash:before {
+  content: "\ef88";
+}
+.gi-sverd-i-fjell:before {
+  content: "\ef89";
+}
+.gi-tap:before {
+  content: "\ef8a";
+}
+.gi-crucifix:before {
+  content: "\ef8b";
+}
+.gi-gamepad:before {
+  content: "\ef8c";
+}
+.gi-monk-face:before {
+  content: "\ef8d";
+}
+.gi-sun-cloud:before {
+  content: "\ef8e";
+}
+.gi-camargue-cross:before {
+  content: "\ef8f";
+}
+.gi-plug:before {
+  content: "\ef90";
+}
+.gi-bo:before {
+  content: "\ef91";
+}
+.gi-love-letter:before {
+  content: "\ef92";
+}
+.gi-watchtower:before {
+  content: "\ef93";
+}
+.gi-feline:before {
+  content: "\ef94";
+}
+.gi-steampunk-goggles:before {
+  content: "\ef95";
+}
+.gi-fox-tail:before {
+  content: "\ef96";
+}
+.gi-lasso:before {
+  content: "\ef97";
+}
+.gi-oil-pump:before {
+  content: "\ef98";
+}
+.gi-dutch-bike:before {
+  content: "\ef99";
+}
+.gi-porcelain-vase:before {
+  content: "\ef9a";
+}
+.gi-powder-bag:before {
+  content: "\ef9b";
+}
+.gi-loincloth:before {
+  content: "\ef9c";
+}
+.gi-factory:before {
+  content: "\ef9d";
+}
+.gi-ninja-armor:before {
+  content: "\ef9e";
+}
+.gi-boss-key:before {
+  content: "\ef9f";
+}
+.gi-podium-third:before {
+  content: "\efa0";
+}
+.gi-rabbit:before {
+  content: "\efa1";
+}
+.gi-skull-staff:before {
+  content: "\efa2";
+}
+.gi-stone-bust:before {
+  content: "\efa3";
+}
+.gi-think:before {
+  content: "\efa4";
+}
+.gi-arm:before {
+  content: "\efa5";
+}
+.gi-high-grass:before {
+  content: "\efa6";
+}
+.gi-jupiter:before {
+  content: "\efa7";
+}
+.gi-farmer:before {
+  content: "\efa8";
+}
+.gi-pendulum-swing:before {
+  content: "\efa9";
+}
+.gi-scooter:before {
+  content: "\efaa";
+}
+.gi-udder:before {
+  content: "\efab";
+}
+.gi-stabbed-note:before {
+  content: "\efac";
+}
+.gi-closed-barbute:before {
+  content: "\efad";
+}
+.gi-viking-church:before {
+  content: "\efae";
+}
+.gi-coal-wagon:before {
+  content: "\efaf";
+}
+.gi-whale-tail:before {
+  content: "\efb0";
+}
+.gi-eating:before {
+  content: "\efb1";
+}
+.gi-kimono:before {
+  content: "\efb2";
+}
+.gi-paper-plane:before {
+  content: "\efb3";
+}
+.gi-knot:before {
+  content: "\efb4";
+}
+.gi-olive:before {
+  content: "\efb5";
+}
+.gi-paint-brush:before {
+  content: "\efb6";
+}
+.gi-jerrycan:before {
+  content: "\efb7";
+}
+.gi-dough-roller:before {
+  content: "\efb8";
+}
+.gi-stone-bridge:before {
+  content: "\efb9";
+}
+.gi-pool-dive:before {
+  content: "\efba";
+}
+.gi-gas-pump:before {
+  content: "\efbb";
+}
+.gi-spear-feather:before {
+  content: "\efbc";
+}
+.gi-star-gate:before {
+  content: "\efbd";
+}
+.gi-missile-launcher:before {
+  content: "\efbe";
+}
+.gi-baby-face:before {
+  content: "\efbf";
+}
+.gi-viking-helmet:before {
+  content: "\efc0";
+}
+.gi-g-clef:before {
+  content: "\efc1";
+}
+.gi-headphones:before {
+  content: "\efc2";
+}
+.gi-fencer:before {
+  content: "\efc3";
+}
+.gi-beer-bottle:before {
+  content: "\efc4";
+}
+.gi-clapperboard:before {
+  content: "\efc5";
+}
+.gi-hexagonal-nut:before {
+  content: "\efc6";
+}
+.gi-iceberg:before {
+  content: "\efc7";
+}
+.gi-wheelbarrow:before {
+  content: "\efc8";
+}
+.gi-tribal-pendant:before {
+  content: "\efc9";
+}
+.gi-freemasonry:before {
+  content: "\efca";
+}
+.gi-mecha-mask:before {
+  content: "\efcb";
+}
+.gi-d-meeple:before {
+  content: "\efcc";
+}
+.gi-coliseum:before {
+  content: "\efcd";
+}
+.gi-tongue:before {
+  content: "\efce";
+}
+.gi-striped-sun:before {
+  content: "\efcf";
+}
+.gi-barbarian:before {
+  content: "\efd0";
+}
+.gi-panzerfaust:before {
+  content: "\efd1";
+}
+.gi-rolling-dices:before {
+  content: "\efd2";
+}
+.gi-fire-extinguisher:before {
+  content: "\efd3";
+}
+.gi-vote:before {
+  content: "\efd4";
+}
+.gi-crystal-shrine:before {
+  content: "\efd5";
+}
+.gi-cotton-flower:before {
+  content: "\efd6";
+}
+.gi-seven-pointed-star:before {
+  content: "\efd7";
+}
+.gi-traffic-lights-red:before {
+  content: "\efd8";
+}
+.gi-trash-can:before {
+  content: "\efd9";
+}
+.gi-stars-stack:before {
+  content: "\efda";
+}
+.gi-invisible-face:before {
+  content: "\efdb";
+}
+.gi-muscular-torso:before {
+  content: "\efdc";
+}
+.gi-unicycle:before {
+  content: "\efdd";
+}
+.gi-pie-chart:before {
+  content: "\efde";
+}
+.gi-sinking-ship:before {
+  content: "\efdf";
+}
+.gi-steam:before {
+  content: "\efe0";
+}
+.gi-heart-wings:before {
+  content: "\efe1";
+}
+.gi-mountain-cave:before {
+  content: "\efe2";
+}
+.gi-two-handed-sword:before {
+  content: "\efe3";
+}
+.gi-cowboy-holster:before {
+  content: "\efe4";
+}
+.gi-traffic-lights-orange:before {
+  content: "\efe5";
+}
+.gi-leg-armor:before {
+  content: "\efe6";
+}
+.gi-chalk-outline-murder:before {
+  content: "\efe7";
+}
+.gi-boat-propeller:before {
+  content: "\efe8";
+}
+.gi-socks:before {
+  content: "\efe9";
+}
+.gi-dig-hole:before {
+  content: "\efea";
+}
+.gi-arabic-door:before {
+  content: "\efeb";
+}
+.gi-calendar:before {
+  content: "\efec";
+}
+.gi-ceiling-light:before {
+  content: "\efed";
+}
+.gi-slingshot:before {
+  content: "\efee";
+}
+.gi-ogre:before {
+  content: "\efef";
+}
+.gi-totem:before {
+  content: "\eff0";
+}
+.gi-european-flag:before {
+  content: "\eff1";
+}
+.gi-blindfold:before {
+  content: "\eff2";
+}
+.gi-velociraptor:before {
+  content: "\eff3";
+}
+.gi-pineapple:before {
+  content: "\eff4";
+}
+.gi-orc-head:before {
+  content: "\eff5";
+}
+.gi-watch:before {
+  content: "\eff6";
+}
+.gi-garlic:before {
+  content: "\eff7";
+}
+.gi-gold-stack:before {
+  content: "\eff8";
+}
+.gi-van-damme-split:before {
+  content: "\eff9";
+}
+.gi-alien-bug:before {
+  content: "\effa";
+}
+.gi-astronaut-helmet:before {
+  content: "\effb";
+}
+.gi-tv-remote:before {
+  content: "\effc";
+}
+.gi-cyborg-face:before {
+  content: "\effd";
+}
+.gi-bracer:before {
+  content: "\effe";
+}
+.gi-backgammon:before {
+  content: "\efff";
+}
+.gi-bow-tie-ribbon:before {
+  content: "\f000";
+}
+.gi-party-flags:before {
+  content: "\f001";
+}
+.gi-toucan:before {
+  content: "\f002";
+}
+.gi-shop:before {
+  content: "\f003";
+}
+.gi-medieval-pavilion:before {
+  content: "\f004";
+}
+.gi-sound-on:before {
+  content: "\f005";
+}
+.gi-round-star:before {
+  content: "\f006";
+}
+.gi-millenium-key:before {
+  content: "\f007";
+}
+.gi-closed-doors:before {
+  content: "\f008";
+}
+.gi-smoking-pipe:before {
+  content: "\f009";
+}
+.gi-podium-winner:before {
+  content: "\f00a";
+}
+.gi-price-tag:before {
+  content: "\f00b";
+}
+.gi-war-axe:before {
+  content: "\f00c";
+}
+.gi-pin:before {
+  content: "\f00d";
+}
+.gi-prisoner:before {
+  content: "\f00e";
+}
+.gi-galea:before {
+  content: "\f00f";
+}
+.gi-rake:before {
+  content: "\f010";
+}
+.gi-magick-trick:before {
+  content: "\f011";
+}
+.gi-spiral-hilt:before {
+  content: "\f012";
+}
+.gi-farm-tractor:before {
+  content: "\f013";
+}
+.gi-foot-plaster:before {
+  content: "\f014";
+}
+.gi-flip-flops:before {
+  content: "\f015";
+}
+.gi-sarcophagus:before {
+  content: "\f016";
+}
+.gi-money-stack:before {
+  content: "\f017";
+}
+.gi-pirate-flag:before {
+  content: "\f018";
+}
+.gi-diamond-ring:before {
+  content: "\f019";
+}
+.gi-praying-mantis:before {
+  content: "\f01a";
+}
+.gi-fly:before {
+  content: "\f01b";
+}
+.gi-i-beam:before {
+  content: "\f01c";
+}
+.gi-sea-star:before {
+  content: "\f01d";
+}
+.gi-neck-bite:before {
+  content: "\f01e";
+}
+.gi-d-stairs:before {
+  content: "\f01f";
+}
+.gi-viking-head:before {
+  content: "\f020";
+}
+.gi-tie:before {
+  content: "\f021";
+}
+.gi-lynx-head:before {
+  content: "\f022";
+}
+.gi-robber:before {
+  content: "\f023";
+}
+.gi-camel-head:before {
+  content: "\f024";
+}
+.gi-mandrill-head:before {
+  content: "\f025";
+}
+.gi-jewel-crown:before {
+  content: "\f026";
+}
+.gi-film-projector:before {
+  content: "\f027";
+}
+.gi-south-africa-flag:before {
+  content: "\f028";
+}
+.gi-nested-hexagons:before {
+  content: "\f029";
+}
+.gi-bow-tie:before {
+  content: "\f02a";
+}
+.gi-director-chair:before {
+  content: "\f02b";
+}
+.gi-watering-can:before {
+  content: "\f02c";
+}
+.gi-vertical-banner:before {
+  content: "\f02d";
+}
+.gi-switch-weapon:before {
+  content: "\f02e";
+}
+.gi-bank:before {
+  content: "\f02f";
+}
+.gi-pikeman:before {
+  content: "\f030";
+}
+.gi-power-generator:before {
+  content: "\f031";
+}
+.gi-barricade:before {
+  content: "\f032";
+}
+.gi-swamp:before {
+  content: "\f033";
+}
+.gi-unicorn:before {
+  content: "\f034";
+}
+.gi-low-tide:before {
+  content: "\f035";
+}
+.gi-cricket:before {
+  content: "\f036";
+}
+.gi-swiss-army-knife:before {
+  content: "\f037";
+}
+.gi-water-fountain:before {
+  content: "\f038";
+}
+.gi-hand-of-god:before {
+  content: "\f039";
+}
+.gi-coffee-cup:before {
+  content: "\f03a";
+}
+.gi-spaceship:before {
+  content: "\f03b";
+}
+.gi-snitch-quidditch-ball:before {
+  content: "\f03c";
+}
+.gi-funnel:before {
+  content: "\f03d";
+}
+.gi-barracks-tent:before {
+  content: "\f03e";
+}
+.gi-crow-nest:before {
+  content: "\f03f";
+}
+.gi-magic-potion:before {
+  content: "\f040";
+}
+.gi-tv-tower:before {
+  content: "\f041";
+}
+.gi-cape:before {
+  content: "\f042";
+}
+.gi-defense-satellite:before {
+  content: "\f043";
+}
+.gi-gate:before {
+  content: "\f044";
+}
+.gi-dwennimmen:before {
+  content: "\f045";
+}
+.gi-cut-lemon:before {
+  content: "\f046";
+}
+.gi-ambulance:before {
+  content: "\f047";
+}
+.gi-tower-bridge:before {
+  content: "\f048";
+}
+.gi-card-exchange:before {
+  content: "\f049";
+}
+.gi-speed-boat:before {
+  content: "\f04a";
+}
+.gi-italia:before {
+  content: "\f04b";
+}
+.gi-spartan-helmet:before {
+  content: "\f04c";
+}
+.gi-nested-hearts:before {
+  content: "\f04d";
+}
+.gi-pope-crown:before {
+  content: "\f04e";
+}
+.gi-take-my-money:before {
+  content: "\f04f";
+}
+.gi-stairs:before {
+  content: "\f050";
+}
+.gi-throne-king:before {
+  content: "\f051";
+}
+.gi-uzi:before {
+  content: "\f052";
+}
+.gi-f-clef:before {
+  content: "\f053";
+}
+.gi-lunar-module:before {
+  content: "\f054";
+}
+.gi-wax-tablet:before {
+  content: "\f055";
+}
+.gi-banana:before {
+  content: "\f056";
+}
+.gi-expense:before {
+  content: "\f057";
+}
+.gi-bookshelf:before {
+  content: "\f058";
+}
+.gi-dagger-rose:before {
+  content: "\f059";
+}
+.gi-marbles:before {
+  content: "\f05a";
+}
+.gi-trebuchet:before {
+  content: "\f05b";
+}
+.gi-meeple-king:before {
+  content: "\f05c";
+}
+.gi-heart-beats:before {
+  content: "\f05d";
+}
+.gi-conqueror:before {
+  content: "\f05e";
+}
+.gi-pinball-flipper:before {
+  content: "\f05f";
+}
+.gi-alien-egg:before {
+  content: "\f060";
+}
+.gi-dead-head:before {
+  content: "\f061";
+}
+.gi-caravan:before {
+  content: "\f062";
+}
+.gi-seahorse:before {
+  content: "\f063";
+}
+.gi-crowbar:before {
+  content: "\f064";
+}
+.gi-lock-spy:before {
+  content: "\f065";
+}
+.gi-globe-ring:before {
+  content: "\f066";
+}
+.gi-sai:before {
+  content: "\f067";
+}
+.gi-public-speaker:before {
+  content: "\f068";
+}
+.gi-habitat-dome:before {
+  content: "\f069";
+}
+.gi-banana-peel:before {
+  content: "\f06a";
+}
+.gi-spy:before {
+  content: "\f06b";
+}
+.gi-cherish:before {
+  content: "\f06c";
+}
+.gi-cow:before {
+  content: "\f06d";
+}
+.gi-handcuffed:before {
+  content: "\f06e";
+}
+.gi-half-body-crawling:before {
+  content: "\f06f";
+}
+.gi-pirate-hat:before {
+  content: "\f070";
+}
+.gi-ages:before {
+  content: "\f071";
+}
+.gi-quiver:before {
+  content: "\f072";
+}
+.gi-body-height:before {
+  content: "\f073";
+}
+.gi-thermometer-cold:before {
+  content: "\f074";
+}
+.gi-periscope:before {
+  content: "\f075";
+}
+.gi-tv:before {
+  content: "\f076";
+}
+.gi-robot-antennas:before {
+  content: "\f077";
+}
+.gi-beet:before {
+  content: "\f078";
+}
+.gi-attached-shield:before {
+  content: "\f079";
+}
+.gi-steering-wheel:before {
+  content: "\f07a";
+}
+.gi-spell-book:before {
+  content: "\f07b";
+}
+.gi-chess-knight:before {
+  content: "\f07c";
+}
+.gi-pig:before {
+  content: "\f07d";
+}
+.gi-f1-car:before {
+  content: "\f07e";
+}
+.gi-inverted-dice-5:before {
+  content: "\f07f";
+}
+.gi-minefield:before {
+  content: "\f080";
+}
+.gi-flatbed:before {
+  content: "\f081";
+}
+.gi-cement-shoes:before {
+  content: "\f082";
+}
+.gi-talk:before {
+  content: "\f083";
+}
+.gi-lee-enfield:before {
+  content: "\f084";
+}
+.gi-siege-ram:before {
+  content: "\f085";
+}
+.gi-swirled-shell:before {
+  content: "\f086";
+}
+.gi-halt:before {
+  content: "\f087";
+}
+.gi-diamonds:before {
+  content: "\f088";
+}
+.gi-inverted-dice-6:before {
+  content: "\f089";
+}
+.gi-chess-rook:before {
+  content: "\f08a";
+}
+.gi-inverted-dice-1:before {
+  content: "\f08b";
+}
+.gi-bracers:before {
+  content: "\f08c";
+}
+.gi-stick-grenade:before {
+  content: "\f08d";
+}
+.gi-d10:before {
+  content: "\f08e";
+}
+.gi-pickelhaube:before {
+  content: "\f08f";
+}
+.gi-machine-gun:before {
+  content: "\f090";
+}
+.gi-iron-cross:before {
+  content: "\f091";
+}
+.gi-logging:before {
+  content: "\f092";
+}
+.gi-hearing-disabled:before {
+  content: "\f093";
+}
+.gi-airplane:before {
+  content: "\f094";
+}
+.gi-switchblade:before {
+  content: "\f095";
+}
+.gi-pegasus:before {
+  content: "\f096";
+}
+.gi-knockout:before {
+  content: "\f097";
+}
+.gi-mac-10:before {
+  content: "\f098";
+}
+.gi-d4:before {
+  content: "\f099";
+}
+.gi-spider-alt:before {
+  content: "\f09a";
+}
+.gi-defensive-wall:before {
+  content: "\f09b";
+}
+.gi-card-7-spades:before {
+  content: "\f09c";
+}
+.gi-card-10-spades:before {
+  content: "\f09d";
+}
+.gi-card-2-diamonds:before {
+  content: "\f09e";
+}
+.gi-card-10-diamonds:before {
+  content: "\f09f";
+}
+.gi-card-6-spades:before {
+  content: "\f0a0";
+}
+.gi-card-king-clubs:before {
+  content: "\f0a1";
+}
+.gi-card-9-clubs:before {
+  content: "\f0a2";
+}
+.gi-card-2-clubs:before {
+  content: "\f0a3";
+}
+.gi-card-jack-diamonds:before {
+  content: "\f0a4";
+}
+.gi-card-king-hearts:before {
+  content: "\f0a5";
+}
+.gi-card-6-hearts:before {
+  content: "\f0a6";
+}
+.gi-card-9-hearts:before {
+  content: "\f0a7";
+}
+.gi-card-king-diamonds:before {
+  content: "\f0a8";
+}
+.gi-card-4-diamonds:before {
+  content: "\f0a9";
+}
+.gi-card-jack-hearts:before {
+  content: "\f0aa";
+}
+.gi-card-8-clubs:before {
+  content: "\f0ab";
+}
+.gi-card-3-diamonds:before {
+  content: "\f0ac";
+}
+.gi-card-5-diamonds:before {
+  content: "\f0ad";
+}
+.gi-card-3-hearts:before {
+  content: "\f0ae";
+}
+.gi-card-ace-hearts:before {
+  content: "\f0af";
+}
+.gi-card-ace-diamonds:before {
+  content: "\f0b0";
+}
+.gi-card-8-spades:before {
+  content: "\f0b1";
+}
+.gi-card-9-diamonds:before {
+  content: "\f0b2";
+}
+.gi-card-8-hearts:before {
+  content: "\f0b3";
+}
+.gi-abstract-005:before {
+  content: "\f0b4";
+}
+.gi-abstract-058:before {
+  content: "\f0b5";
+}
+.gi-abstract-103:before {
+  content: "\f0b6";
+}
+.gi-abstract-104:before {
+  content: "\f0b7";
+}
+.gi-abstract-065:before {
+  content: "\f0b8";
+}
+.gi-abstract-009:before {
+  content: "\f0b9";
+}
+.gi-abstract-016:before {
+  content: "\f0ba";
+}
+.gi-abstract-110:before {
+  content: "\f0bb";
+}
+.gi-abstract-062:before {
+  content: "\f0bc";
+}
+.gi-abstract-001:before {
+  content: "\f0bd";
+}
+.gi-abstract-038:before {
+  content: "\f0be";
+}
+.gi-abstract-068:before {
+  content: "\f0bf";
+}
+.gi-abstract-091:before {
+  content: "\f0c0";
+}
+.gi-abstract-118:before {
+  content: "\f0c1";
+}
+.gi-abstract-041:before {
+  content: "\f0c2";
+}
+.gi-abstract-044:before {
+  content: "\f0c3";
+}
+.gi-abstract-049:before {
+  content: "\f0c4";
+}
+.gi-abstract-098:before {
+  content: "\f0c5";
+}
+.gi-abstract-063:before {
+  content: "\f0c6";
+}
+.gi-abstract-052:before {
+  content: "\f0c7";
+}
+.gi-abstract-072:before {
+  content: "\f0c8";
+}
+.gi-abstract-017:before {
+  content: "\f0c9";
+}
+.gi-abstract-080:before {
+  content: "\f0ca";
+}
+.gi-abstract-024:before {
+  content: "\f0cb";
+}
+.gi-abstract-079:before {
+  content: "\f0cc";
+}
+.gi-abstract-003:before {
+  content: "\f0cd";
+}
+.gi-abstract-106:before {
+  content: "\f0ce";
+}
+.gi-abstract-099:before {
+  content: "\f0cf";
+}
+.gi-abstract-092:before {
+  content: "\f0d0";
+}
+.gi-abstract-046:before {
+  content: "\f0d1";
+}
+.gi-abstract-054:before {
+  content: "\f0d2";
+}
+.gi-abstract-047:before {
+  content: "\f0d3";
+}
+.gi-abstract-034:before {
+  content: "\f0d4";
+}
+.gi-abstract-082:before {
+  content: "\f0d5";
+}
+.gi-abstract-032:before {
+  content: "\f0d6";
+}
+.gi-abstract-088:before {
+  content: "\f0d7";
+}
+.gi-abstract-100:before {
+  content: "\f0d8";
+}
+.gi-abstract-096:before {
+  content: "\f0d9";
+}
+.gi-abstract-087:before {
+  content: "\f0da";
+}
+.gi-abstract-105:before {
+  content: "\f0db";
+}
+.gi-abstract-004:before {
+  content: "\f0dc";
+}
+.gi-abstract-055:before {
+  content: "\f0dd";
+}
+.gi-abstract-014:before {
+  content: "\f0de";
+}
+.gi-abstract-114:before {
+  content: "\f0df";
+}
+.gi-abstract-027:before {
+  content: "\f0e0";
+}
+.gi-abstract-119:before {
+  content: "\f0e1";
+}
+.gi-abstract-107:before {
+  content: "\f0e2";
+}
+.gi-nautilus-shell:before {
+  content: "\f0e3";
+}
+.gi-love-mystery:before {
+  content: "\f0e4";
+}
+.gi-modern-city:before {
+  content: "\f0e5";
+}
+.gi-western-hat:before {
+  content: "\f0e6";
+}
+.gi-exit-door:before {
+  content: "\f0e7";
+}
+.gi-trophy-cup:before {
+  content: "\f0e8";
+}
+.gi-shower:before {
+  content: "\f0e9";
+}
+.gi-algae:before {
+  content: "\f0ea";
+}
+.gi-dart:before {
+  content: "\f0eb";
+}
+.gi-block-house:before {
+  content: "\f0ec";
+}
+.gi-empty-chessboard:before {
+  content: "\f0ed";
+}
+.gi-oil-rig:before {
+  content: "\f0ee";
+}
+.gi-swimfins:before {
+  content: "\f0ef";
+}
+.gi-ice-cream-cone:before {
+  content: "\f0f0";
+}
+.gi-arc-triomphe:before {
+  content: "\f0f1";
+}
+.gi-abacus:before {
+  content: "\f0f2";
+}
+.gi-luchador:before {
+  content: "\f0f3";
+}
+.gi-box-cutter:before {
+  content: "\f0f4";
+}
+.gi-saiyan-suit:before {
+  content: "\f0f5";
+}
+.gi-opened-food-can:before {
+  content: "\f0f6";
+}
+.gi-wooden-clogs:before {
+  content: "\f0f7";
+}
+.gi-yin-yang:before {
+  content: "\f0f8";
+}
+.gi-earth-america:before {
+  content: "\f0f9";
+}
+.gi-palisade:before {
+  content: "\f0fa";
+}
+.gi-entry-door:before {
+  content: "\f0fb";
+}
+.gi-overlord-helm:before {
+  content: "\f0fc";
+}
+.gi-wooden-crate:before {
+  content: "\f0fd";
+}
+.gi-bread:before {
+  content: "\f0fe";
+}
+.gi-light-sabers:before {
+  content: "\f0ff";
+}
+.gi-helicoprion:before {
+  content: "\f100";
+}
+.gi-convince:before {
+  content: "\f101";
+}
+.gi-hell-crosses:before {
+  content: "\f102";
+}
+.gi-car-key:before {
+  content: "\f103";
+}
+.gi-mushroom-house:before {
+  content: "\f104";
+}
+.gi-river:before {
+  content: "\f105";
+}
+.gi-speedometer:before {
+  content: "\f106";
+}
+.gi-rhinoceros-horn:before {
+  content: "\f107";
+}
+.gi-walkie-talkie:before {
+  content: "\f108";
+}
+.gi-briefcase:before {
+  content: "\f109";
+}
+.gi-shrug:before {
+  content: "\f10a";
+}
+.gi-tabletop-players:before {
+  content: "\f10b";
+}
+.gi-anubis:before {
+  content: "\f10c";
+}
+.gi-rupee:before {
+  content: "\f10d";
+}
+.gi-laurels-trophy:before {
+  content: "\f10e";
+}
+.gi-mailbox:before {
+  content: "\f10f";
+}
+.gi-rocket-thruster:before {
+  content: "\f110";
+}
+.gi-photo-camera:before {
+  content: "\f111";
+}
+.gi-cactus:before {
+  content: "\f112";
+}
+.gi-saloon-doors:before {
+  content: "\f113";
+}
+.gi-arrest:before {
+  content: "\f114";
+}
+.gi-flamingo:before {
+  content: "\f115";
+}
+.gi-piggy-bank:before {
+  content: "\f116";
+}
+.gi-camping-tent:before {
+  content: "\f117";
+}
+.gi-pipes:before {
+  content: "\f118";
+}
+.gi-dwarf-face:before {
+  content: "\f119";
+}
+.gi-rope-coil:before {
+  content: "\f11a";
+}
+.gi-antarctica:before {
+  content: "\f11b";
+}
+.gi-monkey-wrench:before {
+  content: "\f11c";
+}
+.gi-calavera:before {
+  content: "\f11d";
+}
+.gi-saxophone:before {
+  content: "\f11e";
+}
+.gi-wood-club:before {
+  content: "\f11f";
+}
+.gi-dimetrodon:before {
+  content: "\f120";
+}
+.gi-carnival-mask:before {
+  content: "\f121";
+}
+.gi-phrygian-cap:before {
+  content: "\f122";
+}
+.gi-magic-trident:before {
+  content: "\f123";
+}
+.gi-goblin-head:before {
+  content: "\f124";
+}
+.gi-laser-turret:before {
+  content: "\f125";
+}
+.gi-carrot:before {
+  content: "\f126";
+}
+.gi-hemp:before {
+  content: "\f127";
+}
+.gi-polo-shirt:before {
+  content: "\f128";
+}
+.gi-giant:before {
+  content: "\f129";
+}
+.gi-fishing-pole:before {
+  content: "\f12a";
+}
+.gi-weight-lifting-down:before {
+  content: "\f12b";
+}
+.gi-flying-fox:before {
+  content: "\f12c";
+}
+.gi-city-car:before {
+  content: "\f12d";
+}
+.gi-usa-flag:before {
+  content: "\f12e";
+}
+.gi-tomahawk:before {
+  content: "\f12f";
+}
+.gi-fur-boot:before {
+  content: "\f130";
+}
+.gi-ringing-alarm:before {
+  content: "\f131";
+}
+.gi-fishing:before {
+  content: "\f132";
+}
+.gi-aquarium:before {
+  content: "\f133";
+}
+.gi-falling-rocks:before {
+  content: "\f134";
+}
+.gi-hand-bag:before {
+  content: "\f135";
+}
+.gi-nose-front:before {
+  content: "\f136";
+}
+.gi-backpack:before {
+  content: "\f137";
+}
+.gi-angry-eyes:before {
+  content: "\f138";
+}
+.gi-fishing-boat:before {
+  content: "\f139";
+}
+.gi-sailboat:before {
+  content: "\f13a";
+}
+.gi-wooden-pier:before {
+  content: "\f13b";
+}
+.gi-bear-head:before {
+  content: "\f13c";
+}
+.gi-ladder:before {
+  content: "\f13d";
+}
+.gi-velocipede:before {
+  content: "\f13e";
+}
+.gi-life-buoy:before {
+  content: "\f13f";
+}
+.gi-home-garage:before {
+  content: "\f140";
+}
+.gi-old-wagon:before {
+  content: "\f141";
+}
+.gi-island:before {
+  content: "\f142";
+}
+.gi-planks:before {
+  content: "\f143";
+}
+.gi-card-joker:before {
+  content: "\f144";
+}
+.gi-walrus-head:before {
+  content: "\f145";
+}
+.gi-discussion:before {
+  content: "\f146";
+}
+.gi-torch:before {
+  content: "\f147";
+}
+.gi-table:before {
+  content: "\f148";
+}
+.gi-ring:before {
+  content: "\f149";
+}
+.gi-achilles-heel:before {
+  content: "\f14a";
+}
+.gi-submarine:before {
+  content: "\f14b";
+}
+.gi-starfighter:before {
+  content: "\f14c";
+}
+.gi-black-knight-helm:before {
+  content: "\f14d";
+}
+.gi-cupcake:before {
+  content: "\f14e";
+}
+.gi-high-heel:before {
+  content: "\f14f";
+}
+.gi-ermine:before {
+  content: "\f150";
+}
+.gi-shoulder-armor:before {
+  content: "\f151";
+}
+.gi-meal:before {
+  content: "\f152";
+}
+.gi-weight:before {
+  content: "\f153";
+}
+.gi-pterodactylus:before {
+  content: "\f154";
+}
+.gi-info:before {
+  content: "\f155";
+}
+.gi-stake-hammer:before {
+  content: "\f156";
+}
+.gi-king-ju-mask:before {
+  content: "\f157";
+}
+.gi-truck:before {
+  content: "\f158";
+}
+.gi-vacuum-cleaner:before {
+  content: "\f159";
+}
+.gi-atlas:before {
+  content: "\f15a";
+}
+.gi-lungs:before {
+  content: "\f15b";
+}
+.gi-frog-prince:before {
+  content: "\f15c";
+}
+.gi-jump-across:before {
+  content: "\f15d";
+}
+.gi-bed:before {
+  content: "\f15e";
+}
+.gi-card-burn:before {
+  content: "\f15f";
+}
+.gi-plesiosaurus:before {
+  content: "\f160";
+}
+.gi-vitruvian-man:before {
+  content: "\f161";
+}
+.gi-windmill:before {
+  content: "\f162";
+}
+.gi-panda:before {
+  content: "\f163";
+}
+.gi-clownfish:before {
+  content: "\f164";
+}
+.gi-coins:before {
+  content: "\f165";
+}
+.gi-paint-bucket:before {
+  content: "\f166";
+}
+.gi-cage:before {
+  content: "\f167";
+}
+.gi-hazmat-suit:before {
+  content: "\f168";
+}
+.gi-stethoscope:before {
+  content: "\f169";
+}
+.gi-lovers:before {
+  content: "\f16a";
+}
+.gi-theater-curtains:before {
+  content: "\f16b";
+}
+.gi-griffin-symbol:before {
+  content: "\f16c";
+}
+.gi-diplodocus:before {
+  content: "\f16d";
+}
+.gi-tiger:before {
+  content: "\f16e";
+}
+.gi-war-pick:before {
+  content: "\f16f";
+}
+.gi-mortar:before {
+  content: "\f170";
+}
+.gi-switzerland:before {
+  content: "\f171";
+}
+.gi-stomach:before {
+  content: "\f172";
+}
+.gi-shambling-zombie:before {
+  content: "\f173";
+}
+.gi-bindle:before {
+  content: "\f174";
+}
+.gi-flashlight:before {
+  content: "\f175";
+}
+.gi-hand-saw:before {
+  content: "\f176";
+}
+.gi-mermaid:before {
+  content: "\f177";
+}
+.gi-church:before {
+  content: "\f178";
+}
+.gi-menhir:before {
+  content: "\f179";
+}
+.gi-jeep:before {
+  content: "\f17a";
+}
+.gi-triceratops-head:before {
+  content: "\f17b";
+}
+.gi-sombrero:before {
+  content: "\f17c";
+}
+.gi-traffic-cone:before {
+  content: "\f17d";
+}
+.gi-resize:before {
+  content: "\f17e";
+}
+.gi-sheep:before {
+  content: "\f17f";
+}
+.gi-injustice:before {
+  content: "\f180";
+}
+.gi-papyrus:before {
+  content: "\f181";
+}
+.gi-corset:before {
+  content: "\f182";
+}
+.gi-pocket-radio:before {
+  content: "\f183";
+}
+.gi-dynamite:before {
+  content: "\f184";
+}
+.gi-pisa-tower:before {
+  content: "\f185";
+}
+.gi-amber-mosquito:before {
+  content: "\f186";
+}
+.gi-car-wheel:before {
+  content: "\f187";
+}
+.gi-aqueduct:before {
+  content: "\f188";
+}
+.gi-ocarina:before {
+  content: "\f189";
+}
+.gi-hair-strands:before {
+  content: "\f18a";
+}
+.gi-revolver:before {
+  content: "\f18b";
+}
+.gi-zipper:before {
+  content: "\f18c";
+}
+.gi-nose-side:before {
+  content: "\f18d";
+}
+.gi-silenced:before {
+  content: "\f18e";
+}
+.gi-pillow:before {
+  content: "\f18f";
+}
+.gi-robber-mask:before {
+  content: "\f190";
+}
+.gi-traffic-lights-green:before {
+  content: "\f191";
+}
+.gi-gauntlet:before {
+  content: "\f192";
+}
+.gi-finger-print:before {
+  content: "\f193";
+}
+.gi-egypt:before {
+  content: "\f194";
+}
+.gi-coffee-beans:before {
+  content: "\f195";
+}
+.gi-velociraptor-tracks:before {
+  content: "\f196";
+}
+.gi-goblin-camp:before {
+  content: "\f197";
+}
+.gi-jester-hat:before {
+  content: "\f198";
+}
+.gi-ninja-velociraptor:before {
+  content: "\f199";
+}
+.gi-bowen-knot:before {
+  content: "\f19a";
+}
+.gi-kneeling:before {
+  content: "\f19b";
+}
+.gi-broom:before {
+  content: "\f19c";
+}
+.gi-nuclear-plant:before {
+  content: "\f19d";
+}
+.gi-cigar:before {
+  content: "\f19e";
+}
+.gi-bolt-cutter:before {
+  content: "\f19f";
+}
+.gi-croissant:before {
+  content: "\f1a0";
+}
+.gi-wind-turbine:before {
+  content: "\f1a1";
+}
+.gi-drakkar-dragon:before {
+  content: "\f1a2";
+}
+.gi-goose:before {
+  content: "\f1a3";
+}
+.gi-corporal:before {
+  content: "\f1a4";
+}
+.gi-keyboard:before {
+  content: "\f1a5";
+}
+.gi-ceiling-barnacle:before {
+  content: "\f1a6";
+}
+.gi-round-straw-bale:before {
+  content: "\f1a7";
+}
+.gi-ice-skate:before {
+  content: "\f1a8";
+}
+.gi-coronation:before {
+  content: "\f1a9";
+}
+.gi-joystick:before {
+  content: "\f1aa";
+}
+.gi-hang-glider:before {
+  content: "\f1ab";
+}
+.gi-private:before {
+  content: "\f1ac";
+}
+.gi-broken-wall:before {
+  content: "\f1ad";
+}
+.gi-tic-tac-toe:before {
+  content: "\f1ae";
+}
+.gi-ribbon-medal:before {
+  content: "\f1af";
+}
+.gi-log:before {
+  content: "\f1b0";
+}
+.gi-stun-grenade:before {
+  content: "\f1b1";
+}
+.gi-hammer-sickle:before {
+  content: "\f1b2";
+}
+.gi-sri-lanka:before {
+  content: "\f1b3";
+}
+.gi-pirate-coat:before {
+  content: "\f1b4";
+}
+.gi-holy-hand-grenade:before {
+  content: "\f1b5";
+}
+.gi-alarm-clock:before {
+  content: "\f1b6";
+}
+.gi-brass-knuckles:before {
+  content: "\f1b7";
+}
+.gi-pelvis-bone:before {
+  content: "\f1b8";
+}
+.gi-umbrella-bayonet:before {
+  content: "\f1b9";
+}
+.gi-beach-ball:before {
+  content: "\f1ba";
+}
+.gi-barn:before {
+  content: "\f1bb";
+}
+.gi-confrontation:before {
+  content: "\f1bc";
+}
+.gi-high-tide:before {
+  content: "\f1bd";
+}
+.gi-ship-wreck:before {
+  content: "\f1be";
+}
+.gi-ivory-tusks:before {
+  content: "\f1bf";
+}
+.gi-indian-palace:before {
+  content: "\f1c0";
+}
+.gi-duck:before {
+  content: "\f1c1";
+}
+.gi-gloves:before {
+  content: "\f1c2";
+}
+.gi-sunflower:before {
+  content: "\f1c3";
+}
+.gi-hill-fort:before {
+  content: "\f1c4";
+}
+.gi-new-born:before {
+  content: "\f1c5";
+}
+.gi-greaves:before {
+  content: "\f1c6";
+}
+.gi-meeple-group:before {
+  content: "\f1c7";
+}
+.gi-offshore-platform:before {
+  content: "\f1c8";
+}
+.gi-klingon:before {
+  content: "\f1c9";
+}
+.gi-mine-wagon:before {
+  content: "\f1ca";
+}
+.gi-candlestick-phone:before {
+  content: "\f1cb";
+}
+.gi-sharp-halberd:before {
+  content: "\f1cc";
+}
+.gi-bow-arrow:before {
+  content: "\f1cd";
+}
+.gi-fish-monster:before {
+  content: "\f1ce";
+}
+.gi-american-football-helmet:before {
+  content: "\f1cf";
+}
+.gi-viking-longhouse:before {
+  content: "\f1d0";
+}
+.gi-stegosaurus-scales:before {
+  content: "\f1d1";
+}
+.gi-audio-cassette:before {
+  content: "\f1d2";
+}
+.gi-belt-armor:before {
+  content: "\f1d3";
+}
+.gi-trojan-horse:before {
+  content: "\f1d4";
+}
+.gi-ice-golem:before {
+  content: "\f1d5";
+}
+.gi-beehive:before {
+  content: "\f1d6";
+}
+.gi-graveyard:before {
+  content: "\f1d7";
+}
+.gi-bowling-strike:before {
+  content: "\f1d8";
+}
+.gi-uruguay:before {
+  content: "\f1d9";
+}
+.gi-gold-mine:before {
+  content: "\f1da";
+}
+.gi-sherlock-holmes:before {
+  content: "\f1db";
+}
+.gi-dungeon-gate:before {
+  content: "\f1dc";
+}
+.gi-sextant:before {
+  content: "\f1dd";
+}
+.gi-warp-pipe:before {
+  content: "\f1de";
+}
+.gi-mining-helmet:before {
+  content: "\f1df";
+}
+.gi-brick-pile:before {
+  content: "\f1e0";
+}
+.gi-flat-tire:before {
+  content: "\f1e1";
+}
+.gi-stone-pile:before {
+  content: "\f1e2";
+}
+.gi-trowel:before {
+  content: "\f1e3";
+}
+.gi-obelisk:before {
+  content: "\f1e4";
+}
+.gi-pencil:before {
+  content: "\f1e5";
+}
+.gi-tire-tracks:before {
+  content: "\f1e6";
+}
+.gi-raspberry:before {
+  content: "\f1e7";
+}
+.gi-shaking-hands:before {
+  content: "\f1e8";
+}
+.gi-earth-africa-europe:before {
+  content: "\f1e9";
+}
+.gi-microphone:before {
+  content: "\f1ea";
+}
+.gi-night-vision:before {
+  content: "\f1eb";
+}
+.gi-crosshair:before {
+  content: "\f1ec";
+}
+.gi-spain:before {
+  content: "\f1ed";
+}
+.gi-holy-water:before {
+  content: "\f1ee";
+}
+.gi-watermelon:before {
+  content: "\f1ef";
+}
+.gi-blacksmith:before {
+  content: "\f1f0";
+}
+.gi-lily-pads:before {
+  content: "\f1f1";
+}
+.gi-eternal-love:before {
+  content: "\f1f2";
+}
+.gi-ice-spell-cast:before {
+  content: "\f1f3";
+}
+.gi-tipi:before {
+  content: "\f1f4";
+}
+.gi-vampire-cape:before {
+  content: "\f1f5";
+}
+.gi-cambodia:before {
+  content: "\f1f6";
+}
+.gi-high-kick:before {
+  content: "\f1f7";
+}
+.gi-pear:before {
+  content: "\f1f8";
+}
+.gi-podium-second:before {
+  content: "\f1f9";
+}
+.gi-bowels:before {
+  content: "\f1fa";
+}
+.gi-bulldozer:before {
+  content: "\f1fb";
+}
+.gi-keyring:before {
+  content: "\f1fc";
+}
+.gi-asteroid:before {
+  content: "\f1fd";
+}
+.gi-scuba-tanks:before {
+  content: "\f1fe";
+}
+.gi-famas:before {
+  content: "\f1ff";
+}
+.gi-thompson-m1:before {
+  content: "\f200";
+}
+.gi-bullseye:before {
+  content: "\f201";
+}
+.gi-box-trap:before {
+  content: "\f202";
+}
+.gi-dress:before {
+  content: "\f203";
+}
+.gi-nuclear-bomb:before {
+  content: "\f204";
+}
+.gi-pentacle:before {
+  content: "\f205";
+}
+.gi-long-legged-spider:before {
+  content: "\f206";
+}
+.gi-click:before {
+  content: "\f207";
+}
+.gi-inverted-dice-2:before {
+  content: "\f208";
+}
+.gi-achievement:before {
+  content: "\f209";
+}
+.gi-thompson-m1928:before {
+  content: "\f20a";
+}
+.gi-pauldrons:before {
+  content: "\f20b";
+}
+.gi-blood:before {
+  content: "\f20c";
+}
+.gi-hexes:before {
+  content: "\f20d";
+}
+.gi-spotted-bug:before {
+  content: "\f20e";
+}
+.gi-teller-mine:before {
+  content: "\f20f";
+}
+.gi-solar-power:before {
+  content: "\f210";
+}
+.gi-inverted-dice-4:before {
+  content: "\f211";
+}
+.gi-bayonet:before {
+  content: "\f212";
+}
+.gi-burning-skull:before {
+  content: "\f213";
+}
+.gi-air-force:before {
+  content: "\f214";
+}
+.gi-oil-drum:before {
+  content: "\f215";
+}
+.gi-musket:before {
+  content: "\f216";
+}
+.gi-chess-bishop:before {
+  content: "\f217";
+}
+.gi-ak47:before {
+  content: "\f218";
+}
+.gi-apc:before {
+  content: "\f219";
+}
+.gi-desert-eagle:before {
+  content: "\f21a";
+}
+.gi-hearts:before {
+  content: "\f21b";
+}
+.gi-troll:before {
+  content: "\f21c";
+}
+.gi-spinning-top:before {
+  content: "\f21d";
+}
+.gi-luger:before {
+  content: "\f21e";
+}
+.gi-console-controller:before {
+  content: "\f21f";
+}
+.gi-glider:before {
+  content: "\f220";
+}
+.gi-telescopic-baton:before {
+  content: "\f221";
+}
+.gi-amethyst:before {
+  content: "\f222";
+}
+.gi-rank-2:before {
+  content: "\f223";
+}
+.gi-footsteps:before {
+  content: "\f224";
+}
+.gi-fat:before {
+  content: "\f225";
+}
+.gi-drop-weapon:before {
+  content: "\f226";
+}
+.gi-big-diamond-ring:before {
+  content: "\f227";
+}
+.gi-breaking-chain:before {
+  content: "\f228";
+}
+.gi-topaz:before {
+  content: "\f229";
+}
+.gi-bundle-grenade:before {
+  content: "\f22a";
+}
+.gi-zeppelin:before {
+  content: "\f22b";
+}
+.gi-fruit-bowl:before {
+  content: "\f22c";
+}
+.gi-colt-m1911:before {
+  content: "\f22d";
+}
+.gi-spades:before {
+  content: "\f22e";
+}
+.gi-race-car:before {
+  content: "\f22f";
+}
+.gi-clubs:before {
+  content: "\f230";
+}
+.gi-sea-creature:before {
+  content: "\f231";
+}
+.gi-brodie-helmet:before {
+  content: "\f232";
+}
+.gi-trench-body-armor:before {
+  content: "\f233";
+}
+.gi-pc:before {
+  content: "\f234";
+}
+.gi-ham-shank:before {
+  content: "\f235";
+}
+.gi-chess-pawn:before {
+  content: "\f236";
+}
+.gi-balaclava:before {
+  content: "\f237";
+}
+.gi-pteruges:before {
+  content: "\f238";
+}
+.gi-flame:before {
+  content: "\f239";
+}
+.gi-crossbow:before {
+  content: "\f23a";
+}
+.gi-catapult:before {
+  content: "\f23b";
+}
+.gi-card-ace-spades:before {
+  content: "\f23c";
+}
+.gi-card-2-spades:before {
+  content: "\f23d";
+}
+.gi-card-3-clubs:before {
+  content: "\f23e";
+}
+.gi-card-10-clubs:before {
+  content: "\f23f";
+}
+.gi-card-7-clubs:before {
+  content: "\f240";
+}
+.gi-card-queen-clubs:before {
+  content: "\f241";
+}
+.gi-card-3-spades:before {
+  content: "\f242";
+}
+.gi-card-4-clubs:before {
+  content: "\f243";
+}
+.gi-card-5-spades:before {
+  content: "\f244";
+}
+.gi-card-7-hearts:before {
+  content: "\f245";
+}
+.gi-card-king-spades:before {
+  content: "\f246";
+}
+.gi-card-6-clubs:before {
+  content: "\f247";
+}
+.gi-card-9-spades:before {
+  content: "\f248";
+}
+.gi-card-jack-spades:before {
+  content: "\f249";
+}
+.gi-card-jack-clubs:before {
+  content: "\f24a";
+}
+.gi-card-queen-spades:before {
+  content: "\f24b";
+}
+.gi-abstract-101:before {
+  content: "\f24c";
+}
+.gi-abstract-097:before {
+  content: "\f24d";
+}
+.gi-abstract-071:before {
+  content: "\f24e";
+}
+.gi-abstract-015:before {
+  content: "\f24f";
+}
+.gi-abstract-108:before {
+  content: "\f250";
+}
+.gi-abstract-078:before {
+  content: "\f251";
+}
+.gi-abstract-023:before {
+  content: "\f252";
+}
+.gi-abstract-073:before {
+  content: "\f253";
+}
+.gi-abstract-056:before {
+  content: "\f254";
+}
+.gi-abstract-007:before {
+  content: "\f255";
+}
+.gi-abstract-094:before {
+  content: "\f256";
+}
+.gi-abstract-085:before {
+  content: "\f257";
+}
+.gi-abstract-045:before {
+  content: "\f258";
+}
+.gi-abstract-039:before {
+  content: "\f259";
+}
+.gi-abstract-057:before {
+  content: "\f25a";
+}
+.gi-abstract-081:before {
+  content: "\f25b";
+}
+.gi-abstract-042:before {
+  content: "\f25c";
+}
+.gi-abstract-021:before {
+  content: "\f25d";
+}
+.gi-abstract-020:before {
+  content: "\f25e";
+}
+.gi-abstract-095:before {
+  content: "\f25f";
+}
+.gi-abstract-067:before {
+  content: "\f260";
+}
+.gi-abstract-012:before {
+  content: "\f261";
+}
+.gi-abstract-011:before {
+  content: "\f262";
+}
+.gi-abstract-031:before {
+  content: "\f263";
+}
+.gi-abstract-019:before {
+  content: "\f264";
+}
+.gi-abstract-053:before {
+  content: "\f265";
+}
+.gi-abstract-111:before {
+  content: "\f266";
+}
+.gi-abstract-116:before {
+  content: "\f267";
+}
+.gi-abstract-043:before {
+  content: "\f268";
+}
+.gi-abstract-013:before {
+  content: "\f269";
+}
+.gi-abstract-076:before {
+  content: "\f26a";
+}
+.gi-abstract-028:before {
+  content: "\f26b";
+}
+.gi-abstract-086:before {
+  content: "\f26c";
+}
+.gi-abstract-109:before {
+  content: "\f26d";
+}
+.gi-abstract-090:before {
+  content: "\f26e";
+}
+.gi-abstract-077:before {
+  content: "\f26f";
+}
+.gi-abstract-066:before {
+  content: "\f270";
+}
+.gi-abstract-075:before {
+  content: "\f271";
+}
+.gi-abstract-064:before {
+  content: "\f272";
+}
+.gi-abstract-061:before {
+  content: "\f273";
+}
+.gi-abstract-102:before {
+  content: "\f274";
+}
+.gi-abstract-026:before {
+  content: "\f275";
+}
+.gi-abstract-022:before {
+  content: "\f276";
+}
+.gi-abstract-033:before {
+  content: "\f277";
+}
+.gi-abstract-030:before {
+  content: "\f278";
+}
+.gi-paper:before {
+  content: "\f279";
+}
+.gi-heart-plus:before {
+  content: "\f27a";
+}
+.gi-peanut:before {
+  content: "\f27b";
+}
+.gi-chocolate-bar:before {
+  content: "\f27c";
+}
+.gi-soda-can:before {
+  content: "\f27d";
+}
+.gi-card-discard:before {
+  content: "\f27e";
+}
+.gi-card-draw:before {
+  content: "\f27f";
+}
+.gi-card-pick:before {
+  content: "\f280";
+}
+.gi-knee-pad:before {
+  content: "\f281";
+}
+.gi-parasaurolophus:before {
+  content: "\f282";
+}
+.gi-tropical-fish:before {
+  content: "\f283";
+}
+.gi-sniffing-dog:before {
+  content: "\f284";
+}
+.gi-kite:before {
+  content: "\f285";
+}
+.gi-radio-tower:before {
+  content: "\f286";
+}
+.gi-large-paint-brush:before {
+  content: "\f287";
+}
+.gi-egyptian-walk:before {
+  content: "\f288";
+}
+.gi-american-shield:before {
+  content: "\f289";
+}
+.gi-dolphin:before {
+  content: "\f28a";
+}
+.gi-thermometer-hot:before {
+  content: "\f28b";
+}
+.gi-suitcase:before {
+  content: "\f28c";
+}
+.gi-broken-pottery:before {
+  content: "\f28d";
+}
+.gi-checkered-flag:before {
+  content: "\f28e";
+}
+.gi-hills:before {
+  content: "\f28f";
+}
+.gi-ship-wheel:before {
+  content: "\f290";
+}
+.gi-whistle:before {
+  content: "\f291";
+}
+.gi-guards:before {
+  content: "\f292";
+}
+.gi-hamburger:before {
+  content: "\f293";
+}
+.gi-kiwi-bird:before {
+  content: "\f294";
+}
+.gi-companion-cube:before {
+  content: "\f295";
+}
+.gi-pretzel:before {
+  content: "\f296";
+}
+.gi-id-card:before {
+  content: "\f297";
+}
+.gi-sawed-off-shotgun:before {
+  content: "\f298";
+}
+.gi-chili-pepper:before {
+  content: "\f299";
+}
+.gi-mars-curiosity:before {
+  content: "\f29a";
+}
+.gi-animal-hide:before {
+  content: "\f29b";
+}
+.gi-jason-mask:before {
+  content: "\f29c";
+}
+.gi-pizza-slice:before {
+  content: "\f29d";
+}
+.gi-mars-pathfinder:before {
+  content: "\f29e";
+}
+.gi-diving-helmet:before {
+  content: "\f29f";
+}
+.gi-helicopter:before {
+  content: "\f2a0";
+}
+.gi-mono-wheel-robot:before {
+  content: "\f2a1";
+}
+.gi-flying-target:before {
+  content: "\f2a2";
+}
+.gi-elephant-head:before {
+  content: "\f2a3";
+}
+.gi-tree-beehive:before {
+  content: "\f2a4";
+}
+.gi-greek-temple:before {
+  content: "\f2a5";
+}
+.gi-space-shuttle:before {
+  content: "\f2a6";
+}
+.gi-candy-canes:before {
+  content: "\f2a7";
+}
+.gi-windpump:before {
+  content: "\f2a8";
+}
+.gi-gauls-helm:before {
+  content: "\f2a9";
+}
+.gi-well:before {
+  content: "\f2aa";
+}
+.gi-steak:before {
+  content: "\f2ab";
+}
+.gi-helicopter-tail:before {
+  content: "\f2ac";
+}
+.gi-smoking-volcano:before {
+  content: "\f2ad";
+}
+.gi-invisible:before {
+  content: "\f2ae";
+}
+.gi-hanger:before {
+  content: "\f2af";
+}
+.gi-metroid:before {
+  content: "\f2b0";
+}
+.gi-grass:before {
+  content: "\f2b1";
+}
+.gi-scabbard:before {
+  content: "\f2b2";
+}
+.gi-forearm:before {
+  content: "\f2b3";
+}
+.gi-cooking-pot:before {
+  content: "\f2b4";
+}
+.gi-game-console:before {
+  content: "\f2b5";
+}
+.gi-direction-sign:before {
+  content: "\f2b6";
+}
+.gi-smartphone:before {
+  content: "\f2b7";
+}
+.gi-bat:before {
+  content: "\f2b8";
+}
+.gi-virgo:before {
+  content: "\f2b9";
+}
+.gi-ophiuchus:before {
+  content: "\f2ba";
+}
+.gi-aries:before {
+  content: "\f2bb";
+}
+.gi-pisces:before {
+  content: "\f2bc";
+}
+.gi-cancer:before {
+  content: "\f2bd";
+}
+.gi-perspective-dice-four:before {
+  content: "\f2be";
+}
+.gi-dice-six-faces-four:before {
+  content: "\f2bf";
+}
+.gi-perspective-dice-six-faces-two:before {
+  content: "\f2c0";
+}
+.gi-perspective-dice-five:before {
+  content: "\f2c1";
+}
+.gi-dice-six-faces-one:before {
+  content: "\f2c2";
+}
+.gi-dice-six-faces-three:before {
+  content: "\f2c3";
+}
+.gi-perspective-dice-one:before {
+  content: "\f2c4";
+}
+.gi-perspective-dice-six-faces-four:before {
+  content: "\f2c5";
+}
+.gi-j-brick:before {
+  content: "\f2c6";
+}
+.gi-l-brick:before {
+  content: "\f2c7";
+}
+.gi-t-brick:before {
+  content: "\f2c8";
+}
+.gi-horizontal-flip:before {
+  content: "\f2c9";
+}
+.gi-shopping-cart:before {
+  content: "\f2ca";
+}
+.gi-chart:before {
+  content: "\f2cb";
+}
+.gi-palm-tree:before {
+  content: "\f2cc";
+}
+.gi-hedjet-white-crown:before {
+  content: "\f2cd";
+}
+.gi-pschent-double-crown:before {
+  content: "\f2ce";
+}
+.gi-soccer-field:before {
+  content: "\f2cf";
+}
+.gi-rugby-conversion:before {
+  content: "\f2d0";
+}
+.gi-ping-pong-bat:before {
+  content: "\f2d1";
+}
+.gi-eight-ball:before {
+  content: "\f2d2";
+}
+.gi-podium:before {
+  content: "\f2d3";
+}
+.gi-bowling-pin:before {
+  content: "\f2d4";
+}
+.gi-corner-flag:before {
+  content: "\f2d5";
+}
+.gi-infinity:before {
+  content: "\f2d6";
+}
+.gi-sideswipe:before {
+  content: "\f2d7";
+}
+.gi-dodge:before {
+  content: "\f2d8";
+}
+.gi-overhead:before {
+  content: "\f2d9";
+}
+.gi-scorpio:before {
+  content: "\f2da";
+}
+.gi-libra:before {
+  content: "\f2db";
+}
+.gi-taurus:before {
+  content: "\f2dc";
+}
+.gi-leo:before {
+  content: "\f2dd";
+}
+.gi-perspective-dice-six:before {
+  content: "\f2de";
+}
+.gi-dice-twenty-faces-twenty:before {
+  content: "\f2df";
+}
+.gi-dice-six-faces-five:before {
+  content: "\f2e0";
+}
+.gi-rolling-dice-cup:before {
+  content: "\f2e1";
+}
+.gi-perspective-dice-six-faces-five:before {
+  content: "\f2e2";
+}
+.gi-dice-eight-faces-eight:before {
+  content: "\f2e3";
+}
+.gi-o-brick:before {
+  content: "\f2e4";
+}
+.gi-s-brick:before {
+  content: "\f2e5";
+}
+.gi-contract:before {
+  content: "\f2e6";
+}
+.gi-expand:before {
+  content: "\f2e7";
+}
+.gi-speaker-off:before {
+  content: "\f2e8";
+}
+.gi-position-marker:before {
+  content: "\f2e9";
+}
+.gi-plain-arrow:before {
+  content: "\f2ea";
+}
+.gi-vertical-flip:before {
+  content: "\f2eb";
+}
+.gi-save:before {
+  content: "\f2ec";
+}
+.gi-speaker:before {
+  content: "\f2ed";
+}
+.gi-database:before {
+  content: "\f2ee";
+}
+.gi-phone:before {
+  content: "\f2ef";
+}
+.gi-histogram:before {
+  content: "\f2f0";
+}
+.gi-move:before {
+  content: "\f2f1";
+}
+.gi-thumb-down:before {
+  content: "\f2f2";
+}
+.gi-clockwise-rotation:before {
+  content: "\f2f3";
+}
+.gi-egyptian-pyramids:before {
+  content: "\f2f4";
+}
+.gi-deshret-red-crown:before {
+  content: "\f2f5";
+}
+.gi-hockey:before {
+  content: "\f2f6";
+}
+.gi-basketball-ball:before {
+  content: "\f2f7";
+}
+.gi-tennis-ball:before {
+  content: "\f2f8";
+}
+.gi-golf-flag:before {
+  content: "\f2f9";
+}
+.gi-soccer-ball:before {
+  content: "\f2fa";
+}
+.gi-baseball-bat:before {
+  content: "\f2fb";
+}
+.gi-volleyball-ball:before {
+  content: "\f2fc";
+}
+.gi-thrust:before {
+  content: "\f2fd";
+}
+.gi-anarchy:before {
+  content: "\f2fe";
+}
+.gi-turban:before {
+  content: "\f2ff";
+}
+.gi-pirate-captain:before {
+  content: "\f300";
+}
+.gi-mechanic-garage:before {
+  content: "\f301";
+}
+.gi-meeple:before {
+  content: "\f302";
+}
+.gi-light-backpack:before {
+  content: "\f303";
+}
+.gi-jet-fighter:before {
+  content: "\f304";
+}
+.gi-trireme:before {
+  content: "\f305";
+}
+.gi-igloo:before {
+  content: "\f306";
+}
+.gi-book-pile:before {
+  content: "\f307";
+}
+.gi-upgrade:before {
+  content: "\f308";
+}
+.gi-floor-polisher:before {
+  content: "\f309";
+}
+.gi-lead-pipe:before {
+  content: "\f30a";
+}
+.gi-barrel:before {
+  content: "\f30b";
+}
+.gi-sugar-cane:before {
+  content: "\f30c";
+}
+.gi-open-folder:before {
+  content: "\f30d";
+}
+.gi-fried-eggs:before {
+  content: "\f30e";
+}
+.gi-heptagram:before {
+  content: "\f30f";
+}
+.gi-plow:before {
+  content: "\f310";
+}
+.gi-gold-nuggets:before {
+  content: "\f311";
+}
+.gi-full-folder:before {
+  content: "\f312";
+}
+.gi-bad-breath:before {
+  content: "\f313";
+}
+.gi-buoy:before {
+  content: "\f314";
+}
+.gi-weight-lifting-up:before {
+  content: "\f315";
+}
+.gi-solar-system:before {
+  content: "\f316";
+}
+.gi-lunar-wand:before {
+  content: "\f317";
+}
+.gi-gps:before {
+  content: "\f318";
+}
+.gi-siege-tower:before {
+  content: "\f319";
+}
+.gi-medieval-gate:before {
+  content: "\f31a";
+}
+.gi-computer-fan:before {
+  content: "\f31b";
+}
+.gi-chicken:before {
+  content: "\f31c";
+}
+.gi-sound-off:before {
+  content: "\f31d";
+}
+.gi-ancient-ruins:before {
+  content: "\f31e";
+}
+.gi-bolivia:before {
+  content: "\f31f";
+}
+.gi-shorts:before {
+  content: "\f320";
+}
+.gi-charging-bull:before {
+  content: "\f321";
+}
+.gi-horus:before {
+  content: "\f322";
+}
+.gi-caduceus:before {
+  content: "\f323";
+}
+.gi-mute:before {
+  content: "\f324";
+}
+.gi-wine-bottle:before {
+  content: "\f325";
+}
+.gi-paint-roller:before {
+  content: "\f326";
+}
+.gi-protection-glasses:before {
+  content: "\f327";
+}
+.gi-south-america:before {
+  content: "\f328";
+}
+.gi-fruit-tree:before {
+  content: "\f329";
+}
+.gi-spider-bot:before {
+  content: "\f32a";
+}
+.gi-ecology:before {
+  content: "\f32b";
+}
+.gi-plane-wing:before {
+  content: "\f32c";
+}
+.gi-wood-pile:before {
+  content: "\f32d";
+}
+.gi-traffic-lights-ready-to-go:before {
+  content: "\f32e";
+}
+.gi-sperm-whale:before {
+  content: "\f32f";
+}
+.gi-corn:before {
+  content: "\f330";
+}
+.gi-led:before {
+  content: "\f331";
+}
+.gi-australia:before {
+  content: "\f332";
+}
+.gi-templar-shield:before {
+  content: "\f333";
+}
+.gi-level-crossing:before {
+  content: "\f334";
+}
+.gi-drawbridge:before {
+  content: "\f335";
+}
+.gi-union-jack:before {
+  content: "\f336";
+}
+.gi-human-ear:before {
+  content: "\f337";
+}
+.gi-safety-pin:before {
+  content: "\f338";
+}
+.gi-stork-delivery:before {
+  content: "\f339";
+}
+.gi-icarus:before {
+  content: "\f33a";
+}
+.gi-present:before {
+  content: "\f33b";
+}
+.gi-male:before {
+  content: "\f33c";
+}
+.gi-fleur-de-lys:before {
+  content: "\f33d";
+}
+.gi-push:before {
+  content: "\f33e";
+}
+.gi-thor-hammer:before {
+  content: "\f33f";
+}
+.gi-sharp-axe:before {
+  content: "\f340";
+}
+.gi-biceps:before {
+  content: "\f341";
+}
+.gi-carnivorous-plant:before {
+  content: "\f342";
+}
+.gi-compact-disc:before {
+  content: "\f343";
+}
+.gi-sleeveless-jacket:before {
+  content: "\f344";
+}
+.gi-railway:before {
+  content: "\f345";
+}
+.gi-paper-clip:before {
+  content: "\f346";
+}
+.gi-wizard-face:before {
+  content: "\f347";
+}
+.gi-horseshoe:before {
+  content: "\f348";
+}
+.gi-shotgun-rounds:before {
+  content: "\f349";
+}
+.gi-locked-heart:before {
+  content: "\f34a";
+}
+.gi-tortoise:before {
+  content: "\f34b";
+}
+.gi-cross-shield:before {
+  content: "\f34c";
+}
+.gi-falcon-moon:before {
+  content: "\f34d";
+}
+.gi-greek-sphinx:before {
+  content: "\f34e";
+}
+.gi-files:before {
+  content: "\f34f";
+}
+.gi-virtual-marker:before {
+  content: "\f350";
+}
+.gi-fish-smoking:before {
+  content: "\f351";
+}
+.gi-hops:before {
+  content: "\f352";
+}
+.gi-gun-rose:before {
+  content: "\f353";
+}
+.gi-all-seeing-eye:before {
+  content: "\f354";
+}
+.gi-rolled-cloth:before {
+  content: "\f355";
+}
+.gi-wool:before {
+  content: "\f356";
+}
+.gi-paddles:before {
+  content: "\f357";
+}
+.gi-piranha:before {
+  content: "\f358";
+}
+.gi-manta-ray:before {
+  content: "\f359";
+}
+.gi-drum:before {
+  content: "\f35a";
+}
+.gi-puzzle:before {
+  content: "\f35b";
+}
+.gi-squirrel:before {
+  content: "\f35c";
+}
+.gi-forest:before {
+  content: "\f35d";
+}
+.gi-canoe:before {
+  content: "\f35e";
+}
+.gi-binoculars:before {
+  content: "\f35f";
+}
+.gi-grain:before {
+  content: "\f360";
+}
+.gi-buy-card:before {
+  content: "\f361";
+}
+.gi-banknote:before {
+  content: "\f362";
+}
+.gi-sunset:before {
+  content: "\f363";
+}
+.gi-village:before {
+  content: "\f364";
+}
+.gi-female:before {
+  content: "\f365";
+}
+.gi-hand-grip:before {
+  content: "\f366";
+}
+.gi-video-camera:before {
+  content: "\f367";
+}
+.gi-nunchaku:before {
+  content: "\f368";
+}
+.gi-ionic-column:before {
+  content: "\f369";
+}
+.gi-chest:before {
+  content: "\f36a";
+}
+.gi-observatory:before {
+  content: "\f36b";
+}
+.gi-pirate-hook:before {
+  content: "\f36c";
+}
+.gi-body-balance:before {
+  content: "\f36d";
+}
+.gi-sun-spear:before {
+  content: "\f36e";
+}
+.gi-diamond-hilt:before {
+  content: "\f36f";
+}
+.gi-roman-toga:before {
+  content: "\f370";
+}
+.gi-morgue-feet:before {
+  content: "\f371";
+}
+.gi-cardboard-box:before {
+  content: "\f372";
+}
+.gi-elephant:before {
+  content: "\f373";
+}
+.gi-drakkar:before {
+  content: "\f374";
+}
+.gi-sell-card:before {
+  content: "\f375";
+}
+.gi-pearl-necklace:before {
+  content: "\f376";
+}
+.gi-police-officer-head:before {
+  content: "\f377";
+}
+.gi-house:before {
+  content: "\f378";
+}
+.gi-airtight-hatch:before {
+  content: "\f379";
+}
+.gi-air-balloon:before {
+  content: "\f37a";
+}
+.gi-cavalry:before {
+  content: "\f37b";
+}
+.gi-armadillo:before {
+  content: "\f37c";
+}
+.gi-jack-plug:before {
+  content: "\f37d";
+}
+.gi-stump-regrowth:before {
+  content: "\f37e";
+}
+.gi-hill-conquest:before {
+  content: "\f37f";
+}
+.gi-dungeon-light:before {
+  content: "\f380";
+}
+.gi-greenhouse:before {
+  content: "\f381";
+}
+.gi-torpedo:before {
+  content: "\f382";
+}
+.gi-sickle:before {
+  content: "\f383";
+}
+.gi-covered-jar:before {
+  content: "\f384";
+}
+.gi-wooden-pegleg:before {
+  content: "\f385";
+}
+.gi-nefertiti:before {
+  content: "\f386";
+}
+.gi-cadillac-helm:before {
+  content: "\f387";
+}
+.gi-slime:before {
+  content: "\f388";
+}
+.gi-earth-asia-oceania:before {
+  content: "\f389";
+}
+.gi-roman-shield:before {
+  content: "\f38a";
+}
+.gi-convict:before {
+  content: "\f38b";
+}
+.gi-cherry:before {
+  content: "\f38c";
+}
+.gi-mexico:before {
+  content: "\f38d";
+}
+.gi-castle-ruins:before {
+  content: "\f38e";
+}
+.gi-caesar:before {
+  content: "\f38f";
+}
+.gi-mecha-head:before {
+  content: "\f390";
+}
+.gi-enrage:before {
+  content: "\f391";
+}
+.gi-cctv-camera:before {
+  content: "\f392";
+}
+.gi-idea:before {
+  content: "\f393";
+}
+.gi-glass-celebration:before {
+  content: "\f394";
+}
+.gi-boomerang:before {
+  content: "\f395";
+}
+.gi-robot-leg:before {
+  content: "\f396";
+}
+.gi-cave-entrance:before {
+  content: "\f397";
+}
+.gi-barracks:before {
+  content: "\f398";
+}
+.gi-piano-keys:before {
+  content: "\f399";
+}
+.gi-ski-boot:before {
+  content: "\f39a";
+}
+.gi-private-first-class:before {
+  content: "\f39b";
+}
+.gi-katana:before {
+  content: "\f39c";
+}
+.gi-mayan-pyramid:before {
+  content: "\f39d";
+}
+.gi-liver:before {
+  content: "\f39e";
+}
+.gi-round-silo:before {
+  content: "\f39f";
+}
+.gi-gorilla:before {
+  content: "\f3a0";
+}
+.gi-spiked-trunk:before {
+  content: "\f3a1";
+}
+.gi-cowboy-boot:before {
+  content: "\f3a2";
+}
+.gi-thrust-bend:before {
+  content: "\f3a3";
+}
+.gi-spiky-pit:before {
+  content: "\f3a4";
+}
+.gi-ropeway:before {
+  content: "\f3a5";
+}
+.gi-flanged-mace:before {
+  content: "\f3a6";
+}
+.gi-look-at:before {
+  content: "\f3a7";
+}
+.gi-flower-star:before {
+  content: "\f3a8";
+}
+.gi-bolt-spell-cast:before {
+  content: "\f3a9";
+}
+.gi-pull:before {
+  content: "\f3aa";
+}
+.gi-vampire-dracula:before {
+  content: "\f3ab";
+}
+.gi-steam-locomotive:before {
+  content: "\f3ac";
+}
+.gi-police-target:before {
+  content: "\f3ad";
+}
+.gi-africa:before {
+  content: "\f3ae";
+}
+.gi-pan-flute:before {
+  content: "\f3af";
+}
+.gi-star-formation:before {
+  content: "\f3b0";
+}
+.gi-giant-squid:before {
+  content: "\f3b1";
+}
+.gi-detour:before {
+  content: "\f3b2";
+}
+.gi-mighty-boosh:before {
+  content: "\f3b3";
+}
+.gi-amphora:before {
+  content: "\f3b4";
+}
+.gi-walking-scout:before {
+  content: "\f3b5";
+}
+.gi-sunglasses:before {
+  content: "\f3b6";
+}
+.gi-mini-submarine:before {
+  content: "\f3b7";
+}
+.gi-sand-castle:before {
+  content: "\f3b8";
+}
+.gi-hieroglyph-y:before {
+  content: "\f3b9";
+}
+.gi-tower-flag:before {
+  content: "\f3ba";
+}
+.gi-chainsaw:before {
+  content: "\f3bb";
+}
+.gi-penguin:before {
+  content: "\f3bc";
+}
+.gi-triquetra:before {
+  content: "\f3bd";
+}
+.gi-button-finger:before {
+  content: "\f3be";
+}
+.gi-tracked-robot:before {
+  content: "\f3bf";
+}
+.gi-trumpet:before {
+  content: "\f3c0";
+}
+.gi-window-bars:before {
+  content: "\f3c1";
+}
+.gi-cube:before {
+  content: "\f3c2";
+}
+.gi-paper-windmill:before {
+  content: "\f3c3";
+}
+.gi-fishing-spoon:before {
+  content: "\f3c4";
+}
+.gi-flail:before {
+  content: "\f3c5";
+}
+.gi-lock-picking:before {
+  content: "\f3c6";
+}
+.gi-woman-elf-face:before {
+  content: "\f3c7";
+}
+.gi-warlock-hood:before {
+  content: "\f3c8";
+}
+.gi-lighter:before {
+  content: "\f3c9";
+}
+.gi-saddle:before {
+  content: "\f3ca";
+}
+.gi-full-motorcycle-helmet:before {
+  content: "\f3cb";
+}
+.gi-crane:before {
+  content: "\f3cc";
+}
+.gi-crime-scene-tape:before {
+  content: "\f3cd";
+}
+.gi-shark-fin:before {
+  content: "\f3ce";
+}
+.gi-jug:before {
+  content: "\f3cf";
+}
+.gi-chef-toque:before {
+  content: "\f3d0";
+}
+.gi-acoustic-megaphone:before {
+  content: "\f3d1";
+}
+.gi-graduate-cap:before {
+  content: "\f3d2";
+}
+.gi-backward-time:before {
+  content: "\f3d3";
+}
+.gi-egyptian-sphinx:before {
+  content: "\f3d4";
+}
+.gi-palette:before {
+  content: "\f3d5";
+}
+.gi-brick-wall:before {
+  content: "\f3d6";
+}
+.gi-headband-knot:before {
+  content: "\f3d7";
+}
+.gi-brazil-flag:before {
+  content: "\f3d8";
+}
+.gi-robin-hood-hat:before {
+  content: "\f3d9";
+}
+.gi-saint-basil-cathedral:before {
+  content: "\f3da";
+}
+.gi-orange:before {
+  content: "\f3db";
+}
+.gi-ice-pop:before {
+  content: "\f3dc";
+}
+.gi-triforce:before {
+  content: "\f3dd";
+}
+.gi-person:before {
+  content: "\f3de";
+}
+.gi-planet-core:before {
+  content: "\f3df";
+}
+.gi-potato:before {
+  content: "\f3e0";
+}
+.gi-lemon:before {
+  content: "\f3e1";
+}
+.gi-lighthouse:before {
+  content: "\f3e2";
+}
+.gi-warlock-eye:before {
+  content: "\f3e3";
+}
+.gi-sergeant:before {
+  content: "\f3e4";
+}
+.gi-bed-lamp:before {
+  content: "\f3e5";
+}
+.gi-painted-pottery:before {
+  content: "\f3e6";
+}
+.gi-sofa:before {
+  content: "\f3e7";
+}
+.gi-encirclement:before {
+  content: "\f3e8";
+}
+.gi-wood-cabin:before {
+  content: "\f3e9";
+}
+.gi-path-tile:before {
+  content: "\f3ea";
+}
+.gi-pulley-hook:before {
+  content: "\f3eb";
+}
+.gi-antibody:before {
+  content: "\f3ec";
+}
+.gi-secret-door:before {
+  content: "\f3ed";
+}
+.gi-mug-shot:before {
+  content: "\f3ee";
+}
+.gi-floor-hatch:before {
+  content: "\f3ef";
+}
+.gi-skeletal-hand:before {
+  content: "\f3f0";
+}
+.gi-stack:before {
+  content: "\f3f1";
+}
+.gi-military-fort:before {
+  content: "\f3f2";
+}
+.gi-manual-juicer:before {
+  content: "\f3f3";
+}
+.gi-oyster-pearl:before {
+  content: "\f3f4";
+}
+.gi-megaphone:before {
+  content: "\f3f5";
+}
+.gi-cigarette:before {
+  content: "\f3f6";
+}
+.gi-viking-shield:before {
+  content: "\f3f7";
+}
+.gi-aquarius:before {
+  content: "\f3f8";
+}
+.gi-sagittarius:before {
+  content: "\f3f9";
+}
+.gi-gemini:before {
+  content: "\f3fa";
+}
+.gi-capricorn:before {
+  content: "\f3fb";
+}
+.gi-dice-six-faces-six:before {
+  content: "\f3fc";
+}
+.gi-perspective-dice-three:before {
+  content: "\f3fd";
+}
+.gi-perspective-dice-six-faces-three:before {
+  content: "\f3fe";
+}
+.gi-perspective-dice-six-faces-six:before {
+  content: "\f3ff";
+}
+.gi-perspective-dice-two:before {
+  content: "\f400";
+}
+.gi-perspective-dice-six-faces-random:before {
+  content: "\f401";
+}
+.gi-dice-six-faces-two:before {
+  content: "\f402";
+}
+.gi-perspective-dice-six-faces-one:before {
+  content: "\f403";
+}
+.gi-z-brick:before {
+  content: "\f404";
+}
+.gi-i-brick:before {
+  content: "\f405";
+}
+.gi-checklist:before {
+  content: "\f406";
+}
+.gi-transform:before {
+  content: "\f407";
+}
+.gi-load:before {
+  content: "\f408";
+}
+.gi-arrow-cursor:before {
+  content: "\f409";
+}
+.gi-thumb-up:before {
+  content: "\f40a";
+}
+.gi-anticlockwise-rotation:before {
+  content: "\f40b";
+}
+.gi-pharoah:before {
+  content: "\f40c";
+}
+.gi-eye-of-horus:before {
+  content: "\f40d";
+}
+.gi-fez:before {
+  content: "\f40e";
+}
+.gi-shuttlecock:before {
+  content: "\f40f";
+}
+.gi-american-football-ball:before {
+  content: "\f410";
+}
+.gi-basketball-basket:before {
+  content: "\f411";
+}
+.gi-salmon:before {
+  content: "\f412";
+}
+.gi-underhand:before {
+  content: "\f413";
+}
+
