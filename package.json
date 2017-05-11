@@ -1,13 +1,12 @@
 {
   "name": "@guumaster/rpgen-gameicons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GameIcons packed as webfonts",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "cssmin": "^0.4.3",
     "osmosis": "^1.1.4"
