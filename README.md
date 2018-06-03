@@ -3,9 +3,15 @@
 
 This repo is used to create a webfont based on [Game Icons.net](https://game-icons.net/). All credits goes to them. 
 
+## Install
+
+```sh
+ $>  npm install @guumaster/rpgen-gameicons
+```
+
 ## Versions
 
-- **v1.1** (2018-05-03) 
+- **v1.2** (2018-05-03) 
   - 3322 icons included
   - generated with fontello.com
 
