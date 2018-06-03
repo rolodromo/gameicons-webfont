@@ -8,11 +8,13 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "cssmin": "^0.4.3",
-    "osmosis": "^1.1.4"
+    "cssmin": "0.4.3",
+    "osmosis": "1.1.4"
   },
   "scripts": {
     "scrape": "node scripts/scrape_gameicons.js",
+    "table": "node scripts/make_rpgen_table.js",
+    "html": "node scripts/make_example_html.js",
     "cssmin": "cssmin css/rpgen-gameicons.css > css/rpgen-gameicons.min.css"
   },
   "author": "guumaster <guuweb@gmail.com>",

@@ -1,5 +1,5 @@
 
-const data = require('./icons')
+const data = require('../icons')
 
 let header = `
 ;gi-icon
