@@ -18,5 +18,9 @@
     "cssmin": "cssmin css/rpgen-gameicons.css > css/rpgen-gameicons.min.css"
   },
   "author": "guumaster <guuweb@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guumaster/rpgen-gameicons"
+  }
 }
