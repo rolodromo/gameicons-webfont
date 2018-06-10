@@ -1,11 +1,7 @@
 {
-  "name": "@guumaster/rpgen-gameicons",
+  "name": "@rolodromo/gameicons-webfont",
   "version": "1.2.0",
   "description": "GameIcons packed as webfonts",
-  "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "dependencies": {},
   "devDependencies": {
     "cssmin": "0.4.3",
@@ -21,6 +17,6 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/guumaster/rpgen-gameicons"
+    "url": "https://github.com/rolodromo/gameicons-webfont"
   }
 }
