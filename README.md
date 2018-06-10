@@ -6,7 +6,7 @@ This repo is used to create a webfont based on [Game Icons.net](https://game-ico
 ## Install
 
 ```sh
- $>  npm install @guumaster/rpgen-gameicons
+ $>  npm install @rolodromo/gameicons-webfont
 ```
 
 ## Versions
