@@ -15,8 +15,14 @@
   },
   "author": "guumaster <guuweb@gmail.com>",
   "license": "ISC",
+  "homepage": "https://github.com/rolodromo/gameicons-webfont#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rolodromo/gameicons-webfont"
-  }
+    "url": "git+ssh://git@github.com/rolodromo/gameicons-webfont.git"
+  },
+  "keywords": [
+    "rpg",
+    "game-icons.net",
+    "webfont"
+  ]
 }
