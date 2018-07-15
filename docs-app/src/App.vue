@@ -5,6 +5,12 @@
       <v-toolbar app>
         <v-toolbar-title>@rolodromo/gameicons-webfont</v-toolbar-title>
         <v-spacer></v-spacer>
+        <v-btn icon flat
+               href='https://github.com/rolodromo/gameicons-webfont/'
+               target='_blank'
+        >
+          <icon name='github'></icon>
+        </v-btn>
         <v-btn icon flat @click='showInfo=true'>
           <v-icon>info</v-icon>
         </v-btn>
@@ -100,7 +106,7 @@
                       >
                         <div class=' pa-0 ma-1 box'>
                           <i class='gi listed' :class='`gi-${icon}`'
-                             @click='showDetail(icon)'/>
+                             @click='showDetail(icon)'></i>
                           <span>{{ icon }}</span>
                         </div>
                       </v-flex>
@@ -256,5 +262,10 @@ export default {
 
 .gi {
   width: auto !important;
+}
+
+.fa-icon {
+  width: auto;
+  height: 1.75em;
 }
 </style>

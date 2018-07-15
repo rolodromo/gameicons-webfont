@@ -7,6 +7,10 @@ import App from './App'
 
 import './registerServiceWorker'
 import 'vuetify/dist/vuetify.min.css'
+import 'vue-awesome/icons/github'
+
+import Icon from 'vue-awesome/components/Icon'
+Vue.component('icon', Icon)
 
 Vue.config.productionTip = false
 

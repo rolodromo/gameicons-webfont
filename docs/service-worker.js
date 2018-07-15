@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "/gameicons-webfont/precache-manifest.bec3a7d37701b6aa820d6bc77beae906.js"
+  "/gameicons-webfont/precache-manifest.6b3501d7833d4753868763f62dff5a33.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "pwa"});
