@@ -2,11 +2,14 @@
   "name": "@rolodromo/gameicons-webfont",
   "version": "1.2.0",
   "description": "GameIcons packed as webfonts",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "cssmin": "0.4.3",
-    "osmosis": "1.1.4"
+    "fs-extra": "7.0.0",
+    "lodash": "4.17.11",
+    "lowdb": "1.0.0",
+    "osmosis": "1.1.8"
   },
+  "devDependencies": {},
   "scripts": {
     "scrape": "node scripts/scrape_gameicons.js",
     "table": "node scripts/make_rpgen_table.js",

@@ -1,14 +1,25 @@
 @font-face {
   font-family: 'rpgen-gameicons';
-  src: url('../fonts/rpgen-gameicons.eot?29204451');
-  src: url('../fonts/rpgen-gameicons.eot?29204451#iefix') format('embedded-opentype'),
-       url('../fonts/rpgen-gameicons.woff2?29204451') format('woff2'),
-       url('../fonts/rpgen-gameicons.woff?29204451') format('woff'),
-       url('../fonts/rpgen-gameicons.ttf?29204451') format('truetype'),
-       url('../fonts/rpgen-gameicons.svg?29204451#gameicons') format('svg');
+  src: url('../fonts/rpgen-gameicons.eot?39986783');
+  src: url('../fonts/rpgen-gameicons.eot?39986783#iefix') format('embedded-opentype'),
+       url('../fonts/rpgen-gameicons.woff2?39986783') format('woff2'),
+       url('../fonts/rpgen-gameicons.woff?39986783') format('woff'),
+       url('../fonts/rpgen-gameicons.ttf?39986783') format('truetype'),
+       url('../fonts/rpgen-gameicons.svg?39986783#gameicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'rpgen-gameicons';
+    src: url('../fonts/rpgen-gameicons.svg?39986783#gameicons') format('svg');
+  }
+}
+*/
+ 
 
 .gi {
   font-family: "rpgen-gameicons";
@@ -3412,3 +3423,56 @@
 .gi-zigzag-leaf:before { content: '\f4f7'; } /* '' */
 .gi-zigzag-tune:before { content: '\f4f8'; } /* '' */
 .gi-zipper:before { content: '\f4f9'; } /* '' */
+.gi-ancient-screw:before { content: '\f4fa'; } /* '' */
+.gi-arrow-wings:before { content: '\f4fb'; } /* '' */
+.gi-banana-bunch:before { content: '\f4fc'; } /* '' */
+.gi-banana-peeled:before { content: '\f4fd'; } /* '' */
+.gi-bandit:before { content: '\f4fe'; } /* '' */
+.gi-booze:before { content: '\f4ff'; } /* '' */
+.gi-broccoli:before { content: '\f500'; } /* '' */
+.gi-buffalo-head:before { content: '\f501'; } /* '' */
+.gi-bullet-impacts:before { content: '\f502'; } /* '' */
+.gi-champions:before { content: '\f503'; } /* '' */
+.gi-claymore-explosive:before { content: '\f504'; } /* '' */
+.gi-conway-life-glider:before { content: '\f505'; } /* '' */
+.gi-disc-golf-bag:before { content: '\f506'; } /* '' */
+.gi-disc-golf-basket:before { content: '\f507'; } /* '' */
+.gi-evasion:before { content: '\f508'; } /* '' */
+.gi-family-tree:before { content: '\f509'; } /* '' */
+.gi-fertilizer-bag:before { content: '\f50a'; } /* '' */
+.gi-fingernail:before { content: '\f50b'; } /* '' */
+.gi-fog:before { content: '\f50c'; } /* '' */
+.gi-glass-ball:before { content: '\f50d'; } /* '' */
+.gi-hand-bandage:before { content: '\f50e'; } /* '' */
+.gi-hanging-sign:before { content: '\f50f'; } /* '' */
+.gi-heart-battery:before { content: '\f510'; } /* '' */
+.gi-herbs-bundle:before { content: '\f511'; } /* '' */
+.gi-hungary:before { content: '\f512'; } /* '' */
+.gi-kidneys:before { content: '\f513'; } /* '' */
+.gi-medicines:before { content: '\f514'; } /* '' */
+.gi-mighty-force:before { content: '\f515'; } /* '' */
+.gi-monument-valley:before { content: '\f516'; } /* '' */
+.gi-nurse-female:before { content: '\f517'; } /* '' */
+.gi-nurse-male:before { content: '\f518'; } /* '' */
+.gi-ostrich:before { content: '\f519'; } /* '' */
+.gi-path-distance:before { content: '\f51a'; } /* '' */
+.gi-pumpkin:before { content: '\f51b'; } /* '' */
+.gi-reload-gun-barrel:before { content: '\f51c'; } /* '' */
+.gi-rocking-chair:before { content: '\f51d'; } /* '' */
+.gi-rod-of-asclepius:before { content: '\f51e'; } /* '' */
+.gi-sail:before { content: '\f51f'; } /* '' */
+.gi-saloon:before { content: '\f520'; } /* '' */
+.gi-satellite-communication:before { content: '\f521'; } /* '' */
+.gi-sausage:before { content: '\f522'; } /* '' */
+.gi-sleeveless-top:before { content: '\f523'; } /* '' */
+.gi-sliced-mushroom:before { content: '\f524'; } /* '' */
+.gi-snake-spiral:before { content: '\f525'; } /* '' */
+.gi-spring:before { content: '\f526'; } /* '' */
+.gi-stockpiles:before { content: '\f527'; } /* '' */
+.gi-texas:before { content: '\f528'; } /* '' */
+.gi-throwing-ball:before { content: '\f529'; } /* '' */
+.gi-thwomp:before { content: '\f52a'; } /* '' */
+.gi-tumbleweed:before { content: '\f52b'; } /* '' */
+.gi-venezuela:before { content: '\f52c'; } /* '' */
+.gi-wanted-reward:before { content: '\f52d'; } /* '' */
+.gi-war-bonnet:before { content: '\f52e'; } /* '' */
