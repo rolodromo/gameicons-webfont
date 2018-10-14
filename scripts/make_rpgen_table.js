@@ -1,30 +1,37 @@
 
-const data = require('../icons')
+const getDb = require('./db')
 
-let header = `
+const main = async () => {
+  let header = `
 ;gi-icon
 [gi-all]
 
 ;gi-size
-gi-4x
+gi-2x
 
 ;gi-all
 `
-let html = ''
-let nameTables = ''
+  let html = ''
+  let nameTables = ''
 
-Object.keys(data.icons).map(key => {
+  const db = await getDb()
+  const list = db.get('iconsByCategory').value()
 
-  header += `[${key}]\n`
-  html += `\n;${key}\n<i class="gi [gi-${key}-names] [gi-size]"></i>\n`
+  Object.keys(list).map(key => {
 
-  const names = data.icons[key]
+    header += `[${key}]\n`
+    html += `\n;${key}\n<i class="gi [gi-${key}-names] [gi-size]"></i>\n`
 
-  nameTables += `\n;gi-${key}-names\n`
+    const names = list[key]
 
-  names.forEach(name => {
-    nameTables += `gi-${name}\n`
+    nameTables += `\n;gi-${key}-names\n`
+
+    names.forEach(name => {
+      nameTables += `gi-${name}\n`
+    })
   })
-})
 
-console.log(`${header}${html}\n${nameTables}`)
+  console.log(`${header}${html}\n${nameTables}`)
+
+}
+main()

@@ -11,6 +11,8 @@ This repo is used to create a webfont based on [Game Icons.net](https://game-ico
 
 ## Versions
 
+- **v1.3** (2018-10-13) 
+  - 3375 icons included
 - **v1.2** (2018-05-03) 
   - 3322 icons included
   - generated with fontello.com
