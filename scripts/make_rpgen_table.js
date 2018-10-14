@@ -4,7 +4,7 @@ const getDb = require('./db')
 const main = async () => {
   let header = `
 ;gi-icon
-[gi-all]
+<span class='glossy'>[gi-all]</span>
 
 ;gi-size
 gi-2x
