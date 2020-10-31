@@ -1,3 +1,4 @@
+const { writeFile } = require('fs-extra')
 const data = require('../icons')
 const html = require('./example_template')
 
@@ -8,5 +9,5 @@ const icons = Object.keys(data.icons).reduce((icons, key) => icons.concat(data.i
 
 const sorted = Array.from(new Set(icons)).sort()
 
-console.log(html(sorted, SIZE))
+ writeFile('example.html', html(sorted, SIZE))
 

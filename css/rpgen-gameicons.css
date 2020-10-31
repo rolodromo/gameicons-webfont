@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'rpgen-gameicons';
-  src: url('../fonts/rpgen-gameicons.eot?39986783');
-  src: url('../fonts/rpgen-gameicons.eot?39986783#iefix') format('embedded-opentype'),
-       url('../fonts/rpgen-gameicons.woff2?39986783') format('woff2'),
-       url('../fonts/rpgen-gameicons.woff?39986783') format('woff'),
-       url('../fonts/rpgen-gameicons.ttf?39986783') format('truetype'),
-       url('../fonts/rpgen-gameicons.svg?39986783#gameicons') format('svg');
+  src: url('../fonts/rpgen-gameicons.eot?8398950');
+  src: url('../fonts/rpgen-gameicons.eot?8398950#iefix') format('embedded-opentype'),
+       url('../fonts/rpgen-gameicons.woff2?8398950') format('woff2'),
+       url('../fonts/rpgen-gameicons.woff?8398950') format('woff'),
+       url('../fonts/rpgen-gameicons.ttf?8398950') format('truetype'),
+       url('../fonts/rpgen-gameicons.svg?8398950#rpgen-gameicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,24 +15,44 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'rpgen-gameicons';
-    src: url('../fonts/rpgen-gameicons.svg?39986783#gameicons') format('svg');
+    src: url('../fonts/rpgen-gameicons.svg?8398950#rpgen-gameicons') format('svg');
   }
 }
 */
  
-
-.gi {
+.gi, [class^="gi-"]:before, [class*=" gi-"]:before {
   font-family: "rpgen-gameicons";
   font-style: normal;
   font-weight: normal;
-  speak: none;
-
+  speak: never;
+ 
   display: inline-block;
   text-decoration: inherit;
-
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
 .gi-inverse {
@@ -70,28 +90,28 @@
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-
+ 
 .gi-rotate-270 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
-
+ 
 .gi-flip-horizontal {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
-
+ 
 .gi-flip-vertical {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-
+ 
 :root .gi-rotate-90,
 :root .gi-rotate-180,
 :root .gi-rotate-270,
@@ -100,7 +120,7 @@
     filter: none;
 }
 
-
+ 
 .gi-3d-hammer:before { content: '\e800'; } /* '' */
 .gi-3d-meeple:before { content: '\e801'; } /* '' */
 .gi-3d-stairs:before { content: '\e802'; } /* '' */
@@ -3476,3 +3496,489 @@
 .gi-venezuela:before { content: '\f52c'; } /* '' */
 .gi-wanted-reward:before { content: '\f52d'; } /* '' */
 .gi-war-bonnet:before { content: '\f52e'; } /* '' */
+.gi-vibrating-smartphone:before { content: '\f52f'; } /* '' */
+.gi-video-conference:before { content: '\f530'; } /* '' */
+.gi-vines:before { content: '\f531'; } /* '' */
+.gi-vr-headset:before { content: '\f532'; } /* '' */
+.gi-water-flask:before { content: '\f533'; } /* '' */
+.gi-water-gun:before { content: '\f534'; } /* '' */
+.gi-water-polo:before { content: '\f535'; } /* '' */
+.gi-water-recycling:before { content: '\f536'; } /* '' */
+.gi-water-tank:before { content: '\f537'; } /* '' */
+.gi-waves:before { content: '\f538'; } /* '' */
+.gi-weight-scale:before { content: '\f539'; } /* '' */
+.gi-whisk:before { content: '\f53a'; } /* '' */
+.gi-wifi-router:before { content: '\f53b'; } /* '' */
+.gi-winged-scepter:before { content: '\f53c'; } /* '' */
+.gi-wire-coil:before { content: '\f53d'; } /* '' */
+.gi-wood-beam:before { content: '\f53e'; } /* '' */
+.gi-wooden-chair:before { content: '\f53f'; } /* '' */
+.gi-yarn:before { content: '\f540'; } /* '' */
+.gi-underground-cave:before { content: '\f541'; } /* '' */
+.gi-underwear-shorts:before { content: '\f542'; } /* '' */
+.gi-ushanka:before { content: '\f543'; } /* '' */
+.gi-tadpole:before { content: '\f544'; } /* '' */
+.gi-tambourine:before { content: '\f545'; } /* '' */
+.gi-tank-top:before { content: '\f546'; } /* '' */
+.gi-tanzania:before { content: '\f547'; } /* '' */
+.gi-target-prize:before { content: '\f548'; } /* '' */
+.gi-team-downgrade:before { content: '\f549'; } /* '' */
+.gi-team-upgrade:before { content: '\f54a'; } /* '' */
+.gi-tee-pipe:before { content: '\f54b'; } /* '' */
+.gi-temple-door:before { content: '\f54c'; } /* '' */
+.gi-tentacles-barrier:before { content: '\f54d'; } /* '' */
+.gi-time-dynamite:before { content: '\f54e'; } /* '' */
+.gi-time-synchronization:before { content: '\f54f'; } /* '' */
+.gi-tire-iron:before { content: '\f550'; } /* '' */
+.gi-tire-iron-cross:before { content: '\f551'; } /* '' */
+.gi-toggles:before { content: '\f552'; } /* '' */
+.gi-token:before { content: '\f553'; } /* '' */
+.gi-towel:before { content: '\f554'; } /* '' */
+.gi-trail:before { content: '\f555'; } /* '' */
+.gi-travel-dress:before { content: '\f556'; } /* '' */
+.gi-tree-door:before { content: '\f557'; } /* '' */
+.gi-tree-roots:before { content: '\f558'; } /* '' */
+.gi-tribal-gear:before { content: '\f559'; } /* '' */
+.gi-tribunal-jury:before { content: '\f55a'; } /* '' */
+.gi-trinacria:before { content: '\f55b'; } /* '' */
+.gi-trophies-shelf:before { content: '\f55c'; } /* '' */
+.gi-truce:before { content: '\f55d'; } /* '' */
+.gi-trunk-mushroom:before { content: '\f55e'; } /* '' */
+.gi-turnstile:before { content: '\f55f'; } /* '' */
+.gi-samara-mosque:before { content: '\f560'; } /* '' */
+.gi-samus-helmet:before { content: '\f561'; } /* '' */
+.gi-sandal:before { content: '\f562'; } /* '' */
+.gi-sandwich:before { content: '\f563'; } /* '' */
+.gi-sausages-ribbon:before { content: '\f564'; } /* '' */
+.gi-school-bag:before { content: '\f565'; } /* '' */
+.gi-school-of-fish:before { content: '\f566'; } /* '' */
+.gi-screw:before { content: '\f567'; } /* '' */
+.gi-scroll-quill:before { content: '\f568'; } /* '' */
+.gi-scuba-mask:before { content: '\f569'; } /* '' */
+.gi-seagull:before { content: '\f56a'; } /* '' */
+.gi-security-gate:before { content: '\f56b'; } /* '' */
+.gi-server-rack:before { content: '\f56c'; } /* '' */
+.gi-sesame:before { content: '\f56d'; } /* '' */
+.gi-sewing-string:before { content: '\f56e'; } /* '' */
+.gi-share:before { content: '\f56f'; } /* '' */
+.gi-shattered-heart:before { content: '\f570'; } /* '' */
+.gi-shears:before { content: '\f571'; } /* '' */
+.gi-shield-impact:before { content: '\f572'; } /* '' */
+.gi-shield-opposition:before { content: '\f573'; } /* '' */
+.gi-ship-bow:before { content: '\f574'; } /* '' */
+.gi-shirt-button:before { content: '\f575'; } /* '' */
+.gi-shooner-sailboat:before { content: '\f576'; } /* '' */
+.gi-shopping-bag:before { content: '\f577'; } /* '' */
+.gi-silver-bullet:before { content: '\f578'; } /* '' */
+.gi-sitting-dog:before { content: '\f579'; } /* '' */
+.gi-skateboard:before { content: '\f57a'; } /* '' */
+.gi-skier:before { content: '\f57b'; } /* '' */
+.gi-skills:before { content: '\f57c'; } /* '' */
+.gi-skis:before { content: '\f57d'; } /* '' */
+.gi-sleeping-bag:before { content: '\f57e'; } /* '' */
+.gi-sliced-sausage:before { content: '\f57f'; } /* '' */
+.gi-slipknot:before { content: '\f580'; } /* '' */
+.gi-slippers:before { content: '\f581'; } /* '' */
+.gi-snake-jar:before { content: '\f582'; } /* '' */
+.gi-slumbering-sanctuary:before { content: '\f583'; } /* '' */
+.gi-small-fishing-sailboat:before { content: '\f584'; } /* '' */
+.gi-snout:before { content: '\f585'; } /* '' */
+.gi-soap:before { content: '\f586'; } /* '' */
+.gi-soccer-kick:before { content: '\f587'; } /* '' */
+.gi-sonic-shoes:before { content: '\f588'; } /* '' */
+.gi-soul-vessel:before { content: '\f589'; } /* '' */
+.gi-south-korea:before { content: '\f58a'; } /* '' */
+.gi-sparkles:before { content: '\f58b'; } /* '' */
+.gi-spider-eye:before { content: '\f58c'; } /* '' */
+.gi-spider-mask:before { content: '\f58d'; } /* '' */
+.gi-spiky-wing:before { content: '\f58e'; } /* '' */
+.gi-split-arrows:before { content: '\f58f'; } /* '' */
+.gi-stairs-cake:before { content: '\f590'; } /* '' */
+.gi-stamper:before { content: '\f591'; } /* '' */
+.gi-star-altar:before { content: '\f592'; } /* '' */
+.gi-star-flag:before { content: '\f593'; } /* '' */
+.gi-star-medal:before { content: '\f594'; } /* '' */
+.gi-stealth-bomber:before { content: '\f595'; } /* '' */
+.gi-stone-path:before { content: '\f596'; } /* '' */
+.gi-straight-pipe:before { content: '\f597'; } /* '' */
+.gi-strongbox:before { content: '\f598'; } /* '' */
+.gi-submarine-missile:before { content: '\f599'; } /* '' */
+.gi-sun-priest:before { content: '\f59a'; } /* '' */
+.gi-surf-board:before { content: '\f59b'; } /* '' */
+.gi-surfer-van:before { content: '\f59c'; } /* '' */
+.gi-sushis:before { content: '\f59d'; } /* '' */
+.gi-suspension-bridge:before { content: '\f59e'; } /* '' */
+.gi-sword-mold:before { content: '\f59f'; } /* '' */
+.gi-sydney-opera-house:before { content: '\f5a0'; } /* '' */
+.gi-packed-planks:before { content: '\f5a1'; } /* '' */
+.gi-padlock-open:before { content: '\f5a2'; } /* '' */
+.gi-park-bench:before { content: '\f5a3'; } /* '' */
+.gi-party-hat:before { content: '\f5a4'; } /* '' */
+.gi-party-popper:before { content: '\f5a5'; } /* '' */
+.gi-passport:before { content: '\f5a6'; } /* '' */
+.gi-peace-dove:before { content: '\f5a7'; } /* '' */
+.gi-pearl-earring:before { content: '\f5a8'; } /* '' */
+.gi-peas:before { content: '\f5a9'; } /* '' */
+.gi-pencil-ruler:before { content: '\f5aa'; } /* '' */
+.gi-pendant-key:before { content: '\f5ab'; } /* '' */
+.gi-person-in-bed:before { content: '\f5ac'; } /* '' */
+.gi-peru:before { content: '\f5ad'; } /* '' */
+.gi-pimiento:before { content: '\f5ae'; } /* '' */
+.gi-pinata:before { content: '\f5af'; } /* '' */
+.gi-pirate-cannon:before { content: '\f5b0'; } /* '' */
+.gi-pitchfork:before { content: '\f5b1'; } /* '' */
+.gi-plane-pilot:before { content: '\f5b2'; } /* '' */
+.gi-planet-conquest:before { content: '\f5b3'; } /* '' */
+.gi-plant-roots:before { content: '\f5b4'; } /* '' */
+.gi-plant-watering:before { content: '\f5b5'; } /* '' */
+.gi-player-base:before { content: '\f5b6'; } /* '' */
+.gi-player-next:before { content: '\f5b7'; } /* '' */
+.gi-player-previous:before { content: '\f5b8'; } /* '' */
+.gi-plunger:before { content: '\f5b9'; } /* '' */
+.gi-player-time:before { content: '\f5ba'; } /* '' */
+.gi-polar-star:before { content: '\f5bb'; } /* '' */
+.gi-portrait:before { content: '\f5bc'; } /* '' */
+.gi-portugal:before { content: '\f5bd'; } /* '' */
+.gi-post-office:before { content: '\f5be'; } /* '' */
+.gi-post-stamp:before { content: '\f5bf'; } /* '' */
+.gi-potion-of-madness:before { content: '\f5c0'; } /* '' */
+.gi-pouring-pot:before { content: '\f5c1'; } /* '' */
+.gi-previous-button:before { content: '\f5c2'; } /* '' */
+.gi-prism:before { content: '\f5c3'; } /* '' */
+.gi-progression:before { content: '\f5c4'; } /* '' */
+.gi-punching-bag:before { content: '\f5c5'; } /* '' */
+.gi-pylon:before { content: '\f5c6'; } /* '' */
+.gi-pyre:before { content: '\f5c7'; } /* '' */
+.gi-quick-man:before { content: '\f5c8'; } /* '' */
+.gi-raccoon-head:before { content: '\f5c9'; } /* '' */
+.gi-radar-cross-section:before { content: '\f5ca'; } /* '' */
+.gi-raddish:before { content: '\f5cb'; } /* '' */
+.gi-radiations:before { content: '\f5cc'; } /* '' */
+.gi-rail-road:before { content: '\f5cd'; } /* '' */
+.gi-raft:before { content: '\f5ce'; } /* '' */
+.gi-ranch-gate:before { content: '\f5cf'; } /* '' */
+.gi-raw-egg:before { content: '\f5d0'; } /* '' */
+.gi-remedy:before { content: '\f5d1'; } /* '' */
+.gi-rempart:before { content: '\f5d2'; } /* '' */
+.gi-resting-vampire:before { content: '\f5d3'; } /* '' */
+.gi-rialto-bridge:before { content: '\f5d4'; } /* '' */
+.gi-ring-box:before { content: '\f5d5'; } /* '' */
+.gi-robot-grab:before { content: '\f5d6'; } /* '' */
+.gi-rock-golem:before { content: '\f5d7'; } /* '' */
+.gi-roller-skate:before { content: '\f5d8'; } /* '' */
+.gi-rope-bridge:before { content: '\f5d9'; } /* '' */
+.gi-rope-dart:before { content: '\f5da'; } /* '' */
+.gi-rubber-boot:before { content: '\f5db'; } /* '' */
+.gi-rule-book:before { content: '\f5dc'; } /* '' */
+.gi-rusty-sword:before { content: '\f5dd'; } /* '' */
+.gi-machine-gun-magazine:before { content: '\f5de'; } /* '' */
+.gi-magic-axe:before { content: '\f5df'; } /* '' */
+.gi-magic-broom:before { content: '\f5e0'; } /* '' */
+.gi-maracas:before { content: '\f5e1'; } /* '' */
+.gi-marshmallows:before { content: '\f5e2'; } /* '' */
+.gi-matchbox:before { content: '\f5e3'; } /* '' */
+.gi-medical-drip:before { content: '\f5e4'; } /* '' */
+.gi-medical-thermometer:before { content: '\f5e5'; } /* '' */
+.gi-medieval-barracks:before { content: '\f5e6'; } /* '' */
+.gi-melting-metal:before { content: '\f5e7'; } /* '' */
+.gi-metal-golem-head:before { content: '\f5e8'; } /* '' */
+.gi-metal-skirt:before { content: '\f5e9'; } /* '' */
+.gi-misdirection:before { content: '\f5ea'; } /* '' */
+.gi-moka-pot:before { content: '\f5eb'; } /* '' */
+.gi-moldova:before { content: '\f5ec'; } /* '' */
+.gi-mongolia:before { content: '\f5ed'; } /* '' */
+.gi-monstera-leaf:before { content: '\f5ee'; } /* '' */
+.gi-moon-bats:before { content: '\f5ef'; } /* '' */
+.gi-mooring-bollard:before { content: '\f5f0'; } /* '' */
+.gi-mountain-road:before { content: '\f5f1'; } /* '' */
+.gi-mushrooms-cluster:before { content: '\f5f2'; } /* '' */
+.gi-mussel:before { content: '\f5f3'; } /* '' */
+.gi-mustache:before { content: '\f5f4'; } /* '' */
+.gi-nachos:before { content: '\f5f5'; } /* '' */
+.gi-nano-bot:before { content: '\f5f6'; } /* '' */
+.gi-necklace-display:before { content: '\f5f7'; } /* '' */
+.gi-nest-birds:before { content: '\f5f8'; } /* '' */
+.gi-nest-eggs:before { content: '\f5f9'; } /* '' */
+.gi-new-shoot:before { content: '\f5fa'; } /* '' */
+.gi-next-button:before { content: '\f5fb'; } /* '' */
+.gi-night-sleep:before { content: '\f5fc'; } /* '' */
+.gi-nuclear-waste:before { content: '\f5fd'; } /* '' */
+.gi-office-chair:before { content: '\f5fe'; } /* '' */
+.gi-onigori:before { content: '\f5ff'; } /* '' */
+.gi-open-gate:before { content: '\f600'; } /* '' */
+.gi-opposite-hearts:before { content: '\f601'; } /* '' */
+.gi-orange-slice:before { content: '\f602'; } /* '' */
+.gi-oyster:before { content: '\f603'; } /* '' */
+.gi-half-log:before { content: '\f604'; } /* '' */
+.gi-hammer-break:before { content: '\f605'; } /* '' */
+.gi-hand-wing:before { content: '\f606'; } /* '' */
+.gi-harbor-dock:before { content: '\f607'; } /* '' */
+.gi-harp:before { content: '\f608'; } /* '' */
+.gi-hatchet:before { content: '\f609'; } /* '' */
+.gi-healing-shield:before { content: '\f60a'; } /* '' */
+.gi-heart-armor:before { content: '\f60b'; } /* '' */
+.gi-heart-earrings:before { content: '\f60c'; } /* '' */
+.gi-heart-key:before { content: '\f60d'; } /* '' */
+.gi-heart-stake:before { content: '\f60e'; } /* '' */
+.gi-heavy-bullets:before { content: '\f60f'; } /* '' */
+.gi-hieroglyph-legs:before { content: '\f610'; } /* '' */
+.gi-highlighter:before { content: '\f611'; } /* '' */
+.gi-high-punch:before { content: '\f612'; } /* '' */
+.gi-hive-mind:before { content: '\f613'; } /* '' */
+.gi-hobbit-door:before { content: '\f614'; } /* '' */
+.gi-hollow-cat:before { content: '\f615'; } /* '' */
+.gi-honey-jar:before { content: '\f616'; } /* '' */
+.gi-hoodie:before { content: '\f617'; } /* '' */
+.gi-hook:before { content: '\f618'; } /* '' */
+.gi-human-target:before { content: '\f619'; } /* '' */
+.gi-hunter-eyes:before { content: '\f61a'; } /* '' */
+.gi-ibis:before { content: '\f61b'; } /* '' */
+.gi-ice-cream-scoop:before { content: '\f61c'; } /* '' */
+.gi-ice-cubes:before { content: '\f61d'; } /* '' */
+.gi-ice-iris:before { content: '\f61e'; } /* '' */
+.gi-incubator:before { content: '\f61f'; } /* '' */
+.gi-inspiration:before { content: '\f620'; } /* '' */
+.gi-intricate-necklace:before { content: '\f621'; } /* '' */
+.gi-iraq:before { content: '\f622'; } /* '' */
+.gi-japanese-bridge:before { content: '\f623'; } /* '' */
+.gi-jelly:before { content: '\f624'; } /* '' */
+.gi-jelly-beans:before { content: '\f625'; } /* '' */
+.gi-jerusalem-cross:before { content: '\f626'; } /* '' */
+.gi-jumping-rope:before { content: '\f627'; } /* '' */
+.gi-jungle:before { content: '\f628'; } /* '' */
+.gi-kebab-spit:before { content: '\f629'; } /* '' */
+.gi-kenya:before { content: '\f62a'; } /* '' */
+.gi-key-card:before { content: '\f62b'; } /* '' */
+.gi-key-lock:before { content: '\f62c'; } /* '' */
+.gi-kick-scooter:before { content: '\f62d'; } /* '' */
+.gi-kid-slide:before { content: '\f62e'; } /* '' */
+.gi-kitchen-scale:before { content: '\f62f'; } /* '' */
+.gi-knee-cap:before { content: '\f630'; } /* '' */
+.gi-knight-banner:before { content: '\f631'; } /* '' */
+.gi-labrador-head:before { content: '\f632'; } /* '' */
+.gi-ladders-platform:before { content: '\f633'; } /* '' */
+.gi-laptop:before { content: '\f634'; } /* '' */
+.gi-leapfrog:before { content: '\f635'; } /* '' */
+.gi-leek:before { content: '\f636'; } /* '' */
+.gi-leg:before { content: '\f637'; } /* '' */
+.gi-level-end-flag:before { content: '\f638'; } /* '' */
+.gi-libya:before { content: '\f639'; } /* '' */
+.gi-life-jacket:before { content: '\f63a'; } /* '' */
+.gi-light-helm:before { content: '\f63b'; } /* '' */
+.gi-lightning-flame:before { content: '\f63c'; } /* '' */
+.gi-liquid-soap:before { content: '\f63d'; } /* '' */
+.gi-locked-door:before { content: '\f63e'; } /* '' */
+.gi-lockers:before { content: '\f63f'; } /* '' */
+.gi-logic-gate-and:before { content: '\f640'; } /* '' */
+.gi-logic-gate-nand:before { content: '\f641'; } /* '' */
+.gi-logic-gate-nor:before { content: '\f642'; } /* '' */
+.gi-logic-gate-not:before { content: '\f643'; } /* '' */
+.gi-logic-gate-nxor:before { content: '\f644'; } /* '' */
+.gi-logic-gate-or:before { content: '\f645'; } /* '' */
+.gi-logic-gate-xor:before { content: '\f646'; } /* '' */
+.gi-lorgnette:before { content: '\f647'; } /* '' */
+.gi-louvre-pyramid:before { content: '\f648'; } /* '' */
+.gi-lucky-fisherman:before { content: '\f649'; } /* '' */
+.gi-earrings:before { content: '\f64a'; } /* '' */
+.gi-egg-eye:before { content: '\f64b'; } /* '' */
+.gi-elbow-pad:before { content: '\f64c'; } /* '' */
+.gi-electrical-socket:before { content: '\f64d'; } /* '' */
+.gi-elevator:before { content: '\f64e'; } /* '' */
+.gi-elven-castle:before { content: '\f64f'; } /* '' */
+.gi-escalator:before { content: '\f650'; } /* '' */
+.gi-evil-love:before { content: '\f651'; } /* '' */
+.gi-executioner-hood:before { content: '\f652'; } /* '' */
+.gi-exploding-planet:before { content: '\f653'; } /* '' */
+.gi-extra-time:before { content: '\f654'; } /* '' */
+.gi-eyepatch:before { content: '\f655'; } /* '' */
+.gi-falling-star:before { content: '\f656'; } /* '' */
+.gi-fast-backward-button:before { content: '\f657'; } /* '' */
+.gi-fast-forward-button:before { content: '\f658'; } /* '' */
+.gi-feather-necklace:before { content: '\f659'; } /* '' */
+.gi-fern:before { content: '\f65a'; } /* '' */
+.gi-finish-line:before { content: '\f65b'; } /* '' */
+.gi-fire-gem:before { content: '\f65c'; } /* '' */
+.gi-fireplace:before { content: '\f65d'; } /* '' */
+.gi-firewall:before { content: '\f65e'; } /* '' */
+.gi-fish-bucket:before { content: '\f65f'; } /* '' */
+.gi-fish-eggs:before { content: '\f660'; } /* '' */
+.gi-fish-escape:before { content: '\f661'; } /* '' */
+.gi-fishing-jig:before { content: '\f662'; } /* '' */
+.gi-fishing-lure:before { content: '\f663'; } /* '' */
+.gi-fish-scales:before { content: '\f664'; } /* '' */
+.gi-flag-objective:before { content: '\f665'; } /* '' */
+.gi-flatfish:before { content: '\f666'; } /* '' */
+.gi-flat-paw-print:before { content: '\f667'; } /* '' */
+.gi-flat-platform:before { content: '\f668'; } /* '' */
+.gi-flax:before { content: '\f669'; } /* '' */
+.gi-flexible-lamp:before { content: '\f66a'; } /* '' */
+.gi-floating-platforms:before { content: '\f66b'; } /* '' */
+.gi-flour:before { content: '\f66c'; } /* '' */
+.gi-flower-emblem:before { content: '\f66d'; } /* '' */
+.gi-flower-hat:before { content: '\f66e'; } /* '' */
+.gi-flying-beetle:before { content: '\f66f'; } /* '' */
+.gi-fog-light:before { content: '\f670'; } /* '' */
+.gi-fork-knife-spoon:before { content: '\f671'; } /* '' */
+.gi-foundry-bucket:before { content: '\f672'; } /* '' */
+.gi-france:before { content: '\f673'; } /* '' */
+.gi-french-fries:before { content: '\f674'; } /* '' */
+.gi-frog-foot:before { content: '\f675'; } /* '' */
+.gi-frozen-body:before { content: '\f676'; } /* '' */
+.gi-frozen-ring:before { content: '\f677'; } /* '' */
+.gi-full-pizza:before { content: '\f678'; } /* '' */
+.gi-furnace:before { content: '\f679'; } /* '' */
+.gi-galley:before { content: '\f67a'; } /* '' */
+.gi-gardening-shears:before { content: '\f67b'; } /* '' */
+.gi-gas-stove:before { content: '\f67c'; } /* '' */
+.gi-ginkgo-leaf:before { content: '\f67d'; } /* '' */
+.gi-golf-tee:before { content: '\f67e'; } /* '' */
+.gi-gong:before { content: '\f67f'; } /* '' */
+.gi-grain-bundle:before { content: '\f680'; } /* '' */
+.gi-grave-flowers:before { content: '\f681'; } /* '' */
+.gi-green-power:before { content: '\f682'; } /* '' */
+.gi-griffin-shield:before { content: '\f683'; } /* '' */
+.gi-growth:before { content: '\f684'; } /* '' */
+.gi-guatemala:before { content: '\f685'; } /* '' */
+.gi-guitar-bass-head:before { content: '\f686'; } /* '' */
+.gi-guitar-head:before { content: '\f687'; } /* '' */
+.gi-gun-stock:before { content: '\f688'; } /* '' */
+.gi-gym-bag:before { content: '\f689'; } /* '' */
+.gi-cable-stayed-bridge:before { content: '\f68a'; } /* '' */
+.gi-cactus-pot:before { content: '\f68b'; } /* '' */
+.gi-calculator:before { content: '\f68c'; } /* '' */
+.gi-camp-cooking-pot:before { content: '\f68d'; } /* '' */
+.gi-canned-fish:before { content: '\f68e'; } /* '' */
+.gi-cape-armor:before { content: '\f68f'; } /* '' */
+.gi-caravel:before { content: '\f690'; } /* '' */
+.gi-car-battery:before { content: '\f691'; } /* '' */
+.gi-car-door:before { content: '\f692'; } /* '' */
+.gi-cargo-crate:before { content: '\f693'; } /* '' */
+.gi-cargo-ship:before { content: '\f694'; } /* '' */
+.gi-car-seat:before { content: '\f695'; } /* '' */
+.gi-cat:before { content: '\f696'; } /* '' */
+.gi-cellar-barrels:before { content: '\f697'; } /* '' */
+.gi-ceremonial-mask:before { content: '\f698'; } /* '' */
+.gi-chakram:before { content: '\f699'; } /* '' */
+.gi-chanterelles:before { content: '\f69a'; } /* '' */
+.gi-charging:before { content: '\f69b'; } /* '' */
+.gi-chat-bubble:before { content: '\f69c'; } /* '' */
+.gi-check-mark:before { content: '\f69d'; } /* '' */
+.gi-chestnut-leaf:before { content: '\f69e'; } /* '' */
+.gi-choice:before { content: '\f69f'; } /* '' */
+.gi-circling-fish:before { content: '\f6a0'; } /* '' */
+.gi-clamp:before { content: '\f6a1'; } /* '' */
+.gi-classical-knowledge:before { content: '\f6a2'; } /* '' */
+.gi-cleaver:before { content: '\f6a3'; } /* '' */
+.gi-cleopatra:before { content: '\f6a4'; } /* '' */
+.gi-cliff-crossing:before { content: '\f6a5'; } /* '' */
+.gi-clothes:before { content: '\f6a6'; } /* '' */
+.gi-cloth-jar:before { content: '\f6a7'; } /* '' */
+.gi-coffee-pot:before { content: '\f6a8'; } /* '' */
+.gi-coiled-nail:before { content: '\f6a9'; } /* '' */
+.gi-coins-pile:before { content: '\f6aa'; } /* '' */
+.gi-column-vase:before { content: '\f6ab'; } /* '' */
+.gi-commercial-airplane:before { content: '\f6ac'; } /* '' */
+.gi-confirmed:before { content: '\f6ad'; } /* '' */
+.gi-control-tower:before { content: '\f6ae'; } /* '' */
+.gi-converse-shoe:before { content: '\f6af'; } /* '' */
+.gi-cook:before { content: '\f6b0'; } /* '' */
+.gi-cooking-glove:before { content: '\f6b1'; } /* '' */
+.gi-coral:before { content: '\f6b2'; } /* '' */
+.gi-corkscrew:before { content: '\f6b3'; } /* '' */
+.gi-corsica:before { content: '\f6b4'; } /* '' */
+.gi-cpu:before { content: '\f6b5'; } /* '' */
+.gi-cpu-shot:before { content: '\f6b6'; } /* '' */
+.gi-credits-currency:before { content: '\f6b7'; } /* '' */
+.gi-crescent-staff:before { content: '\f6b8'; } /* '' */
+.gi-crossroad:before { content: '\f6b9'; } /* '' */
+.gi-crystal-earrings:before { content: '\f6ba'; } /* '' */
+.gi-cuauhtli:before { content: '\f6bb'; } /* '' */
+.gi-cuckoo-clock:before { content: '\f6bc'; } /* '' */
+.gi-custodian-helmet:before { content: '\f6bd'; } /* '' */
+.gi-dam:before { content: '\f6be'; } /* '' */
+.gi-deer-track:before { content: '\f6bf'; } /* '' */
+.gi-delicate-perfume:before { content: '\f6c0'; } /* '' */
+.gi-delivery-drone:before { content: '\f6c1'; } /* '' */
+.gi-detonator:before { content: '\f6c2'; } /* '' */
+.gi-devil-mask:before { content: '\f6c3'; } /* '' */
+.gi-diamond-trophy:before { content: '\f6c4'; } /* '' */
+.gi-dice-fire:before { content: '\f6c5'; } /* '' */
+.gi-dice-shield:before { content: '\f6c6'; } /* '' */
+.gi-dice-target:before { content: '\f6c7'; } /* '' */
+.gi-dice-twenty-faces-one:before { content: '\f6c8'; } /* '' */
+.gi-disc:before { content: '\f6c9'; } /* '' */
+.gi-discobolus:before { content: '\f6ca'; } /* '' */
+.gi-distress-signal:before { content: '\f6cb'; } /* '' */
+.gi-djed-pillar:before { content: '\f6cc'; } /* '' */
+.gi-djembe:before { content: '\f6cd'; } /* '' */
+.gi-djinn:before { content: '\f6ce'; } /* '' */
+.gi-dog-house:before { content: '\f6cf'; } /* '' */
+.gi-doner-kebab:before { content: '\f6d0'; } /* '' */
+.gi-door:before { content: '\f6d1'; } /* '' */
+.gi-door-handle:before { content: '\f6d2'; } /* '' */
+.gi-door-ring-handle:before { content: '\f6d3'; } /* '' */
+.gi-door-watcher:before { content: '\f6d4'; } /* '' */
+.gi-doorway:before { content: '\f6d5'; } /* '' */
+.gi-double-fish:before { content: '\f6d6'; } /* '' */
+.gi-double-necklace:before { content: '\f6d7'; } /* '' */
+.gi-double-street-lights:before { content: '\f6d8'; } /* '' */
+.gi-dragon-shield:before { content: '\f6d9'; } /* '' */
+.gi-drop-earrings:before { content: '\f6da'; } /* '' */
+.gi-duck-palm:before { content: '\f6db'; } /* '' */
+.gi-duffel-bag:before { content: '\f6dc'; } /* '' */
+.gi-duration:before { content: '\f6dd'; } /* '' */
+.gi-3d-glasses:before { content: '\f6de'; } /* '' */
+.gi-abbot-meeple:before { content: '\f6df'; } /* '' */
+.gi-agave:before { content: '\f6e0'; } /* '' */
+.gi-air-man:before { content: '\f6e1'; } /* '' */
+.gi-airplane-arrival:before { content: '\f6e2'; } /* '' */
+.gi-airplane-departure:before { content: '\f6e3'; } /* '' */
+.gi-akhet:before { content: '\f6e4'; } /* '' */
+.gi-algeria:before { content: '\f6e5'; } /* '' */
+.gi-american-football-player:before { content: '\f6e6'; } /* '' */
+.gi-ample-dress:before { content: '\f6e7'; } /* '' */
+.gi-ancient-columns:before { content: '\f6e8'; } /* '' */
+.gi-anti-aircraft-gun:before { content: '\f6e9'; } /* '' */
+.gi-apollo-capsule:before { content: '\f6ea'; } /* '' */
+.gi-apple-core:before { content: '\f6eb'; } /* '' */
+.gi-arch-bridge:before { content: '\f6ec'; } /* '' */
+.gi-archive-research:before { content: '\f6ed'; } /* '' */
+.gi-armored-boomerang:before { content: '\f6ee'; } /* '' */
+.gi-asparagus:before { content: '\f6ef'; } /* '' */
+.gi-atom-core:before { content: '\f6f0'; } /* '' */
+.gi-avocado:before { content: '\f6f1'; } /* '' */
+.gi-avoidance:before { content: '\f6f2'; } /* '' */
+.gi-axe-sword:before { content: '\f6f3'; } /* '' */
+.gi-azul-flake:before { content: '\f6f4'; } /* '' */
+.gi-baby-bottle:before { content: '\f6f5'; } /* '' */
+.gi-bacon:before { content: '\f6f6'; } /* '' */
+.gi-ballerina-shoes:before { content: '\f6f7'; } /* '' */
+.gi-ball-pyramid:before { content: '\f6f8'; } /* '' */
+.gi-bandana:before { content: '\f6f9'; } /* '' */
+.gi-barrel-leak:before { content: '\f6fa'; } /* '' */
+.gi-bar-stool:before { content: '\f6fb'; } /* '' */
+.gi-basket:before { content: '\f6fc'; } /* '' */
+.gi-bathtub:before { content: '\f6fd'; } /* '' */
+.gi-bat-leth:before { content: '\f6fe'; } /* '' */
+.gi-battle-tank:before { content: '\f6ff'; } /* '' */
+.gi-beach-bag:before { content: '\f700'; } /* '' */
+.gi-beaver:before { content: '\f701'; } /* '' */
+.gi-beer-horn:before { content: '\f702'; } /* '' */
+.gi-bellows:before { content: '\f703'; } /* '' */
+.gi-bird-house:before { content: '\f704'; } /* '' */
+.gi-black-bridge:before { content: '\f705'; } /* '' */
+.gi-boat-engine:before { content: '\f706'; } /* '' */
+.gi-bolt-drop:before { content: '\f707'; } /* '' */
+.gi-boombox:before { content: '\f708'; } /* '' */
+.gi-boomerang-cross:before { content: '\f709'; } /* '' */
+.gi-boot-kick:before { content: '\f70a'; } /* '' */
+.gi-bowling-alley:before { content: '\f70b'; } /* '' */
+.gi-bow-string:before { content: '\f70c'; } /* '' */
+.gi-boxing-ring:before { content: '\f70d'; } /* '' */
+.gi-box-unpacking:before { content: '\f70e'; } /* '' */
+.gi-brain-dump:before { content: '\f70f'; } /* '' */
+.gi-bread-slice:before { content: '\f710'; } /* '' */
+.gi-broken-arrow:before { content: '\f711'; } /* '' */
+.gi-bullet-bill:before { content: '\f712'; } /* '' */
+.gi-burning-forest:before { content: '\f713'; } /* '' */
+.gi-bus-doors:before { content: '\f714'; } /* '' */

@@ -1,4 +1,4 @@
-const { move } = require('fs-extra')
+const { copy, move } = require('fs-extra')
 const path = require('path')
 const low = require('lowdb')
 const { pullAll } = require('lodash')
@@ -6,9 +6,9 @@ const { pullAll } = require('lodash')
 const FileAsync = require('lowdb/adapters/FileAsync')
 
 const main = async () => {
-
-  const icons = await low(new FileAsync(path.join(__dirname, `../icons.json`)))
-  const config = await low(new FileAsync(path.join(__dirname, `../fontello/config.json`)))
+  const basePath = path.join(__dirname, `..`)
+  const icons = await low(new FileAsync( `${basePath}/icons.json`))
+  const config = await low(new FileAsync(`${basePath}/fontello/config.json`))
 
 
   const all = icons.get('names').value()
@@ -17,7 +17,7 @@ const main = async () => {
   const newIcons = pullAll(all, names)
 
   await Promise.all(newIcons.map(icon => {
-    return move(`../all_icons/${icon}.svg`, `../upload/${icon}.svg`)
+    return copy(`${basePath}/all_icons/${icon}.svg`, `${basePath}/upload/${icon}.svg`, { overwrite: true})
   }))
 
   console.log('done')

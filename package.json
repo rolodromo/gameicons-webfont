@@ -4,16 +4,17 @@
   "description": "GameIcons packed as webfonts",
   "dependencies": {
     "cssmin": "0.4.3",
-    "fs-extra": "7.0.0",
-    "lodash": "4.17.11",
+    "fs-extra": "9.0.1",
+    "lodash": "4.17.20",
     "lowdb": "1.0.0",
-    "osmosis": "1.1.8"
+    "osmosis": "1.1.10"
   },
   "devDependencies": {},
   "scripts": {
     "scrape": "node scripts/scrape_gameicons.js",
     "table": "node scripts/make_rpgen_table.js",
     "html": "node scripts/make_example_html.js",
+    "new": "node scripts/get_new_icons.js",
     "cssmin": "cssmin css/rpgen-gameicons.css > css/rpgen-gameicons.min.css"
   },
   "author": "guumaster <guuweb@gmail.com>",

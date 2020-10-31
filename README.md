@@ -1,4 +1,3 @@
-
 # RPG Game Icons font
 
 This repo is used to create a webfont based on [Game Icons.net](https://game-icons.net/). All credits goes to them. 
@@ -9,8 +8,15 @@ This repo is used to create a webfont based on [Game Icons.net](https://game-ico
  $>  npm install @rolodromo/gameicons-webfont
 ```
 
+## See the icons
+
+https://rolodromo.github.io/gameicons-webfont/
+
+
 ## Versions
 
+- **v1.4** (2020-10-31) 
+  - 3861 icons included
 - **v1.3** (2018-10-13) 
   - 3375 icons included
 - **v1.2** (2018-05-03) 
@@ -22,14 +28,17 @@ This repo is used to create a webfont based on [Game Icons.net](https://game-ico
 
 ## Usage
 
-- Download a zip with SVGs from GameIcons
-- Move all icons to same folder (`cd all_icons; find icons -mindepth 2  -type f -exec mv  -- {} . \;`)
-- Upload `config.json` to [Fontello.com](https://fontello.com)
-- run `diff` to get new icons
-- Upload new icons
+- Download a zip with SVGs from GameIcons (choose black with transparent background)
+- Move all icons to same folder
+  - `cd all_icons; find icons -mindepth 2  -type f -exec mv  -- {} . \;`
+- Run `npm run new` to get new icons (copy new icons to /upload)
+- Drag and drop `config.json` to [Fontello.com](https://fontello.com) 
+- Drag&drop from /upload folder to fontello page
 - Download the font
-- tweak the css
-- make the html sample
+  - move downloaded css file to css/rpgen-gameicons.css
+  - review and add missing properties to css header (up to where the icon list start)
+- make the html sample (npm run html)
+- check results opening example.html
 - npm publish
 
 
